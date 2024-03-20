@@ -51,10 +51,7 @@ export default function SpeakersGrid({ speakerslist }) {
                         <SpeakerCard
                           fullname={speaker.fullname}
                           linkedin={speaker.linkedin}
-                          speaker_photo={speaker.speaker_photo}
-                          speciality={speaker.speciality}
-                          slug={speaker.slug}
-                          type={speaker.type}
+                          photo={speaker.photo}
                         />
                       </li>
                     )

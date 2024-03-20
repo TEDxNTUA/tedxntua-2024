@@ -1,10 +1,8 @@
 "use client";
 import React, { useState } from "react";
-import PerformerModalWrapper from "./PerformerModalWrapper";
-export default function PerformerCard({
-  fullname,
-  performer_photo,
-}) {
+import ModalWrapper from "../Modal/ModalWrapper";
+import { PERFORMERSLIST } from "../../../data/performers";
+export default function PerformerCard({ fullname, photo }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleContent = () => {
@@ -19,7 +17,7 @@ export default function PerformerCard({
         <div className="flex flex-col rounded-sm justify-center items-center hover:grayscale">
           <img
             className="w-full md:h-[20vh] xl:h-[50vh] object-center object-cover"
-            src={performer_photo}
+            src={photo}
             alt={fullname}
           />
         </div>
@@ -30,35 +28,13 @@ export default function PerformerCard({
               {fullname}
             </h2>
           </div>
-
-          <div className="flex flex-col gap-2">
-            {/* <div
-              id="bio"
-              className={`px-3 md:px-4 lg:px-6 overflow-y-hidden ${
-                isExpanded ? "h-full" : "h-[1vh]"
-              }`}
-            >
-              <p className="tracking-tighter text-justify text-base">{type}</p>
-            </div> */}
-
-            {/* <div
-              className="flex justify-center align-center"
-              id="show_more_btn"
-            >
-              <button
-                className="text-our-red text-xs font-bold cursor-pointer border-black border rounded-md px-2 py-1 hover:bg-our-red hover:text-white"
-                onClick={toggleContent}
-              >
-                {isExpanded ? "Show Less" : "Show More"}
-              </button>
-            </div> */}
-          </div>
         </div>
       </div>
       {isExpanded && (
-        <PerformerModalWrapper
+        <ModalWrapper
           setIsModalOpenFlag={setIsExpanded}
-          nameperformer={fullname}
+          name={fullname}
+          datalist={PERFORMERSLIST}
         />
       )}
     </div>

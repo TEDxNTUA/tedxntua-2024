@@ -1,15 +1,9 @@
 "use client";
 "use client";
 import React, { useState } from "react";
-import PartnersModalWrapper from "./PartnersModalWrapper";
-export default function Partners({
-  fullname,
-  linkedin,
-  speaker_photo,
-  speciality,
-  slug,
-  type,
-}) {
+import ModalWrapper from "../Modal/ModalWrapper";
+import { SPEAKERSLIST } from "../../../data/speakers";
+export default function Partners({ fullname, photo }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleContent = () => {
@@ -24,7 +18,7 @@ export default function Partners({
         <div className="flex flex-col rounded-sm justify-center items-center hover:grayscale">
           <img
             className="w-full md:h-[20vh] xl:h-[50vh] object-center object-cover"
-            src={speaker_photo}
+            src={photo}
             alt={fullname}
           />
         </div>
@@ -40,9 +34,10 @@ export default function Partners({
         </div>
       </div>
       {isExpanded && (
-        <PartnersModalWrapper
+        <ModalWrapper
           setIsModalOpenFlag={setIsExpanded}
-          namespeaker={fullname}
+          name={fullname}
+          datalist={SPEAKERSLIST}
         />
       )}
     </div>

@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
 import { useState } from "react";
-import SpeakerModalContent from "./SpeakerModalContent";
-const SpeakerModal = ({ onClose, namespeaker }) => {
+import ModalContent from "./ModalContent";
+const Modal = ({ onClose, name, datalist }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center backdrop-blur z-10">
       <div className="bg-white py-4 md:py-6 h-auto rounded-lg w-[300px] md:w-[50%]  absolute border-black border-[1px]">
-      {/* <div className="bg-white py-4 md:py-6 h-auto rounded-lg w-[300px] md:w-[450px] 2xl:w-[520px] 4xl:w-[800px]  absolute border-black border-[1px]"> */}
+        {/* <div className="bg-white py-4 md:py-6 h-auto rounded-lg w-[300px] md:w-[450px] 2xl:w-[520px] 4xl:w-[800px]  absolute border-black border-[1px]"> */}
         <div
           className="closing-x-button absolute right-0 top-0 m-4 4xl:m-8 z-10"
           onMouseEnter={() => setIsHovered(true)}
@@ -32,7 +32,6 @@ const SpeakerModal = ({ onClose, namespeaker }) => {
             />
 
             <g id="SVGRepo_iconCarrier">
-              {" "}
               <path
                 fillRule="evenodd"
                 clipRule="evenodd"
@@ -59,7 +58,6 @@ const SpeakerModal = ({ onClose, namespeaker }) => {
             />
 
             <g id="SVGRepo_iconCarrier">
-              {" "}
               <path
                 fillRule="evenodd"
                 clipRule="evenodd"
@@ -69,10 +67,10 @@ const SpeakerModal = ({ onClose, namespeaker }) => {
             </g>
           </svg>
         </div>
-        <SpeakerModalContent namespeaker={namespeaker} />
+        <ModalContent name={name} datalist={datalist} />
       </div>
     </div>
   );
 };
 
-export default SpeakerModal;
+export default Modal;

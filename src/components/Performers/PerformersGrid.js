@@ -4,14 +4,14 @@ import PerformerCard from "./PerformerCard";
 export default function SpeakersGrid({ performerslist }) {
   // Filter speakers based on session
   const filterPerformersBySession = (session) => {
-    return performerslist.filter((speaker) => speaker.session === session);
+    return performerslist.filter((performer) => performer.session === session);
   };
   const findNumberOfSessions = (performerslist) => {
     // Initialize maxSession to a minimum value
     let maxSession = -10;
     // Loop through the array to find the maximum session number
-    for (const speaker of performerslist) {
-      const sessionNumber = parseInt(speaker.session);
+    for (const performer of performerslist) {
+      const sessionNumber = parseInt(performer.session);
       if (sessionNumber > maxSession) {
         maxSession = sessionNumber;
       }
@@ -45,11 +45,11 @@ export default function SpeakersGrid({ performerslist }) {
                   className={`flex flex-col lg:flex-row gap-[1vh] lg:gap-10 w-10/12 mx-auto z-1 rounded-md lg:p-10 lg:bg-zinc-950 items-center justify-center `}
                 >
                   {filterPerformersBySession((sessionNum + 1).toString()).map(
-                    (speaker, index) => (
+                    (performer, index) => (
                       <li key={index}>
                         <PerformerCard
-                          fullname={speaker.fullname}
-                          performer_photo={speaker.performer_photo}
+                          fullname={performer.fullname}
+                          photo={performer.photo}
                         />
                       </li>
                     )

@@ -12,13 +12,7 @@ export default function PartnersGrid({ speakerslist }) {
         className={`flex flex-col lg:flex-row gap-[1vh] lg:gap-10 w-10/12 mx-auto z-1 rounded-md lg:p-10 lg:bg-zinc-950 items-center justify-center `}
       >
         {speakerslist.map((speaker) => (
-          <Partners
-            fullname={speaker.fullname}
-            linkedin={speaker.linkedin}
-            speaker_photo={speaker.speaker_photo}
-            speciality={speaker.speciality}
-            type={speaker.type}
-          />
+          <Partners fullname={speaker.fullname} photo={speaker.photo} />
         ))}
       </ul>
     </>

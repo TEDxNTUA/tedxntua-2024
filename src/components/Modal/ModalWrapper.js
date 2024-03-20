@@ -1,28 +1,29 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import SpeakerModalContent from "./SpeakerModalContent";
-import SpeakerModal from "./SpeakerModal";
+import ModalContent from "./ModalContent";
+import Modal from "./Modal";
 
-const SpeakerModalWrapper = ({ isModalOpenFlag, setIsModalOpenFlag, namespeaker }) => {
+const ModalWrapper = ({ setIsModalOpenFlag, name, datalist }) => {
   const [isModalOpen, setIsModalOpen] = useState(true);
 
   return (
     <>
       {isModalOpen && (
-        <SpeakerModal
+        <Modal
+          datalist={datalist}
           isOpen={isModalOpen}
           onClose={() => {
             setIsModalOpen(false);
             setIsModalOpenFlag && setIsModalOpenFlag(false);
           }}
-          namespeaker={namespeaker}
+          name={name}
         >
-          <SpeakerModalContent namespeaker={namespeaker} />
-        </SpeakerModal>
+          <ModalContent name={name} datalist={datalist} />
+        </Modal>
       )}
     </>
   );
 };
 
-export default SpeakerModalWrapper;
+export default ModalWrapper;
