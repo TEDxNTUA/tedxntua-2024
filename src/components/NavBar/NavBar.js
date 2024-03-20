@@ -21,7 +21,7 @@ const navLinks = [
   },
   {
     title: "Χορηγοί",
-    path: "/sponsοrs",
+    path: "/partners",
   },
 ];
 
@@ -68,7 +68,7 @@ function NewNavbar() {
                   title={link.title}
                   // onClick={() => setButtonClicked(link.title)}
                   // buttonClicked={buttonClicked}
-                />  
+                />
               </li>
             ))}
           </ul>
