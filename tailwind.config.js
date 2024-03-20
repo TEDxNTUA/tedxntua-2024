@@ -25,7 +25,7 @@ module.exports = {
       },
       animation: {
         "text-reveal":
-          "text-reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s infinite",
+          "text-reveal 2s cubic-bezier(0.77, 0, 0.175, 1) 15s infinite",
       },
       keyframes: {
         "text-reveal": {
