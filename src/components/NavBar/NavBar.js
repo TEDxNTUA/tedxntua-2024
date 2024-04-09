@@ -23,6 +23,10 @@ const navLinks = [
     title: "Χορηγοί",
     path: "/partners",
   },
+  {
+    title: "About",
+    path: "/about",
+  },
 ];
 
 function NewNavbar() {
