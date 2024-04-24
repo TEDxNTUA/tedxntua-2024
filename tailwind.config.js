@@ -20,7 +20,14 @@ module.exports = {
       },
       colors: {
         "tedx-red": "#eb0028",
-        "our-red": "#fc8803",
+        // "our-red": "#fc8803",
+        // "our-black": "#191617",
+        // "tedx-red": "#eb0028",
+        // "our-red": "#e14640",
+        "our-white": "#efefee",
+        "our-blue": "#3851a6",
+        "our-purple": "#80658f",
+        "our-pink": "#BFACE2",
         "our-black": "#191617",
       },
       animation: {
