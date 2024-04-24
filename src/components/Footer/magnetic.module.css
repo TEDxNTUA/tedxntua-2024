@@ -1,0 +1,16 @@
+.magnetic::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  display: block;
+  margin-top: 2px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.2s linear;
+}
+
+.magnetic:hover::after {
+  width: 100%;
+}
