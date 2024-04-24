@@ -10,10 +10,10 @@ import Kakogiannis from "@/components/Kakogiannis/Kakogiannis";
 
 import NewFooter from "@/components/Footer/NewFooter";
 
-// const Scene = dynamic(() => import("@/components/Torus/Scene"), {
-//   // loading: () => <p>Loading...</p>,
-//   ssr: false,
-// });
+const Scene = dynamic(() => import("@/components/Torus/Scene"), {
+  // loading: () => <p>Loading...</p>,
+  ssr: false,
+});
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -45,7 +45,7 @@ export default function Home() {
       <div className="bg-black">
         <div className="first-page-content flex flex-col lg:flex-row h-[calc(100vh-65px)] mt-[65px] mx-auto w-[90%] xl:w-[80%] max-w-[100rem]">
           {/* <div className="lg:w-1/2"> */}
-          {/* <Scene /> Donut */}
+          <Scene /> {/* Donut */}
           {/* </div> */}
           <div className="hidden lg:flex justify-center items-center">
             <div
@@ -71,7 +71,7 @@ export default function Home() {
       <ImageSlider />
       {/* <Contact /> */}
       <Kakogiannis />
-      <NewFooter />
+      {/* <NewFooter /> */}
     </main>
   );
 }

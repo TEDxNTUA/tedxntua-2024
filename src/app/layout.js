@@ -1,4 +1,5 @@
 import NewNavbar from "@/components/NavBar/NavBar";
+import NewFooter from "@/components/Footer/NewFooter";
 import "./globals.css";
 
 export const metadata = {
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         <NewNavbar />
 
         {children}
+        <NewFooter />
       </body>
     </html>
   );
