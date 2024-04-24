@@ -99,7 +99,7 @@ M0 356.759V2126H1577V218.07C1514.33 161.85 1445.22 112.053 1369.5 72.4841C993.38
               <li>
                 <Link href="/about" className="text-white text-md font-bold">
                   <Magnetic>
-                    <p className={styles.magnetic}>Spotify</p>
+                    <p className={styles.magnetic}>About</p>
                   </Magnetic>
                 </Link>
               </li>
