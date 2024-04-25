@@ -9,7 +9,7 @@ const ModalContent = ({ name, datalist }) => {
     <>
       {/* Mobile version */}
       <div className="h-auto md:hidden flex flex-col items-center justify-center my-7 w-[90%] mx-auto">
-        <p className="text-2xl text-our-red font-bold italic underline underline-offset-8">
+        <p className="text-2xl text-our-purple font-bold italic underline underline-offset-8">
           {entity.fullname}
         </p>
         {entity.title && <p className="py-2">{entity.title}</p>}
@@ -36,7 +36,7 @@ const ModalContent = ({ name, datalist }) => {
           alt={entity.fullname}
         />
         <div className="flex flex-col items-center justify-center">
-          <p className="text-2xl text-our-red font-bold italic underline underline-offset-8">
+          <p className="text-2xl text-our-purple font-bold italic underline underline-offset-8">
             {entity.fullname}
           </p>
           {entity.title && <p className="py-2">{entity.title}</p>}

@@ -45,7 +45,7 @@ function NewNavbar() {
     "h-[4px] w-8 my-[2.5px] rounded-full bg-white transition-all ease-in-out opacity-100 duration-[500ms]";
 
   return (
-    <nav className="fixed flex w-full top-0 left-0 right-0 z-10 bg-black">
+    <nav className="sticky flex w-full top-0 left-0 right-0 z-10 bg-black">
       <div className="flex w-[85%] lg:max-w-[100rem] h-[65px] px-6 items-center justify-between mx-auto">
         <Link onClick={closeDrawer} href="/">
           <img
@@ -121,7 +121,7 @@ function NewNavbar() {
           </ul>
           {/* UNCOMMENT WHEN EVENT STARTS AND TICKETS ARE AVAILABLE */}
           {/* <button
-            className="bg-our-red bg-opacity-100 hover:bg-our-red hover:bg-opacity-80 text-white font-semibold py-4 px-6 rounded-md focus:outline-none focus:shadow-outline-red"
+            className="bg-our-purple bg-opacity-100 hover:bg-our-purple hover:bg-opacity-80 text-white font-semibold py-4 px-6 rounded-md focus:outline-none focus:shadow-outline-red"
             onClick={() => {
               // Handle booking logic here
               console.log("Booking button clicked");

@@ -10,7 +10,7 @@ export default function About({ fullname, photo }) {
     setIsExpanded(!isExpanded);
   };
   return (
-    <div className="flex flex-col bg-neutral-50 rounded-md border-[3px] w-full sm:w-[90%] md:w-[80%] lg:w-full border-our-red lg:border-black hover:border-our-red mx-auto h-full">
+    <div className="flex flex-col bg-neutral-50 rounded-md border-[3px] w-full sm:w-[90%] md:w-[80%] lg:w-full border-our-purple lg:border-black hover:border-our-purple mx-auto h-full">
       <div
         className="flex flex-col grow lg:h-[70%] hover:cursor-pointer"
         onClick={toggleContent}
@@ -23,7 +23,7 @@ export default function About({ fullname, photo }) {
               alt={fullname}
             />
             <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <p className=" text-our-red bg-black bg-opacity-75 py-2 px-3 md:px-4 lg:px-6 rounded-lg font-semibold text-center text-base lg:text-2xl lg:h-fit 2xl:text-4xl">
+              <p className=" text-our-purple bg-black bg-opacity-75 py-2 px-3 md:px-4 lg:px-6 rounded-lg font-semibold text-center text-base lg:text-2xl lg:h-fit 2xl:text-4xl">
                 Learn More
               </p>
             </div>

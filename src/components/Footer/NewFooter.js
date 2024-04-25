@@ -41,7 +41,7 @@ M0 356.759V2126H1577V218.07C1514.33 161.85 1445.22 112.053 1369.5 72.4841C993.38
             </div>
             <div className="col-span-3 md:col-span-1 z-10">
               <a
-                className="hover:cursor-pointer flex justify-center text-our-red"
+                className="hover:cursor-pointer flex justify-center text-our-purple"
                 href="https://2023tedxntua.us21.list-manage.com/subscribe?u=8fb93651f7aa4956e92c4f188&id=1473802836"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,7 +61,7 @@ M0 356.759V2126H1577V218.07C1514.33 161.85 1445.22 112.053 1369.5 72.4841C993.38
 
             <div className="col-span-1 grid md:grid-rows-3 gap-4">
               <p className="row-span-1 text-white text-[1.5rem] leading-9 md:text-[2rem] lg:text-[2.5rem] md:leading-10 lg:leading-[3rem] font-bold text-justify z-10">
-                <span className="text-our-red">TEDx</span>NTUA
+                <span className="text-our-purple">TEDx</span>NTUA
               </p>
               <p className="row-span-1 text-slate-200 text-sm lg:text-base font-thin z-10 w-[60%] text-justify">
                 This independent TEDx event is operated under license from TED
@@ -110,7 +110,7 @@ M0 356.759V2126H1577V218.07C1514.33 161.85 1445.22 112.053 1369.5 72.4841C993.38
           <div className="row-span-1 grid grid-cols-2 gap-8 border-our-black border-t-[0.5px] z-10 pt-2 md:pt-4 md:hidden">
             <div className="col-span-1 grid grid-rows-2">
               <p className="row-span-1 text-white text-[1.5rem] leading-9 md:text-[2rem] lg:text-[2.5rem] md:leading-10 lg:leading-[3rem] font-bold text-justify z-10">
-                <span className="text-our-red">TEDx</span>NTUA
+                <span className="text-our-purple">TEDx</span>NTUA
               </p>
               <p className="row-span-1 text-slate-200 text-sm font-thin z-10 text-justify">
                 This independent TEDx event is operated under license from TED

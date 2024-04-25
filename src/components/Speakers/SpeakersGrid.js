@@ -23,7 +23,7 @@ export default function SpeakersGrid({ speakerslist }) {
   return (
     <>
       {speakerslist.length === 0 && (
-        <p className="text-our-red text-3xl font-extrabold pt-[30vh] items-center flex justify-center">
+        <p className="text-our-purple text-3xl font-extrabold pt-[30vh] items-center flex justify-center">
           {/* OUPS... NO SPEAKERS */}
           COMING SOON...
         </p>
@@ -35,8 +35,8 @@ export default function SpeakersGrid({ speakerslist }) {
             (_, sessionNum) => (
               <div key={sessionNum}>
                 <div className="relative flex py-5 items-center w-10/12 mx-auto">
-                  <div className="flex-grow border-t border-our-red"></div>
-                  <p className="overflow-hidden text-3xl mx-4 font-bold leading-6 text-our-red">
+                  <div className="flex-grow border-t border-our-purple"></div>
+                  <p className="overflow-hidden text-3xl mx-4 font-bold leading-6 text-our-purple">
                     {`Session ${sessionNum + 1}`
                       .split("")
                       .map((char, index) => (
@@ -49,7 +49,7 @@ export default function SpeakersGrid({ speakerslist }) {
                         </span>
                       ))}
                   </p>
-                  <div className="flex-grow border-t border-our-red"></div>
+                  <div className="flex-grow border-t border-our-purple"></div>
                 </div>
                 <ul
                   // className={`grid list-none gap-[1vh] lg:gap-10 grid-cols-1 lg:grid-cols-3 w-10/12 mx-auto z-1 rounded-md lg:p-10 lg:bg-zinc-950 `}
