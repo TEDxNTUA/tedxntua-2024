@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 import ModalWrapper from "../Modal/ModalWrapper";
 import { PERFORMERSLIST } from "../../../data/performers";
@@ -17,7 +16,7 @@ export default function PerformerCard({ fullname, photo }) {
         <div className="relative">
           <div className="flex flex-col rounded-sm justify-center items-center group">
             <img
-              className="w-full md:h-[20vh] xl:h-[50vh] object-center object-cover group-hover:grayscale group-hover:blur-[5px]"
+              className="w-full md:h-[40vh] xl:h-[50vh] object-center object-contain group-hover:grayscale group-hover:blur-[5px]"
               src={photo}
               alt={fullname}
             />
@@ -31,9 +30,9 @@ export default function PerformerCard({ fullname, photo }) {
 
         <div className="flex flex-col mb-2 grow lg:justify-evenly pr-[0.1vw]">
           <div className="px-3 md:px-4 lg:px-6 items-center">
-            <h2 className="text-black py-2 md:py-2 font-semibold text-center text-lg lg:text-xl lg:h-fit 2xl:text-x">
+            <div className="text-black py-2 md:py-2 font-semibold text-center text-lg lg:text-xl lg:h-fit 2xl:text-xl">
               {fullname}
-            </h2>
+            </div>
           </div>
         </div>
       </div>
