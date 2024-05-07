@@ -17,7 +17,7 @@ export default function SpeakerCard({ fullname, photo }) {
         <div className="relative">
           <div className="flex flex-col rounded-sm justify-center items-center group">
             <img
-              className="object-top object-cover group-hover:grayscale group-hover:blur-[5px] w-[30vh] h-[30vh] md:w-[50vh] md:h-[50vh]"
+              className="object-top object-cover group-hover:grayscale group-hover:blur-[5px] w-[35vh] h-[35vh] md:w-[50vh] md:h-[50vh]"
               src={photo}
               alt={fullname}
             />

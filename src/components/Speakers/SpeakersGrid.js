@@ -33,11 +33,11 @@ export default function SpeakersGrid({ speakerslist }) {
           {Array.from(
             { length: findNumberOfSessions(speakerslist) },
             (_, sessionNum) => (
-              <div key={sessionNum} className="pt-10">
+              <div key={sessionNum}>
                 <img
                   src={`./speakers/sessions_num/session${
                     sessionNum + 1
-                  }_small.png`}
+                  }_small_new.jpg`}
                   alt={`${sessionNum + 1}`}
                   className="pb-5 block md:hidden"
                 />
@@ -45,12 +45,12 @@ export default function SpeakersGrid({ speakerslist }) {
                 <img
                   src={`./speakers/sessions_num/session${sessionNum + 1}.png`}
                   alt={`${sessionNum + 1}`}
-                  className="pb-5 hidden md:block mx-auto"
+                  className="hidden md:flex"
                 />
 
                 <ul
                   // className={`grid list-none gap-[1vh] lg:gap-10 grid-cols-1 lg:grid-cols-3 w-10/12 mx-auto z-1 rounded-md lg:p-10 lg:bg-zinc-950 `}
-                  className={`flex flex-row flex-wrap gap-[5vh] lg:gap-10 w-10/12 mx-auto z-1 rounded-md lg:p-10 lg:bg-zinc-950 items-center justify-center`}
+                  className={`flex flex-row flex-wrap gap-[5vh] lg:gap-10 w-10/12 mx-auto z-1 rounded-md lg:p-10 pb-10 lg:bg-zinc-950 items-center justify-center`}
                 >
                   {filterSpeakersBySession((sessionNum + 1).toString()).map(
                     (speaker, index) => (
