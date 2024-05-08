@@ -39,54 +39,55 @@ const slider2 = [
   },
 ];
 
-export default function ImageSlider() {
+export default function ImageGrid() {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
     offset: ["start end", "end start"],
   });
 
-  const x1 = useTransform(scrollYProgress, [0, 1], [0, 150]);
-  const x2 = useTransform(scrollYProgress, [0, 1], [0, -150]);
   const height = useTransform(scrollYProgress, [0, 0.9], [50, 0]);
 
   return (
     <div
       ref={container}
-      // className={styles.slidingImages}
-      className="flex flex-col gap-[3vw] max-w-[2040px] relative pt-[100px] bg-white z-10"
+      className="flex flex-col content-center justify-center items-center gap-[100px] max-w-[2040px] py-[200px] bg-white"
     >
-      <motion.div
-        style={{ x: x1 }}
+      <div
         // className={styles.slider}
-        className="flex relative gap-[3vw] w-[120vw] max-w-[2300px] left-[-10vw]"
+        className="flex flex-row gap-[100px] mx-auto bg-slate-400"
       >
         {slider1.map((project, index) => {
           return (
-            <div
+            <img
               key={index}
-              // className={styles.project}
-              className="w-[25%] h-[20vw] flex items-center justify-center"
-              style={{ backgroundColor: project.color }}
-            >
-              {/* <div className={styles.imageContainer} */}
-              <div className="relative w-[80%] h-[80%]">
-                <img
-                  className="object-cover absolute inset-0 w-full h-full"
-                  alt={"image"}
-                  src={`/talks/${project.src}`}
-                  width={30}
-                  height={30}
-                />
-              </div>
-            </div>
+              className="inset-0 w-[400px]"
+              alt={"image"}
+              src={`/talks/${project.src}`}
+              width={30}
+              height={30}
+            />
           );
         })}
-      </motion.div>
-      <motion.div
-        style={{ x: x2 }}
-        className="flex relative gap-[3vw] w-[120vw] max-w-[2300px] left-[-10vw]"
+      </div>
+      <div
+        // className={styles.slider}
+        className="flex flex-row gap-[100px] mx-auto"
       >
+        {slider2.map((project, index) => {
+          return (
+            <img
+              key={index}
+              className="inset-0 w-[400px]"
+              alt={"image"}
+              src={`/talks/${project.src}`}
+              width={30}
+              height={30}
+            />
+          );
+        })}
+      </div>
+      {/* <div className="flex relative gap-[3vw] w-[120vw] max-w-[2300px] left-[-10vw]">
         {slider2.map((project, index) => {
           return (
             <div
@@ -106,10 +107,10 @@ export default function ImageSlider() {
             </div>
           );
         })}
-      </motion.div>
-      <motion.div style={{ height }} className="relative mt-[100px]">
+      </div> */}
+      {/* <motion.div style={{ height }} className="relative mt-[100px]">
         <div className="h-[1550%] w-[120%] left-[-10%] bg-white z-[1] absolute rounded-b-[50%] shadow-md"></div>
-      </motion.div>
+      </motion.div> */}
       {/* border-radius: 0 0 50% 50%   
       box-shadow: 0px 60px 50px rgba(0, 0, 0, 0.748); */}
     </div>
