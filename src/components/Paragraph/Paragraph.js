@@ -5,7 +5,7 @@ export default function Paragraph({ paragraph }) {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ["start 0.7", "start 0.25"],
+    offset: ["start 0.8", "start 0.4"],
   });
 
   const words = paragraph.split(" ");
@@ -27,7 +27,7 @@ export default function Paragraph({ paragraph }) {
 const Word = ({ children, progress, range }) => {
   const opacity = useTransform(progress, range, [0, 1]);
   return (
-    <span className="pr-3 leading-8 relative">
+    <span className="pr-3 relative">
       <span className="opacity-[0.2] absolute">{children}</span>
       <motion.span style={{ opacity: opacity }}>{children}</motion.span>
     </span>
