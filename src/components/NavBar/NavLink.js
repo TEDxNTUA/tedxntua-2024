@@ -8,9 +8,9 @@ function NavLink({ href, title }) {
     <Link
       href={href}
       passHref
-      className={`text-2xl lg:text-base font-semibold hover:text-our-purple ${
+      className={`text-2xl lg:text-base font-semibold hover:text-our-blue ${
         path === href
-          ? "text-our-purple" // Apply the active class
+          ? "text-our-yellow" // Apply the active class
           : "text-white" // No additional class if not active
       }`}
     >

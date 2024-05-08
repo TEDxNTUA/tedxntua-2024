@@ -22,8 +22,8 @@ module.exports = {
         "tedx-red": "#eb0028",
         "our-white": "#efefee",
         "our-blue": "#1c7293",
-        "our-purple": {
-          100: "#b5a6cf",
+        "our-purple-100": {
+          100: "#BFACE2",
           200: "#7e5884",
         },
         "our-pink": "#BFACE2",
