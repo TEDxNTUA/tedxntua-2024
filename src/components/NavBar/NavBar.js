@@ -121,7 +121,7 @@ function NewNavbar() {
           </ul>
           {/* UNCOMMENT WHEN EVENT STARTS AND TICKETS ARE AVAILABLE */}
           {/* <button
-            className="bg-our-purple bg-opacity-100 hover:bg-our-purple hover:bg-opacity-80 text-white font-semibold py-4 px-6 rounded-md focus:outline-none focus:shadow-outline-red"
+            className="bg-our-purple-100 bg-opacity-100 hover:bg-our-purple-100 hover:bg-opacity-80 text-white font-semibold py-4 px-6 rounded-md focus:outline-none focus:shadow-outline-red"
             onClick={() => {
               // Handle booking logic here
               console.log("Booking button clicked");

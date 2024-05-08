@@ -19,7 +19,7 @@ export default function PartnersGrid({ partnerslist }) {
   return (
     <>
       {partnerslist.length === 0 && (
-        <p className="text-our-purple text-3xl font-extrabold pt-[30vh] items-center flex justify-center">
+        <p className="text-our-purple-100 text-3xl font-extrabold pt-[30vh] items-center flex justify-center">
           {/* OUPS... NO SPEAKERS */}
           COMING SOON...
         </p>
@@ -29,8 +29,8 @@ export default function PartnersGrid({ partnerslist }) {
           {partnerTypes.map((type, sessionNum) => (
             <div key={sessionNum}>
               <div className="relative flex py-5 items-center w-10/12 mx-auto">
-                <div className="flex-grow border-t border-our-purple"></div>
-                <p className="overflow-hidden text-3xl mx-4 font-bold leading-6 text-our-purple">
+                <div className="flex-grow border-t border-our-purple-100"></div>
+                <p className="overflow-hidden text-3xl mx-4 font-bold leading-6 text-our-purple-100">
                   {`${type}`.split("").map((char, index) => (
                     <span
                       className="animate-text-reveal inline-block"
@@ -41,7 +41,7 @@ export default function PartnersGrid({ partnerslist }) {
                     </span>
                   ))}
                 </p>
-                <div className="flex-grow border-t border-our-purple"></div>
+                <div className="flex-grow border-t border-our-purple-100"></div>
               </div>
               <ul
                 className={`flex flex-row flex-wrap gap-[1vh] lg:gap-10 w-10/12 mx-auto z-1 rounded-md lg:p-10 lg:bg-zinc-950 items-center justify-center `}

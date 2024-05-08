@@ -23,7 +23,7 @@ export default function SpeakersGrid({ speakerslist }) {
   return (
     <>
       {speakerslist.length === 0 && (
-        <p className="text-our-purple text-3xl font-extrabold pt-[30vh] items-center flex justify-center">
+        <p className="text-our-purple-100 text-3xl font-extrabold pt-[30vh] items-center flex justify-center">
           {/* OUPS... NO SPEAKERS */}
           COMING SOON...
         </p>
