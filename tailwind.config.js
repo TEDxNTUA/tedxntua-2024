@@ -21,11 +21,14 @@ module.exports = {
       colors: {
         "tedx-red": "#eb0028",
         "our-white": "#efefee",
-        "our-blue": "#3851a6",
-        "our-purple": "#80658f",
+        "our-blue": "#1c7293",
+        "our-purple": {
+          100: "#b5a6cf",
+          200: "#7e5884",
+        },
         "our-pink": "#BFACE2",
         "our-black": "#191617",
-        "our-yellow": "#C1EE04",
+        "our-yellow": "#cfff04",
       },
       animation: {
         "text-reveal":
