@@ -10,7 +10,7 @@ export default function Partners({ fullname, photo, link }) {
     <div
       onClick={redirectToLink} // Call redirectToLink function on click
     >
-      <div className="relative">
+      <div className="relative w-[40vh] mx-auto">
         <div className="flex flex-col rounded-sm justify-center items-center group hover:cursor-pointer">
           <img
             className="object-top object-cover group-hover:grayscale group-hover:blur-[5px] w-[40vh] h-[40vh] border-4 rounded-sm bg-slate-50 border-our-yellow"
