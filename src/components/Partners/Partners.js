@@ -3,7 +3,7 @@
 export default function Partners({ fullname, photo, link }) {
   const redirectToLink = () => {
     // Redirect to the specified link when clicked
-    window.location.href = link;
+    window.open(link, '_blank');
   };
 
   return (
