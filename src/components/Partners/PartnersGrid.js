@@ -17,7 +17,7 @@ export default function PartnersGrid({ partnerslist }) {
     <>
       <div className="relative">
         {displayOrder.map((type) => (
-          <div key={type} className="top-0 bg-black z-10">
+          <div key={type} className="top-0 z-10">
             <h2 className="text-5xl font-bold text-[#CFF301] text-center py-10">
               {type}
             </h2>
