@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ModalWrapper from "../Modal/ModalWrapper";
-import { PERFORMERSLIST } from "../../../data/performers";
+import {  PERFORMWORKSLIST } from "../../../data/performers";
 export default function PerformerCard({ fullname, photo }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -40,7 +40,7 @@ export default function PerformerCard({ fullname, photo }) {
         <ModalWrapper
           setIsModalOpenFlag={setIsExpanded}
           name={fullname}
-          datalist={PERFORMERSLIST}
+          datalist={PERFORMWORKSLIST}
         />
       )}
     </div>

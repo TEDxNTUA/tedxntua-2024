@@ -1,4 +1,4 @@
-export const PERFORMERSLIST = [
+export const PERFORMWORKSLIST = [
   {
     id: "performer1",
     fullname: "Aggelina",
@@ -11,6 +11,7 @@ export const PERFORMERSLIST = [
     
     Πρόσφατα δημοσίευσε το πρώτο της single ονόματι « Sta Riha », ενώ ετοιμάζει πολλά ακόμα στο άμεσο μέλλον.`,
     session: "1",
+    category: "performers",
   },
   {
     id: "performer2",
@@ -26,6 +27,7 @@ export const PERFORMERSLIST = [
     
     Οι Majovoli, με την δυναμική τους παρουσία, είναι πάντα έτοιμοι να δώσουν τον καλύτερό τους εαυτό και να δημιουργήσουν μια συναρπαστική και αξέχαστη εμπειρία για όλους.`,
     session: "1",
+    category: "performers",
   },
   {
     id: "performer3",
@@ -39,6 +41,7 @@ export const PERFORMERSLIST = [
     Η δουλειά τους έχει εκτεθεί μεταξύ άλλων στη Μπιενάλε της Βενετίας και του Σικάγο και στην Τριενάλε της Λισαβόνας και έχει δημοσιευθεί σε τρία βιβλία: «Athens Projects», (Graham Foundation, 2015), «Radical Reality» (Divisare, 2017) και πρόσφατα ένα ολόκληρο τεύχος αφιέρωμα του Ιαπωνικού περιοδικού a+u (2023). 
     Διδάσκουν σε γνωστές σχολές αρχιτεκτονικής όπως το Πανεπιστήμιο Columbia στη Νέα Υόρκη και το EPFL στη Λωζάνη.`,
     session: "1",
+    category: "performers",
   },
   {
     id: "performer3",
@@ -51,15 +54,32 @@ export const PERFORMERSLIST = [
     His work revolves around street art, conceptual art,  installations and performance. At its core, it has always been about the polarity between private and public spaces, with public being either the streets or the internet through social media platforms.
     When not creating, he can be found trying really hard to become an influencer/instamodel through his Instagram account or creating memes for the notorious meme page (dojo) “SACREDDOJO“.`,
     session: "1",
+    category: "performers",
   },
   {
-    id: "performer4",
+    id: "workshop1",
     fullname:
       "Κοινωνικό και περιβαλλοντικό πρόγραμμα επαναχρησιμοποίησης (upcycling) «Σχεδίαρτ»",
-    title: "Installation - Αρχιτέκτονες",
+    title: "Workshop",
     url: "https://www.instagram.com/schediart/",
     photo: "./performers/perf/shedia_art.jpg",
     bio: `Στο εργαστήριο «Σχεδία Αρτ» θα γίνει μια πρακτική παρουσίαση για το πώς παλαιά, απούλητα τεύχη του περιοδικού δρόμου «Σχεδία» μπορούν να επαναχρησιμοποιηθούν και να μεταμορφωθούν σε προϊόντα υψηλής αισθητικής και ποιότητας, δίνοντας νέα ευκαιρία, νέα μορφή, νέα ζωή σε κάτι, εκ πρώτης όψεως, φαινομενικά «άχρηστο», «σκουπίδι», ένα «παλιό περιοδικό», δίνοντας, με άλλα λόγια, παράταση ζωής σε κάτι τόσο εφήμερο, όπως είναι ένα μηνιαίο έντυπο.`,
     session: "1",
+    category: "workshop",
+  },
+  {
+    id: "workshop2",
+    fullname: "Soap Up Project",
+    title: "Workshop",
+    url: "https://www.instagram.com/soapup_project/?hl=en",
+    photo: "./performers/perf/shampoo.jpg",
+    bio: `Είμαι η Κατερίνα και αποφάσισα να πετάξουμε οριστικά τις πλαστικές συσκευασίες από το μπάνιο!
+    Σπούδασα τεχνολογία τροφίμων στο ΤΕΙ Αθήνας και χρησιμοποιώ τις γνώσεις  χημείας για να δημιουργώ χειροποίητα σαπούνια σε μορφή μπάρας, με vegan σύνθεση και αγνά υλικά για κάθε πιθανή χρήση.
+    Οι συνεργασίες με συναρπάζουν και έτσι συμπορεύομαι με επιχειρηματίες από διαφορετικούς κλάδους που έχουμε το ίδιο όραμα και δημιουργούμε πρωτότυπα προϊόντα, υψηλής λειτουργικότητας και ποιότητας.
+    Το Soap Up Project είναι «χειροποίητο» όσο και τα σαπούνια μου! Ξεκίνησε από το μηδέν, χωρίς γνώσεις και επιχειρηματικό υπόβαθρο πριν 2 χρόνια. Εξελίσσεται καθημερινά μαζί με εμένα έχοντας σαφή οικολογική κατεύθυνση.  
+    Στο workshop του TEDxNTUA θα μάθουμε στην πράξη τις παραδοσιακές τεχνικές σαπωνοποίησης, θα φτιάξουμε σαπούνια γλυκερίνης και θα συζητήσουμε για τις πρώτες ύλες και τη σημασία τους στο τελικό αποτέλεσμα.
+    `,
+    session: "1",
+    category: "workshop",
   },
 ];
