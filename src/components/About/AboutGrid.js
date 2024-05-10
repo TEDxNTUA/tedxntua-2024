@@ -39,7 +39,8 @@ export default function AboutGrid({ aboutlist }) {
                   <About
                     fullname={about.fullname}
                     photo={about.photo}
-                    link={about.url}
+                    fun={about.funny}
+                    link={about.linkedin}
                   />
                 </li>
               ))}

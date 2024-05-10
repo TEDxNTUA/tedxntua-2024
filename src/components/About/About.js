@@ -1,10 +1,12 @@
 "use client";
+import { useState } from "react";
 
-export default function About({ fullname, photo, link }) {
+export default function About({ fullname, photo, fun ,link }) {
   const redirectToLink = () => {
     // Redirect to the specified link when clicked
     window.location.href = link;
   };
+  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <div
@@ -12,17 +14,21 @@ export default function About({ fullname, photo, link }) {
       onClick={redirectToLink} // Call redirectToLink function on click
     >
       <div className="relative">
-        <div className="flex flex-col rounded-sm justify-center items-center group">
+        <div className="flex flex-col rounded-sm justify-center items-center group"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}>
+        <div className="object-top object-cover w-[28vh] h-[28vh] md:w-[36vh] md:h-[36vh]">
           <img
-            className="object-top object-cover group-hover:grayscale group-hover:blur-[5px] w-[28vh] h-[28vh] md:w-[36vh] md:h-[36vh]"
+            className={`${isHovered ? "hidden" : "block"} object-top object-cover w-[28vh] h-[28vh] md:w-[36vh] md:h-[36vh]`}
             src={photo}
             alt={fullname}
-          />
-          <div className="absolute inset-0 flex justify-center items-center opacity-0 group-hover:opacity-100 transition-opacity">
-            <p className=" text-our-yellow bg-black bg-opacity-75 py-2 px-3 md:px-4 lg:px-6 rounded-lg font-semibold text-center text-base lg:text-2xl lg:h-fit 2xl:text-4xl">
-              Learn More
-            </p>
-          </div>
+            />
+            <img
+              className={`${isHovered ? "block" : "hidden"}`}
+              src={fun}
+              alt={fullname}
+            />
+        </div>
         </div>
       </div>
       <div className="flex flex-col mb-2 grow lg:justify-evenly pr-[0.1vw]">
