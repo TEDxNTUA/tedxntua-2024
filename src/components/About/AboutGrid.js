@@ -2,64 +2,51 @@
 import About from "./About";
 
 export default function AboutGrid({ aboutlist }) {
-  const filterSpeakersByType = (type) => {
-    return aboutlist.filter((about) => about.type === type);
+  const filterPartnersByType = (team) => {
+    return aboutlist.filter((about) => about.team === team);
   };
 
-  const getAboutTypes = () => {
-    const types = new Set(); // Use a Set to store unique types
-    aboutlist.forEach((about) => {
-      if (about.type) {
-        types.add(about.type);
-      }
-    });
-    return Array.from(types); // Convert the Set back into an Array
-  };
-  const aboutTypes = getAboutTypes();
+  const displayOrder = [
+    "Curator",
+    "Information & Technology",
+    "Design",
+    "Fundraising",
+    "Experience & Workshops",
+    "Media & Marketing",
+    "Venue & Production",
+    "Speakers"
+  ];
+
   return (
     <>
-      {aboutlist.length === 0 && (
-        <p className="text-our-purple-100 text-3xl font-extrabold pt-[30vh] items-center flex justify-center">
-          {/* OUPS... NO SPEAKERS */}
-          COMING SOON...
-        </p>
-      )}
-      {aboutlist.length > 0 && (
-        <div>
-          {aboutTypes.map((type, sessionNum) => (
-            <div key={sessionNum}>
-              <div className="relative flex py-5 items-center w-10/12 mx-auto">
-                <div className="flex-grow border-t border-our-purple-100"></div>
-                <p className="overflow-hidden text-3xl mx-4 font-bold leading-6 text-our-purple-100">
-                  {`${type}`.split("").map((char, index) => (
-                    <span
-                      className="animate-text-reveal inline-block"
-                      key={`${char}-${index}`}
-                      style={{ animationDelay: `${index * 0.05}s` }}
-                    >
-                      {char === " " ? "\u00A0" : char}
-                    </span>
-                  ))}
-                </p>
-                <div className="flex-grow border-t border-our-purple-100"></div>
-              </div>
-              <ul
-                className={`flex flex-row flex-wrap gap-[1vh] lg:gap-10 w-10/12 mx-auto z-1 rounded-md lg:p-10 lg:bg-zinc-950 items-center justify-center `}
-              >
-                {filterSpeakersByType(type).map((about, index) => (
-                  <li key={index}>
-                    <About
-                      fullname={about.fullname}
-                      linkedin={about.linkedin}
-                      photo={about.photo}
-                    />
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      )}
+      <div className="relative">
+      <span className="text-5xl text-our-pink font-extrabold flex justify-center my-10 tracking-widest">
+          Meet the team
+        </span>
+        {displayOrder.map((team) => (
+          <div key={team} className="top-0 z-10">
+            <h2 className="text-5xl font-bold text-white text-[#CFF301] text-center py-10">
+              {team}
+            </h2>
+            <ul
+              className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols- py-4 lg:py-8`}
+            >
+              {filterPartnersByType(team).map((about, index) => (
+                <li
+                  key={index}
+                  className={`mb-24 lg:mb-24 `}
+                >
+                  <About
+                    fullname={about.fullname}
+                    photo={about.photo}
+                    link={about.url}
+                  />
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
     </>
   );
 }
