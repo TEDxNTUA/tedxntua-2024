@@ -15,8 +15,9 @@ const Scene = dynamic(() => import("@/components/Torus/Scene"), {
 });
 
 export default function Home() {
-  const [isLoading, setIsLoading] = useState(false);
-  // const [isLoading, setIsLoading] = useState(true); UNCOMMENT FOR PRELOADRE
+  // const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true); 
+  // UNCOMMENT FOR PRELOADRE
 
   useEffect(() => {
     (async () => {
