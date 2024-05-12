@@ -47,7 +47,7 @@ export const ABOUTLIST = [
       {
         id: "6",
         fullname: "Evina",
-        linkedin: "", 
+        linkedin: "https://www.linkedin.com/in/evina-economidou-7a8356253/", 
         photo: "/meetTheTeam/DESIGN TEAM/EVINA1.jpg",
         funny: "/meetTheTeam/DESIGN TEAM/EVINA2.jpg",
         team: "Design",
@@ -56,7 +56,7 @@ export const ABOUTLIST = [
       {
         id: "7",
         fullname: "Andreas",
-        linkedin: "", 
+        linkedin: "https://www.linkedin.com/in/andreas-drousiotis-a70a70239", 
         photo: "/meetTheTeam/DESIGN TEAM/ANDREAS1.jpg",
         funny: "/meetTheTeam/DESIGN TEAM/ANDREAS2.jpg",
         team: "Design",
@@ -83,7 +83,7 @@ export const ABOUTLIST = [
       {
         id: "10",
         fullname: "Alexandros",
-        linkedin: "", 
+        linkedin: "https://www.linkedin.com/in/alexandros-charitonidis-8095a6279/", 
         photo: "/meetTheTeam/FR/ALEX1.jpg",
         funny: "/meetTheTeam/FR/ALEX2.jpg",
         team: "Fundraising",
@@ -101,7 +101,7 @@ export const ABOUTLIST = [
       {
         id: "12",
         fullname: "Pavlos",
-        linkedin: "", 
+        linkedin: "https://www.linkedin.com/in/pavlos-romanos-bertsos-753920293/", 
         photo: "/meetTheTeam/FR/PAVLOS.jpg",
         funny: "/meetTheTeam/FR/PAVLOS2.jpg",
         team: "Fundraising",
@@ -110,7 +110,7 @@ export const ABOUTLIST = [
       {
         id: "13",
         fullname: "Naria",
-        linkedin: "", 
+        linkedin: "https://www.linkedin.com/in/naria-spilidi-789262270", 
         photo: "/meetTheTeam/FR/NARIA1.jpg",
         funny: "/meetTheTeam/FR/NARIA2.jpg",
         team: "Fundraising",
@@ -137,7 +137,7 @@ export const ABOUTLIST = [
       {
         id: "16",
         fullname: "Nagia",
-        linkedin: "", 
+        linkedin: "https://www.linkedin.com/in/nagia-economidou/", 
         photo: "/meetTheTeam/EXP/NAGIA1.jpg",
         funny: "/meetTheTeam/EXP/NAGIA2.jpg",
         team: "Experience & Workshops",
@@ -200,7 +200,7 @@ export const ABOUTLIST = [
       {
         id: "23",
         fullname: "Dimitris",
-        linkedin: "", 
+        linkedin: "https://www.linkedin.com/in/dimitris-mylonas-86984b203/", 
         photo: "/meetTheTeam/VENUE/DIMITRIS1.jpg",
         funny: "/meetTheTeam/VENUE/DIMITRIS2.jpg",
         team: "Venue & Production",
@@ -254,7 +254,7 @@ export const ABOUTLIST = [
       {
         id: "29",
         fullname: "Lefteris",
-        linkedin: "", 
+        linkedin: "https://www.linkedin.com/in/lefteris-tsachouridis-5974b5295", 
         photo: "/meetTheTeam/SPEAKERS/LEFTERIS1.jpg",
         funny: "/meetTheTeam/SPEAKERS/LEFTERIS2.jpg",
         team: "Speakers",
