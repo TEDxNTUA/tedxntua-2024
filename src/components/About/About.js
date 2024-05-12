@@ -10,7 +10,7 @@ export default function About({ fullname, photo, fun ,link }) {
 
   return (
     <div
-      className="flex flex-col rounded-md border-[3px] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]  lg:border-black mx-auto h-full cursor-pointer"
+      className="flex flex-col w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]  lg:border-black mx-auto h-full cursor-pointer"
       onClick={redirectToLink} // Call redirectToLink function on click
     >
       <div className="relative">
@@ -29,13 +29,6 @@ export default function About({ fullname, photo, fun ,link }) {
               alt={fullname}
             />
         </div>
-        </div>
-      </div>
-      <div className="flex flex-col mb-2 grow lg:justify-evenly pr-[0.1vw]">
-        <div className="px-3 md:px-4 lg:px-6 items-center">
-          <h2 className="text-white py-2 md:py-2 font-semibold text-center text-lg lg:text-xl lg:h-fit 2xl:text-x">
-            {fullname}
-          </h2>
         </div>
       </div>
     </div>

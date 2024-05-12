@@ -2,42 +2,43 @@
 import About from "./About";
 
 export default function AboutGrid({ aboutlist }) {
-  const filterPartnersByType = (team) => {
-    return aboutlist.filter((about) => about.team === team);
+  const filterPartnersByType = (teamUrl) => {
+    return aboutlist.filter((about) => about.teamUrl === teamUrl);
   };
 
   const displayOrder = [
-    "Curator",
-    "Information & Technology",
-    "Design",
-    "Fundraising",
-    "Experience & Workshops",
-    "Media & Marketing",
-    "Venue & Production",
-    "Speakers"
+    "/meetTheTeam/CURATOR/THE CURAToR.jpg",
+    "/meetTheTeam/IT/INFoRMATIoN & TECHNoloGY TEAM.jpg",
+    "/meetTheTeam/DESIGN TEAM/DESIGN TEAM.jpg",
+    "/meetTheTeam/FR/FUNDRAISING TEAM.jpg",
+    "/meetTheTeam/EXP/EXPERIENCE & WoRKSHoPs TEAM.jpg",
+    "/meetTheTeam/MEDIA/MEDIA & MARKETING TEAM.jpg",
+    "/meetTheTeam/VENUE/VENUE ANd PRoDUCTIoN TEAM.jpg",
+    "/meetTheTeam/SPEAKERS/SPEAKERS TEAM.jpg"
   ];
 
   return (
     <>
       <div className="relative">
-      <span className="text-5xl text-our-pink font-extrabold flex justify-center my-10 tracking-widest">
+      {/* <span className="text-5xl text-our-pink font-extrabold flex justify-center my-10 tracking-widest">
           Meet the team
-        </span>
-        {displayOrder.map((team) => (
-          <div key={team} className="top-0 z-10">
-            <h2 className="text-5xl font-bold text-white text-[#CFF301] text-center py-10">
-              {team}
-            </h2>
+        </span> */}
+        {displayOrder.map((teamUrl) => (
+          <div key={teamUrl} className="top-0 z-10">
+            <img
+              className={'pb-10'}
+              src={teamUrl}
+            />
             <ul
-              className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols- py-4 lg:py-8`}
+              // className={`grid grid-cols-1 md:grid-cols-3 lg:grid-cols- py-4 lg:py-8`}
+              className={'flex flex-wrap items-center justify-center'}
             >
-              {filterPartnersByType(team).map((about, index) => (
+              {filterPartnersByType(teamUrl).map((about, index) => (
                 <li
                   key={index}
                   className={`mb-24 lg:mb-24 `}
                 >
                   <About
-                    fullname={about.fullname}
                     photo={about.photo}
                     fun={about.funny}
                     link={about.linkedin}
