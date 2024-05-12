@@ -16,7 +16,7 @@ export default function PerformerCard({ fullname, photo }) {
         <div className="relative">
           <div className="flex flex-col rounded-sm justify-center items-center group">
             <img
-              className="w-full md:h-[40vh] xl:h-[50vh] object-center object-contain group-hover:grayscale group-hover:blur-[5px]"
+              className="w-[50vh] md:h-[40vh] xl:h-[50vh] object-center object-contain group-hover:grayscale group-hover:blur-[5px]"
               src={photo}
               alt={fullname}
             />
