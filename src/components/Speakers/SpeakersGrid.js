@@ -31,28 +31,27 @@ export default function SpeakersGrid({ speakerslist }) {
       {speakerslist.length > 0 && (
         <div>
           {Array.from(
-            { length: findNumberOfSessions(speakerslist) },
+            /* { length: findNumberOfSessions(speakerslist) }, */
+            { length: 1 },
             (_, sessionNum) => (
               <div key={sessionNum}>
-                <p className="text-5xl md:text-6xl text-center p-10 text-our-yellow font-bold">
+                {/* <p className="text-5xl md:text-6xl text-center p-10 text-our-yellow font-bold">
                   Session {sessionNum + 1}
-                </p>
+                </p> */}
 
                 <ul
-                  // className={`grid list-none gap-[1vh] lg:gap-10 grid-cols-1 lg:grid-cols-3 w-10/12 mx-auto z-1 rounded-md lg:p-10 lg:bg-zinc-950 `}
                   className={`flex flex-row flex-wrap gap-[5vh] lg:gap-10 w-10/12 mx-auto z-1 rounded-md lg:p-10 pb-10 items-center justify-center`}
                 >
-                  {filterSpeakersBySession((sessionNum + 1).toString()).map(
-                    (speaker, index) => (
-                      <li key={index}>
-                        <SpeakerCard
-                          fullname={speaker.fullname}
-                          linkedin={speaker.linkedin}
-                          photo={speaker.photo}
-                        />
-                      </li>
-                    )
-                  )}
+                  {/* {filterSpeakersBySession((sessionNum + 1).toString()).map( */}
+                  {speakerslist.map((speaker, index) => (
+                    <li key={index}>
+                      <SpeakerCard
+                        fullname={speaker.fullname}
+                        linkedin={speaker.linkedin}
+                        photo={speaker.photo}
+                      />
+                    </li>
+                  ))}
                 </ul>
               </div>
             )
