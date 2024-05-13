@@ -45,19 +45,19 @@ export default function Home() {
       </AnimatePresence>
       {/* <div className="bg-black"> */}
       <div
-        style={{
-          backgroundImage: `url('./background/background.jpg')`,
-          backgroundSize: "cover", // Optional: adjust as needed
-        }}
+        // style={{
+        //   backgroundImage: `url('./background/background.jpg')`,
+        //   backgroundSize: "cover", // Optional: adjust as needed
+        // }}
         className="1st-scroll bg-fixed h-[calc(100vh-65px)] max-h-[900px] grid grid-cols-1 lg:grid-cols-2 mx-auto w-full"
       >
         {/* <div className="first-page-content flex flex-col lg:flex-row h-[calc(100vh-65px)] mt-[65px] mx-auto w-[90%] xl:w-[80%] max-w-[100rem]"> */}
 
         <div
-          style={{
-            backgroundImage: `url('./design/grid.png')`,
-            backgroundSize: "", // Optional: adjust as needed
-          }}
+          // style={{
+          //   backgroundImage: `url('./design/grid.png')`,
+          //   backgroundSize: "", // Optional: adjust as needed
+          // }}
           className="hidden lg:flex justify-center items-center w-[600px] mt-10 ml-4"
         >
           <div
@@ -74,17 +74,17 @@ export default function Home() {
       </div>
 
       <div
-        style={{
-          backgroundImage: `url('./background/background.jpg')`,
-          backgroundSize: "cover", // Optional: adjust as needed
-        }}
+        // style={{
+        //   backgroundImage: `url('./background/background.jpg')`,
+        //   backgroundSize: "cover", // Optional: adjust as needed
+        // }}
         className="2nd-scroll bg-fixed h-[calc(100vh)] max-h-[900px] grid grid-cols-1 lg:grid-cols-2 mx-auto w-full"
       >
         <div
-          style={{
-            backgroundImage: `url('./design/grid.png')`,
-            backgroundSize: "", // Optional: adjust as needed
-          }}
+          // style={{
+          //   backgroundImage: `url('./design/grid.png')`,
+          //   backgroundSize: "", // Optional: adjust as needed
+          // }}
           className="hidden lg:flex justify-center items-center w-[600px] mb-10 ml-4"
         >
           <img src="./design/apple.png" alt="bitten-apple" className="w-1/2" />

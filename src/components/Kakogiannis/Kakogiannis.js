@@ -27,10 +27,10 @@ export default function Kakogiannis() {
       className="h-[100vh] max-h-[900px]"
     >
       <div
-        style={{
-          backgroundImage: `url('/background/background-laptop-new.jpg')`,
-          backgroundSize: "cover", // Optional: adjust as needed
-        }}
+        // style={{
+        //   backgroundImage: `url('/background/background-laptop-new.jpg')`,
+        //   backgroundSize: "cover", // Optional: adjust as needed
+        // }}
         className="bg-fixed flex flex-col justify-end items-center w-full h-full relative"
       >
         <img
@@ -51,10 +51,10 @@ export default function Kakogiannis() {
           Where?
         </motion.h2>
         <div
-          style={{
-            backgroundImage: `url('./design/puprle-rec-bold.png')`,
-            backgroundSize: "cover", // Optional: adjust as needed
-          }}
+          // style={{
+          //   backgroundImage: `url('./design/puprle-rec-bold.png')`,
+          //   backgroundSize: "cover", // Optional: adjust as needed
+          // }}
           className="relative flex flex-row-reverse items-center h-[70vh] max-h-[600px] w-full bg-blue-500"
         >
           <div className="w-[500px] text-white leading-tight break-words text-md mr-[150px] justify-center flex flex-col items-center gap-8">

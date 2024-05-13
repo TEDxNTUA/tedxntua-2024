@@ -20,10 +20,11 @@ function AboutPage() {
            <AboutTednTedx/>
       </div>
       <div className="1st-scroll bg-fixed w-[100%] h-[calc(100vh-65px)] max-h-[400px] table  mb-28"
-      style={{
-        backgroundImage: `url('/background/background.jpg')`,
-        backgroundSize: "cover", // Optional: adjust as needed
-      }}>     
+      // style={{
+      //   backgroundImage: `url('/background/background.jpg')`,
+      //   backgroundSize: "cover", // Optional: adjust as needed
+      // }}
+      >     
            <AboutInfo/>
       </div>
       </div>
