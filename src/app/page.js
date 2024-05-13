@@ -46,7 +46,7 @@ export default function Home() {
       {/* <div className="bg-black"> */}
       <div
         style={{
-          backgroundImage: `url('/background/background.jpg')`,
+          backgroundImage: `url('./background/background.jpg')`,
           backgroundSize: "cover", // Optional: adjust as needed
         }}
         className="1st-scroll bg-fixed h-[calc(100vh-65px)] max-h-[900px] grid grid-cols-1 lg:grid-cols-2 mx-auto w-full"
@@ -55,7 +55,7 @@ export default function Home() {
 
         <div
           style={{
-            backgroundImage: `url('/design/grid.png')`,
+            backgroundImage: `url('./design/grid.png')`,
             backgroundSize: "", // Optional: adjust as needed
           }}
           className="hidden lg:flex justify-center items-center w-[600px] mt-10 ml-4"
@@ -75,14 +75,14 @@ export default function Home() {
 
       <div
         style={{
-          backgroundImage: `url('/background/background.jpg')`,
+          backgroundImage: `url('./background/background.jpg')`,
           backgroundSize: "cover", // Optional: adjust as needed
         }}
         className="2nd-scroll bg-fixed h-[calc(100vh)] max-h-[900px] grid grid-cols-1 lg:grid-cols-2 mx-auto w-full"
       >
         <div
           style={{
-            backgroundImage: `url('/design/grid.png')`,
+            backgroundImage: `url('./design/grid.png')`,
             backgroundSize: "", // Optional: adjust as needed
           }}
           className="hidden lg:flex justify-center items-center w-[600px] mb-10 ml-4"
@@ -93,7 +93,7 @@ export default function Home() {
         <div className="flex flex-row justify-between items-center gap-12  pr-28">
           <div
             style={{
-              backgroundImage: `url('/design/purple-rect-small.png')`,
+              backgroundImage: `url('./design/purple-rect-small.png')`,
               backgroundSize: "cover", // Optional: adjust as needed
             }}
             className="w-[80%] max-w-[1000px] rounded-sm"

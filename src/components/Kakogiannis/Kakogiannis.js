@@ -28,7 +28,7 @@ export default function Kakogiannis() {
     >
       <div
         style={{
-          backgroundImage: `url('/background/background-laptop-new.jpg')`,
+          backgroundImage: `url('./background/background-laptop-new.jpg')`,
           backgroundSize: "cover", // Optional: adjust as needed
         }}
         className="bg-fixed flex flex-col justify-end items-center w-full h-full relative"
@@ -52,7 +52,7 @@ export default function Kakogiannis() {
         </motion.h2>
         <div
           style={{
-            backgroundImage: `url('/design/puprle-rec-bold.png')`,
+            backgroundImage: `url('./design/puprle-rec-bold.png')`,
             backgroundSize: "cover", // Optional: adjust as needed
           }}
           className="relative flex flex-row-reverse items-center h-[70vh] max-h-[600px] w-full bg-blue-500"

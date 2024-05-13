@@ -7,14 +7,14 @@ export default function AboutGrid({ aboutlist }) {
   };
 
   const displayOrder = [
-    "/meetTheTeam/CURATOR/THE CURAToR.jpg",
-    "/meetTheTeam/IT/INFoRMATIoN & TECHNoloGY TEAM.jpg",
-    "/meetTheTeam/DESIGN TEAM/DESIGN TEAM.jpg",
-    "/meetTheTeam/FR/FUNDRAISING TEAM.jpg",
-    "/meetTheTeam/EXP/EXPERIENCE & WoRKSHoPs TEAM.jpg",
-    "/meetTheTeam/MEDIA/MEDIA & MARKETING TEAM.jpg",
-    "/meetTheTeam/VENUE/VENUE ANd PRoDUCTIoN TEAM.jpg",
-    "/meetTheTeam/SPEAKERS/SPEAKERS TEAM.jpg"
+    "./meetTheTeam/CURATOR/THE CURAToR.jpg",
+    "./meetTheTeam/IT/INFoRMATIoN & TECHNoloGY TEAM.jpg",
+    "./meetTheTeam/DESIGN TEAM/DESIGN TEAM.jpg",
+    "./meetTheTeam/FR/FUNDRAISING TEAM.jpg",
+    "./meetTheTeam/EXP/EXPERIENCE & WoRKSHoPs TEAM.jpg",
+    "./meetTheTeam/MEDIA/MEDIA & MARKETING TEAM.jpg",
+    "./meetTheTeam/VENUE/VENUE ANd PRoDUCTIoN TEAM.jpg",
+    "./meetTheTeam/SPEAKERS/SPEAKERS TEAM.jpg"
   ];
 
   return (
