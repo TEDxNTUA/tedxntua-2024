@@ -7,7 +7,7 @@ const Modal = ({ onClose, name, datalist }) => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center backdrop-blur z-10">
-      <div className="bg-white py-4 md:py-6 h-auto rounded-lg w-[95%] lg:w-[65%]  absolute border-black border-[1px]">
+      <div className="bg-white py-4 md:py-6 h-auto rounded-lg w-[95%] lg:w-[75%]  absolute border-black border-[1px]">
         {/* <div className="bg-white py-4 md:py-6 h-auto rounded-lg w-[300px] md:w-[450px] 2xl:w-[520px] 4xl:w-[800px]  absolute border-black border-[1px]"> */}
         <div
           className="closing-x-button absolute right-0 top-0 m-4 4xl:m-8 z-10"

@@ -40,22 +40,22 @@ const slider2 = [
 ];
 
 export default function ImageGrid() {
-  const container = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: container,
-    offset: ["start end", "end start"],
-  });
+  // const container = useRef(null);
+  // const { scrollYProgress } = useScroll({
+  //   target: container,
+  //   offset: ["start end", "end start"],
+  // });
 
-  const height = useTransform(scrollYProgress, [0, 0.9], [50, 0]);
+  // const height = useTransform(scrollYProgress, [0, 0.9], [50, 0]);
 
   return (
     <div
-      ref={container}
-      className="flex flex-col content-center justify-center items-center gap-[100px] max-w-[2040px] py-[200px] bg-white"
+      // ref={container}
+      className="flex flex-col content-center max-w-[2040px] mx-auto justify-center items-center gap-[100px] py-[200px] bg-purple-100"
     >
       <div
         // className={styles.slider}
-        className="flex flex-row gap-[100px] mx-auto bg-slate-400"
+        className="flex flex-row gap-[100px] mx-auto"
       >
         {slider1.map((project, index) => {
           return (

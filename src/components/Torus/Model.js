@@ -63,8 +63,24 @@ export default function Model() {
     backside: true,
   };
 
-  const fontSize = size.width >= 2000 ? 3.5 : 3.5;
-  const scaleFactor = size.width >= 2000 ? 15 : 10;
+  // const fontSize = size.width >= 2000 ? 3.5 : 3.5;
+  const fontSize =
+    size.width >= 2000
+      ? 3.5
+      : size.width >= 600
+      ? 3
+      : size.width < 600
+      ? 2.5
+      : undefined; // Provide a default value if necessary
+  // const scaleFactor = size.width >= 2000 ? 15 : ;
+  const scaleFactor =
+    size.width >= 2000
+      ? 15
+      : size.width >= 1000
+      ? 10
+      : size.width < 1000
+      ? 10
+      : undefined; // Provide a default value if necessary
 
   return (
     <group scale={viewport.width / scaleFactor}>

@@ -80,7 +80,7 @@ export default function PerformersGrid({ performworkslist }) {
           )}
         </div>
       )}
-      <hr class="my-12 h-0.5 w-[50%] mx-auto border-t-0 bg-our-yellow" />
+      <hr className="my-12 h-0.5 w-[50%] mx-auto border-t-0 bg-our-yellow" />
       {workshoplist.length > 0 && (
         <div>
           {Array.from(
