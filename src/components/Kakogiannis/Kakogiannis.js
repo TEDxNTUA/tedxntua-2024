@@ -28,7 +28,7 @@ export default function Kakogiannis() {
     >
       <div
         style={{
-          backgroundImage: `url('./background/background-laptop-new.jpg')`,
+          backgroundImage: `url('/background/background-laptop-new.jpg')`,
           backgroundSize: "cover", // Optional: adjust as needed
         }}
         className="bg-fixed flex flex-col justify-end items-center w-full h-full relative"

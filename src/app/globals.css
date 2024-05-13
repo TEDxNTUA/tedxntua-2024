@@ -7,5 +7,5 @@
     font-family: 'AestheticRegular';
     /* font-style: regular; */
     font-weight: 400;
-    src: url('./fonts/AestheticRegular.ttf') format('ttf'); 
+    src: url('/fonts/AestheticRegular.ttf') format('ttf'); 
   }

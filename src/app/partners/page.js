@@ -5,7 +5,9 @@ import { PARTNERSLIST } from "../../../data/partners";
 function PartnersPage() {
   return (
     <main>
-      <div className="bg-[url('./background/background-phone.jpg')]  bg-cover">
+      <div 
+      // className="bg-[url('/background/background-phone.jpg')]  bg-cover"
+    >
         <PartnersGrid partnerslist={PARTNERSLIST} />
       </div>
     </main>
