@@ -87,7 +87,7 @@ export default function Home() {
           }}
           className="hidden lg:flex justify-center items-center w-[600px] mb-10 ml-4"
         >
-          <img src="/design/apple.png" alt="bitten-apple" className="w-1/2" />
+          <img src="./design/apple.png" alt="bitten-apple" className="w-1/2" />
         </div>
 
         <div className="flex flex-row justify-between items-center gap-12  pr-28">
@@ -103,7 +103,7 @@ export default function Home() {
             </div>
           </div>
           <img
-            src="/design/embrace-feeling.png"
+            src="./design/embrace-feeling.png"
             alt="embrace-feeling-text"
             className="h-[40%] my-auto max-h-[300px]"
           />

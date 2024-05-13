@@ -34,13 +34,13 @@ export default function Kakogiannis() {
         className="bg-fixed flex flex-col justify-end items-center w-full h-full relative"
       >
         <img
-          src="/design/kakogiannis3.png"
+          src="./design/kakogiannis3.png"
           alt="kakogiannis-institute-with-grid"
           className="w-[600px] z-10 absolute left-4 top-[120px]"
         />
         <motion.img
           style={{ x }}
-          src="/design/mcf-logo.png"
+          src="./design/mcf-logo.png"
           alt="kakogiannis-logo"
           className="absolute w-[150px] z-10 left-[100px] top-[250px]"
         />
