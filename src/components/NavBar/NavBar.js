@@ -6,10 +6,10 @@ import SocialMediaNav from "./SocialMediaNav";
 // import { usePathname } from "next/navigation";
 
 const navLinks = [
-  { title: "Αρχική", path: "/", isImage: true },
+  { title: "Αρχική", path: "./", isImage: true },
   {
     title: "Ομιλητές",
-    path: "/speakers",
+    path: "./speakers",
   },
   // {
   //   title: "Let's Blog",
@@ -17,15 +17,15 @@ const navLinks = [
   // },
   {
     title: "Performers & Workshops",
-    path: "/performers",
+    path: "./performers",
   },
   {
     title: "Χορηγοί",
-    path: "/partners",
+    path: "./partners",
   },
   {
     title: "About",
-    path: "/about",
+    path: "./about",
   },
 ];
 
