@@ -10,9 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        aestheticRegular: ["AestheticRegular", "sans-serif"], // after you font, add some fonts separated by commas to handle fallback.
-      },
+      // fontFamily: {
+      //   aestheticRegular: ["AestheticRegular", "sans-serif"], // after you font, add some fonts separated by commas to handle fallback.
+      // },
       fontSize: {
         xxs: "0.7rem",
       },

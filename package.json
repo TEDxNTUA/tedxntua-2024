@@ -21,7 +21,8 @@
     "react-dom": "^18",
     "react-router-dom": "^6.23.0",
     "react-three-fiber": "^6.0.13",
-    "sass": "^1.75.0"
+    "sass": "^1.75.0",
+    "sharp": "^0.33.3"
   },
   "devDependencies": {
     "@swc/cli": "^0.3.10",
