@@ -31,12 +31,11 @@ export default function AboutGrid({ aboutlist }) {
             />
             <ul
               // className={`grid grid-cols-1 md:grid-cols-3 lg:grid-cols- py-4 lg:py-8`}
-              className={'flex flex-wrap items-center justify-center'}
+              className={'flex flex-wrap gap-5 lg:gap-10 items-center justify-center lg:mb-24'}
             >
               {filterPartnersByType(teamUrl).map((about, index) => (
                 <li
                   key={index}
-                  className={`mb-24 lg:mb-24 `}
                 >
                   <About
                     photo={about.photo}

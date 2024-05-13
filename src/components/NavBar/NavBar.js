@@ -16,7 +16,7 @@ const navLinks = [
   //   path: "/blog",
   // },
   {
-    title: "Performers",
+    title: "Performers & Workshops",
     path: "/performers",
   },
   {

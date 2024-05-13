@@ -85,10 +85,9 @@ export const SPEAKERSLIST = [
     bio: "Ο Γιώργος Πλειός είναι καθηγητής του Τμήματος Επικοινωνίας και ΜΜΕ , της Σχολής Οικονομικών και Πολιτικών Σπουδών του Εθνικού και Καποδιστριακού Πανεπιστημίου Αθηνών. Ανήκει στην συντονιστική επιτροπή του Refugee and Migration Studies Hub, ενώ είναι συντονιστής και του προγράμματος 'Revive' Jean Monet Erasmus+: The Future of Displaced People under the EU auspices in the n the Post Pandemic Era - Lessons learned and new challenges.",
     bio_en:
       'George Pleios is a professor at the Department of Communication and Media Studies, School of Economics and Political Sciences of the National and Kapodistrian University of Athens. He belongs to the coordinating committee of the Refugee and Migration Studies Hub, while he is also the coordinator of the "Revive" program Jean Monet Erasmus+: The Future of Displaced People under the EU auspices in the n the Post Pandemic Era - Lessons learned and new challenges.',
-    photo: "./speakers/george-pleios.jpg",
+    // photo: "./speakers/george-pleios.jpg",
+    photo:"./speakers/empty_speaker.png",
     url: "https://www.linkedin.com/in/george-pleios-7b391a27?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzMcF3gUhSAa4MjsA5mzw0A%3D%3D",
-    comment:
-      "Παρακαλούμε να καθυστερήσετε την ανακοίνωση μέχρι να σας ειδοποιήσουμε για το αντίθετο",
     session: "2",
   },
   {
@@ -98,7 +97,8 @@ export const SPEAKERSLIST = [
     type: "Καθηγήτρια Γλωσσολογίας στο ΕΚΠΑ",
     bio: "Η Σπυριδούλα Βαρλοκώστα είναι Καθηγήτρια Γλωσσολογίας στον Τομέα Γλωσσολογίας του Τμήματος Φιλολογίας στο Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών (ΕΚΠΑ). Ο χώρος στον οποίο δραστηριοποιείται ερευνητικά διερευνά τη σχέση γλώσσας και νου και τις εγκεφαλικές βάσεις του λόγου. Πέρα από την τυπική ανάπτυξη του λόγου, έχει επίσης ασχοληθεί με τη γλωσσική ανάπτυξη των χαρισματικών παιδιών, των παιδιών με νευροαναπτυξιακές διαταραχές (αναπτυξιακή γλωσσική διαταραχή, σύνδρομο Down, σύνδρομο Williams, διαταραχή αυτιστικού φάσματος) και την αλληλεπίδραση της γλώσσας με άλλες νοητικές λειτουργίες, όπως η μνήμη και η προσοχή. Στα ερευνητικά της ενδιαφέροντα συγκαταλέγεται επίσης η μελέτη των λεκτικών και γνωστικών δεξιοτήτων ενηλίκων με επίκτητες διαταραχές λόγου, όπως η αφασία μετά από εγκεφαλικό επεισόδιο και διάφορες μορφές άνοιας, όπως η νόσος Αλτσχάιμερ, με στόχο τον σχεδιασμό αποτελεσματικών προγραμμάτων παρέμβασης για τη βελτίωση της ποιότητας ζωής αυτών των ευπαθών ομάδων.",
     bio_en: "",
-    photo: "./speakers/spyridoula-varlokosta.jpg",
+    // photo: "./speakers/spyridoula-varlokosta.jpg",
+    photo:"./speakers/empty_speaker.png",
 
     url: "https://www.linkedin.com/in/spyridoula-varlokosta-0936589a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeIxiPJ3RTL%2BRKhz5es38wA%3D%3D",
     comment: "μας ειπε μπορει να μας στειλει και αλλες φωτο αν θελουμε",
@@ -113,7 +113,8 @@ export const SPEAKERSLIST = [
     bio_en:
       "Georgios Lyrakos is a Clinical Health Psychologist, Doctor of the Medical School of Athens and CBT Psychotherapist. He works at the Psychiatric Clinic of G.H. of Nikaia since 1998. In 2009 he started teaching, as a scientific associate, in the Medical Schools of Athens and Ioannina, at the University of Peloponnese and at the University of Western Attica, until today. He is the author of 3 books and has published over 100 research studies in international journals and conferences.",
 
-    photo: "./speakers/iason-apostolopoulos.jpeg",
+    // photo: "./speakers/iason-apostolopoulos.jpeg",
+    photo:"./speakers/empty_speaker.png",
     url: "https://www.linkedin.com/in/γεώργιος-λυράκος-03098840?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDoZGvCZETNyG%2FJey0uAXaQ%3D%3D",
     comment: "περιμενουμε περισσοτερα απο Τριτη",
     session: "3",
@@ -126,7 +127,8 @@ export const SPEAKERSLIST = [
     type: "Ψυχολόγος - Ψυχοθεραπευτής - Στιχουργός",
     bio: "",
     bio_en: "",
-    photo: "./speakers/rapsodos_filologos.jpg",
+    // photo: "./speakers/rapsodos_filologos.jpg",
+    photo:"./speakers/empty_speaker.png",
     url: "",
     comment: "περιμενουμε περισσοτερα απο Τριτη",
     session: "3",

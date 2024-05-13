@@ -3,14 +3,13 @@ import { useState } from "react";
 
 export default function About({ fullname, photo, fun ,link }) {
   const redirectToLink = () => {
-    // Redirect to the specified link when clicked
-    window.location.href = link;
+    window.open(link, '_blank');   
   };
   const [isHovered, setIsHovered] = useState(false);
 
   return (
     <div
-      className="flex flex-col w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]  lg:border-black mx-auto h-full cursor-pointer"
+      className="flex flex-col w-[250px] h-[250px] lg:w-[300px] lg:h-[300px]  lg:border-black mx-auto cursor-pointer"
       onClick={redirectToLink} // Call redirectToLink function on click
     >
       <div className="relative">

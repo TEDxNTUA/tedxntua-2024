@@ -56,7 +56,7 @@ M0 356.759V2126H1577V218.07C1514.33 161.85 1445.22 112.053 1369.5 72.4841C993.38
             </div>
           </div>
           {/* Second row FOR BIG SCREENS */}
-          <div className="md:grid-cols-2 border-our-black border-t-[0.5px] z-10 pt-2 md:pt-4 hidden md:grid">
+          <div className="md:grid-cols-2 border-our-black z-10 pt-2 md:pt-4 hidden md:grid">
             {/* First column*/}
 
             <div className="flex flex-row flex-wrap gap-2">

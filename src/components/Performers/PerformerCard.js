@@ -8,7 +8,7 @@ export default function PerformerCard({ fullname, photo }) {
     setIsExpanded(!isExpanded);
   };
   return (
-    <div className="flex flex-col bg-neutral-50 rounded-md border-[3px] w-full sm:w-[90%] md:w-[80%] lg:w-full border-our-yellow lg:border-black hover:border-our-yellow mx-auto h-full">
+    <div className="flex flex-col bg-neutral-50 rounded-md border-[3px] w-full sm:w-[90%] md:w-[80%] lg:w-[40vh] border-our-yellow lg:border-black hover:border-our-yellow mx-auto h-full">
       <div
         className="flex flex-col grow lg:h-[70%] hover:cursor-pointer"
         onClick={toggleContent}
@@ -16,7 +16,7 @@ export default function PerformerCard({ fullname, photo }) {
         <div className="relative">
           <div className="flex flex-col rounded-sm justify-center items-center group">
             <img
-              className="w-[50vh] md:h-[40vh] xl:h-[50vh] object-center object-contain group-hover:grayscale group-hover:blur-[5px]"
+              className="w-[40vh] md:h-[40vh] xl:h-[40vh] object-center object-contain group-hover:grayscale group-hover:blur-[5px]"
               src={photo}
               alt={fullname}
             />

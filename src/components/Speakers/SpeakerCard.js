@@ -9,7 +9,7 @@ export default function SpeakerCard({ fullname, photo }) {
     setIsExpanded(!isExpanded);
   };
   return (
-    <div className="flex flex-col bg-neutral-50 rounded-md border-[3px] w-full sm:w-[90%] md:w-[80%] lg:w-full border-our-yellow lg:border-black hover:border-our-yellow mx-auto h-full">
+    <div className="flex flex-col bg-neutral-50 rounded-md border-[3px] w-[35vh] md:w-[50vh] border-our-yellow lg:border-black hover:border-our-yellow mx-auto h-full">
       <div
         className="flex flex-col grow lg:h-[70%] hover:cursor-pointer"
         onClick={toggleContent}
