@@ -63,7 +63,7 @@ export default function ImageGrid() {
               key={index}
               className="inset-0 w-[400px]"
               alt={"image"}
-              src={`/talks/${project.src}`}
+              src={`./talks/${project.src}`}
               width={30}
               height={30}
             />
@@ -80,7 +80,7 @@ export default function ImageGrid() {
               key={index}
               className="inset-0 w-[400px]"
               alt={"image"}
-              src={`/talks/${project.src}`}
+              src={`./talks/${project.src}`}
               width={30}
               height={30}
             />
