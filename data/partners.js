@@ -10,14 +10,14 @@ export const PARTNERSLIST = [
     id: "partners2",
     fullname: "Oliver Wyman",
     url: "https://www.oliverwyman.com/index.html",
-    photo: "./sponsors/OliverWyman.png",
+    photo: "./sponsors/oliverWyman.png",
     type: "Platinum Sponsors",
   },
   {
     id: "partners3",
     fullname: "Intrakat",
     url: "https://www.intrakat.gr/",
-    photo: "./sponsors/intrakat_logo.png",
+    photo: "./sponsors/Intrakat_logo.png",
     type: "Platinum Sponsors",
   },
   {
