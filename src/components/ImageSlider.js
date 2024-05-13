@@ -98,7 +98,7 @@ export default function ImageSlider() {
                 <img
                   className="object-cover absolute inset-0 w-full h-full"
                   alt={"image"}
-                  src={`/talks/${project.src}`}
+                  src={`./talks/${project.src}`}
                   width={30}
                   height={30}
                 />
