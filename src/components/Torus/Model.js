@@ -36,14 +36,14 @@ function useWindowSize() {
 
 export default function Model() {
   const mesh = useRef();
-  const { nodes } = useGLTF("/torus/torus2.glb");
+  // const { nodes } = useGLTF("/torus/torus2.glb");
   const { viewport } = useThree();
   const size = useWindowSize();
 
-  useFrame(() => {
-    mesh.current.rotation.x -= 0.005;
-    mesh.current.rotation.y -= 0.01;
-  });
+  // useFrame(() => {
+  //   mesh.current.rotation.x -= 0.005;
+  //   mesh.current.rotation.y -= 0.01;
+  // });
 
   //   const materialProps = useControls({
   //     thickness: { value: 0.7, min: 0, max: 3, step: 0.05 },
@@ -81,9 +81,9 @@ export default function Model() {
       >
         Ephemeral
       </Text>
-      <mesh ref={mesh} {...nodes.Torus003}>
+      {/* <mesh ref={mesh} {...nodes.Torus003}>
         <MeshTransmissionMaterial {...materialProps} />
-      </mesh>
+      </mesh> */}
     </group>
   );
 }
