@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import ModalWrapper from "../Modal/ModalWrapper";
-import {  PERFORMWORKSLIST } from "../../../data/performers";
+import { PERFORMWORKSLIST } from "../../../data/performers";
 export default function PerformerCard({ fullname, photo }) {
   const [isExpanded, setIsExpanded] = useState(false);
+  const comingsoon = photo.includes("empty_speaker") ? false : true;
 
   const toggleContent = () => {
     setIsExpanded(!isExpanded);
   };
   return (
-    <div className="flex flex-col bg-neutral-50 rounded-md border-[3px] w-full sm:w-[90%] md:w-[80%] lg:w-[40vh] border-our-yellow lg:border-black hover:border-our-yellow mx-auto h-full">
+    <div className="flex flex-col bg-neutral-50 rounded-md border-[3px] w-auto max-w-[600px] h-auto border-our-yellow lg:border-black hover:border-our-yellow mx-auto">
       <div
         className="flex flex-col grow lg:h-[70%] hover:cursor-pointer"
         onClick={toggleContent}
@@ -16,7 +17,7 @@ export default function PerformerCard({ fullname, photo }) {
         <div className="relative">
           <div className="flex flex-col rounded-sm justify-center items-center group">
             <img
-              className="w-[40vh] md:h-[40vh] xl:h-[40vh] object-center object-contain group-hover:grayscale group-hover:blur-[5px]"
+              className="max-w-[600px] max-h-[600px] w-[40vh] object-center object-contain group-hover:grayscale group-hover:blur-[5px]"
               src={photo}
               alt={fullname}
             />
@@ -27,16 +28,17 @@ export default function PerformerCard({ fullname, photo }) {
             </div>
           </div>
         </div>
-
-        <div className="flex flex-col mb-2 grow lg:justify-evenly pr-[0.1vw]">
-          <div className="px-3 md:px-4 lg:px-6 items-center">
-            <div className="text-black py-2 md:py-2 font-semibold text-center text-lg lg:text-xl lg:h-fit 2xl:text-xl">
-              {fullname}
+        {comingsoon && (
+          <div className="flex flex-col mb-2 grow lg:justify-evenly pr-[0.1vw]">
+            <div className="px-3 md:px-4 lg:px-6 items-center">
+              <div className="text-black py-2 md:py-2 font-semibold text-center text-lg lg:text-xl lg:h-fit 2xl:text-xl">
+                {fullname}
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
-      {isExpanded && (
+      {isExpanded && !comingsoon && (
         <ModalWrapper
           setIsModalOpenFlag={setIsExpanded}
           name={fullname}
