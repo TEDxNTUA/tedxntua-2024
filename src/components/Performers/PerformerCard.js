@@ -38,7 +38,7 @@ export default function PerformerCard({ fullname, photo }) {
           </div>
         )}
       </div>
-      {isExpanded && !comingsoon && (
+      {isExpanded && comingsoon && (
         <ModalWrapper
           setIsModalOpenFlag={setIsExpanded}
           name={fullname}
