@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'AestheticRegular';
+    /* font-style: regular; */
+    font-weight: 400;
+    src: url('/fonts/AestheticRegular.ttf') format('ttf'); 
+  }
