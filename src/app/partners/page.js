@@ -3,7 +3,7 @@ import PartnersGrid from "@/components/Partners/PartnersGrid";
 import { PARTNERSLIST } from "../../../data/partners";
 function PartnersPage() {
   return (
-    <main>
+    <main className="max-w-[2040px]">
       <div
         style={{
           backgroundImage: `url('./background/background-laptop-new.jpg')`,
