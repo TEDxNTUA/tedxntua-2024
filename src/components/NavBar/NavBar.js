@@ -52,11 +52,6 @@ function NewNavbar() {
             src="./tedxntua_logo.png"
             className="w-auto h-[40px] object-contain"
             alt="TEDxNTUA Logo"
-            onClick={() =>
-              document
-                .getElementById("main-scroll-container")
-                .scrollTo({ top: 0, behavior: "smooth" })
-            }
           ></img>
         </Link>
         {/* Desktop Nav */}
