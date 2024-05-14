@@ -88,7 +88,7 @@ export default function Model() {
       {/* font={"fonts/.....otf"} */}
       <Text
         // font={"/fonts/PPNeueMontreal-Bold.otf"}
-        // font={"/fonts/AestheticRegular.otf"}
+        font={"/fonts/AestheticRegular.otf"}
         position={[0, 0, -9]}
         fontSize={fontSize}
         color="white"
