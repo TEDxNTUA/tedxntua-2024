@@ -58,7 +58,7 @@ export default function Preloader() {
       initial="initial"
       exit="exit"
       // className= {styles.introduction}
-      className="h-[100vh] w-[100vw] flex items-center justify-center fixed z-[99] bg-[#141516]"
+      className="h-[100vh] w-[100vw] flex items-center justify-center fixed z-[100] bg-[#141516]"
     >
       {dimension.width > 0 && (
         <>

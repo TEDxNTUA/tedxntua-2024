@@ -17,7 +17,7 @@ const Scene = dynamic(() => import("@/components/Torus/Scene"), {
 
 export default function Home() {
   // const [isLoading, setIsLoading] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   // UNCOMMENT FOR PRELOADRE
 
   useEffect(() => {
@@ -50,11 +50,10 @@ export default function Home() {
         backgroundSize: "cover",
       }}
     >
-      {/* <AnimatePresence mode="wait">
+      <AnimatePresence mode="wait">
         {isLoading && <Preloader />}
-      </AnimatePresence> */}
+      </AnimatePresence>
       <div className="1st-scroll desktop z-20 relative max-w-[2040px] h-[calc(100vh-65px)] max-h-[900px] hidden lg:grid lg:grid-cols-2 mx-auto w-full ">
-
         <div
           style={{
             backgroundImage: `url('./design/grid.png')`,
@@ -76,10 +75,17 @@ export default function Home() {
         <Scene />
       </div>
 
-
-      <div className="1st-scroll mobile-tablet lg:hidden z-20 relative flex flex-col">
-        <div className="h-[calc(100vh-65px)]">
+      <div className="1st-scroll mobile-tablet lg:hidden z-20 relative">
+        <div className="h-[calc(100vh-65px)] flex flex-col justify-center py-20">
           <Scene />
+          <a
+            className="hover:cursor-pointer p-8 py-4 bg-our-blue hover:bg-blue-500 rounded-lg w-[50%] text-[16px] text-white font-light text-center mx-auto"
+            href="https://2023tedxntua.us21.list-manage.com/subscribe?u=8fb93651f7aa4956e92c4f188&id=1473802836"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>Get your Tickets</p>
+          </a>
         </div>
         <div
           style={{
@@ -91,7 +97,7 @@ export default function Home() {
           <div className="flex relative justify-center items-center xl:w-[600px] mt-10 ml-4">
             <div
               data-scroll
-              data-scroll-speed={0.5}
+              data-scroll-speed={0.1}
               className="flex flex-col gap-2 text-lg m-auto text-white tracking-wider w-3/5"
             >
               <p>What is ephemeral may not be the object itself,</p>
@@ -101,7 +107,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="2nd-scroll desktop hidden lg:grid grid-cols-2 z-20 relative max-w-[2040px] max-h-[900px] mx-auto w-full">
+      <div className="2nd-scroll desktop hidden lg:grid grid-cols-2 z-20 relative max-w-[2040px] max-h-[900px] mx-auto w-full mb-[100px]">
         <div
           style={{
             backgroundImage: `url('./design/grid.png')`,
@@ -168,12 +174,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="3xl:hidden">
+      {/* <div className="3xl:hidden">
         <ImageSlider />
       </div>
       <div className="hidden 3xl:block z-10">
         <ImageGrid />
-      </div>
+      </div> */}
       {/* <Contact /> */}
       <div className="hidden lg:block">
         <Kakogiannis />

@@ -13,29 +13,28 @@ export default function Kakogiannis() {
   });
   const x = useTransform(scrollYProgress, [0, 1], [-100, 0]);
   const y = useTransform(scrollYProgress, [0, 1], [-500, 0]);
-  const z = useTransform(scrollYProgress, [0, 1], [-150, 0]);
+  const z = useTransform(scrollYProgress, [0, 1], [-50, 0]);
   // const rotate = useTransform(scrollYProgress, [0, 1], [120, 90]);
 
   const paragraph1 =
     "Το θέμα που ετοιμάζει η φετινή ομάδα του TEDxNTUA είναι το EPHEMERAL. Το TEDxNTUA 2024, πραγματεύεται το αναπόφευκτο τέλος των πάντων και την κινητήρια δύναμη που πηγάζει από την σκιά αυτού του τέλους. Η παροδικότητα αποτελεί την αιτία, λόγω της οποίας όλα εξυψώνονται σε ένα βάθρο. Η παροδική φύση των πραγμάτων δίνει έναυσμα στην συνεχή διατήρηση και εξέλιξη. Ενώ ξέρουμε ότι όλα αλλάζουν και οτιδήποτε -γύρω μας ή και μέσα μας- είναι παροδικό.";
 
   return (
-    <motion.div
-      style={{
-        y,
-      }}
+    <div
+      // style={{
+      //   y,
+      // }}
       ref={container}
-      className="h-[700px] 3xl:h-[900px] max-w-[2040px] mx-auto"
+      className="h-[800px] 3xl:h-[900px] max-w-[2040px] mx-auto"
     >
       <div
         style={{
-
           backgroundImage: `url('./design/puprle-rec-bold.png')`,
           backgroundSize: "cover", // Optional: adjust as needed
         }}
-        className="h-[700px] 3xl:h-[900px] 3xl:mt-[300px] mx-auto flex flex-col md:flex-row relative justify-around items-center px-10"
+        className="h-[700px] 3xl:h-[900px] 3xl:mt-[300px] w-full mx-auto flex flex-col md:flex-row relative justify-between items-center"
       >
-        <div className="kakogiannis relative w-[600px] 3xl:w-[1000px]">
+        <div className="kakogiannis relative left-6 w-[600px] 3xl:w-[1000px]">
           <img
             src="./design/kakogiannis3.png"
             alt="kakogiannis-institute-with-grid"
@@ -55,7 +54,7 @@ export default function Kakogiannis() {
           </motion.h2>
         </div>
 
-        <div className="paragraph flex flex-row-reverse my-auto">
+        <div className="paragraph flex flex-row-reverse my-auto mx-auto">
           <div className="w-[500px] text-white leading-tight break-words text-md justify-center flex flex-col items-center gap-8">
             <div className="3xl:hidden">
               <Paragraph paragraph={paragraph1} />
@@ -66,15 +65,22 @@ export default function Kakogiannis() {
               style={{ x }}
               className="left-[calc(100% - 500px)] mx-auto w-[180px] h-[180px] text-white rounded-[50%] flex bg-our-blue hover:bg-blue-500 items-center justify-center cursor-pointer"
             >
-              {/* <Rounded className="w-[180px] h-[180px] text-white rounded-[50%] flex bg-our-blue items-center justify-center cursor-pointer"> */}
-              <p className="m-0 text-[16px] font-light z-[2] relative">
-                Get your Tickets
-              </p>
+              <a
+                className="hover:cursor-pointer"
+                href="https://2023tedxntua.us21.list-manage.com/subscribe?u=8fb93651f7aa4956e92c4f188&id=1473802836"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {/* <Rounded className="w-[180px] h-[180px] text-white rounded-[50%] flex bg-our-blue items-center justify-center cursor-pointer"> */}
+                <p className="m-0 text-[16px] font-light z-[2] relative">
+                  Get your Tickets
+                </p>
+              </a>
               {/* </Rounded> */}
             </motion.div>
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }

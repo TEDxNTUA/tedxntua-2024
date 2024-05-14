@@ -3,7 +3,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 
 const slider1 = [
   {
-    color: "#e3e5e7",
+    color: "our-purple-100",
     src: "talk1.jpeg",
   },
   {
