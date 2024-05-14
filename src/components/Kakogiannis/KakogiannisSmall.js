@@ -21,14 +21,16 @@ export default function KakogiannisSmall() {
     "Το θέμα που ετοιμάζει η φετινή ομάδα του TEDxNTUA είναι το EPHEMERAL. Το TEDxNTUA 2024, πραγματεύεται το αναπόφευκτο τέλος των πάντων και την κινητήρια δύναμη που πηγάζει από την σκιά αυτού του τέλους. Η παροδικότητα αποτελεί την αιτία, λόγω της οποίας όλα εξυψώνονται σε ένα βάθρο. Η παροδική φύση των πραγμάτων δίνει έναυσμα στην συνεχή διατήρηση και εξέλιξη. Ενώ ξέρουμε ότι όλα αλλάζουν και οτιδήποτε -γύρω μας ή και μέσα μας- είναι παροδικό.";
 
   return (
-    <motion.div
-      style={{
-        y,
-      }}
-      ref={container}
-      className="h-[500px] md:h-[800px] 3xl:h-[900px] max-w-[2040px] mx-auto"
-    >
+    // <motion.div
+    //   style={{
+    //     y,
+    //   }}
+    //   ref={container}
+    //   className="h-[500px] md:h-[800px] 3xl:h-[900px] max-w-[2040px] mx-auto"
+    // >
+    <div className="max-w-[2040px] mx-auto ">
       <div
+        ref={container}
         style={{
           backgroundImage: `url('./design/puprle-rec-bold.png')`,
           backgroundSize: "cover", // Optional: adjust as needed
@@ -66,13 +68,21 @@ export default function KakogiannisSmall() {
               style={{ x }}
               className="m-0 text-[16px] font-light z-[2] text-center p-8 py-4 bg-our-blue hover:bg-blue-500 rounded-lg"
             >
-              Get your Tickets
+              <a
+                className="hover:cursor-pointer"
+                href="https://2023tedxntua.us21.list-manage.com/subscribe?u=8fb93651f7aa4956e92c4f188&id=1473802836"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get your Tickets
+              </a>
             </motion.p>
             {/* </Rounded> */}
             {/* </motion.div> */}
           </div>
         </div>
       </div>
-    </motion.div>
+      {/* </motion.div> */}
+    </div>
   );
 }
