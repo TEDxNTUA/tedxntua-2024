@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
 
-export default nextConfig;
+const nextConfig = {
+    reactStrictMode: false,
+    output: "export",
+    basePath: "/tedxntua-2024",
+  };
+  
+  export default nextConfig;

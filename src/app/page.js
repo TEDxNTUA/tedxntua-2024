@@ -54,9 +54,10 @@ export default function Home() {
         {isLoading && <Preloader />}
       </AnimatePresence> */}
       <div className="1st-scroll desktop z-20 relative max-w-[2040px] h-[calc(100vh-65px)] max-h-[900px] hidden lg:grid lg:grid-cols-2 mx-auto w-full ">
+
         <div
           style={{
-            backgroundImage: `url('/design/grid.png')`,
+            backgroundImage: `url('./design/grid.png')`,
             backgroundSize: "", // Optional: adjust as needed
           }}
           className="hidden lg:flex justify-center items-center xl:w-[600px] mt-10 ml-4"
@@ -74,6 +75,7 @@ export default function Home() {
         </div>
         <Scene />
       </div>
+
 
       <div className="1st-scroll mobile-tablet lg:hidden z-20 relative flex flex-col">
         <div className="h-[calc(100vh-65px)]">
@@ -102,7 +104,7 @@ export default function Home() {
       <div className="2nd-scroll desktop hidden lg:grid grid-cols-2 z-20 relative max-w-[2040px] max-h-[900px] mx-auto w-full">
         <div
           style={{
-            backgroundImage: `url('/design/grid.png')`,
+            backgroundImage: `url('./design/grid.png')`,
             backgroundSize: "", // Optional: adjust as needed
           }}
           className="hidden lg:flex justify-center items-center xl:w-[600px] mb-10 ml-4"
@@ -117,7 +119,7 @@ export default function Home() {
         <div className="flex flex-row justify-between items-center gap-12  pr-28">
           <div
             style={{
-              backgroundImage: `url('/design/purple-rect-small.png')`,
+              backgroundImage: `url('./design/purple-rect-small.png')`,
               backgroundSize: "cover", // Optional: adjust as needed
             }}
             className="w-[80%] max-w-[1000px] rounded-sm"
@@ -127,7 +129,7 @@ export default function Home() {
             </div>
           </div>
           <img
-            src="/design/embrace-feeling.png"
+            src="./design/embrace-feeling.png"
             alt="embrace-feeling-text"
             className="h-[50%] my-auto max-h-[600px]"
           />

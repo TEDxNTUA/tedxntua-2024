@@ -29,6 +29,7 @@ export default function Kakogiannis() {
     >
       <div
         style={{
+
           backgroundImage: `url('/design/puprle-rec-bold.png')`,
           backgroundSize: "cover", // Optional: adjust as needed
         }}
