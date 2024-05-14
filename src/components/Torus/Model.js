@@ -36,7 +36,7 @@ function useWindowSize() {
 
 export default function Model() {
   const mesh = useRef();
-  const { nodes } = useGLTF("/torus/torus2.glb");
+  const { nodes } = useGLTF("./torus/torus2.glb");
   const { viewport } = useThree();
   const size = useWindowSize();
 
