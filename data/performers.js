@@ -69,7 +69,7 @@ export const PERFORMWORKSLIST = [
     id: "workshop3",
     fullname: "Athens Bubble Society",
     title: "Workshop",
-    url: "https://www.instagram.com/soapup_project/?hl=en",
+    url: "https://www.instagram.com/athens.bubble.society/",
     photo: "./speakers/empty_speaker.png",
     bio: `Η Athens Bubble Society είναι η ερευνητική εκδοχή της καλλιτεχνικής ομάδας «La Petite Marguerite». Αποτελείται
     από την Βάσια Τσώτσου (Υπ. Διδακτόρισσα Πολιτικής Επικοινωνίας Στο Πάντειο Παν/μιο, Bubble Performer) και τον
