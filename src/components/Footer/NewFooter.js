@@ -6,7 +6,13 @@ import Magnetic from "../../common/Magnetic";
 
 function NewFooter() {
   return (
-    <footer className="c-footer relative overflow-hidden z-0">
+    <footer
+      // style={{
+      //   backgroundImage: `url('./background/background-laptop-new.jpg')`,
+      //   backgroundSize: "", // Optional: adjust as needed
+      // }}
+      className="c-footer relative overflow-hidden z-0"
+    >
       <div className="c-footer-animation w-embed h-[100vh] object-cover md:object-none md:height-[50rem] absolute top-0 right-0 left-0 bottom-0">
         <svg
           className="overflow-hidden z-0"
@@ -15,7 +21,7 @@ function NewFooter() {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path fill="#3851a6">
+          <path fill="#160B23">
             <animate
               attributeName="d"
               dur="30s"

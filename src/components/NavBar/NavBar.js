@@ -1,4 +1,5 @@
 "use client";
+import "./Navbar.css";
 import { useState } from "react";
 import Link from "next/link";
 import NavLink from "./NavLink";
@@ -46,7 +47,7 @@ function NewNavbar() {
 
   return (
     <nav className="sticky flex w-full top-0 left-0 right-0 z-50 bg-black">
-      <div className="flex w-[85%] lg:max-w-[2040px] h-[65px] px-6 items-center justify-between mx-auto">
+      <div className="flex w-[90%] lg:max-w-[2040px] h-[65px] px-6 items-center justify-between mx-auto">
         <Link onClick={closeDrawer} href="/">
           <img
             src="./tedxntua_logo.png"
@@ -62,7 +63,7 @@ function NewNavbar() {
         {/* Desktop Nav */}
         <div
           id="desktop-navbar"
-          className="menu hidden lg:flex flex-row-reverse "
+          className="menu hidden lg:flex flex-row-reverse lg:flex-row items-center justify-center gap-8"
         >
           <ul className="flex lg:flex-row lg:space-x-8 xl:space-x-16">
             {navLinks.map((link, index) => (
@@ -76,6 +77,19 @@ function NewNavbar() {
               </li>
             ))}
           </ul>
+
+          <a
+            // className=""
+            href="https://2023tedxntua.us21.list-manage.com/subscribe?u=8fb93651f7aa4956e92c4f188&id=1473802836"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="ticket h-[60px]"
+              src="./ticket.png"
+              alt="ticket"
+            ></img>
+          </a>
         </div>
         {/* Burger for Mobile Nav */}
         <div id="burger" className="block lg:hidden">
