@@ -11,7 +11,9 @@ function Speakers() {
         backgroundSize: "cover",
       }}
     >
-      <SpeakersGrid speakerslist={SPEAKERSLIST} />
+      <div className="max-w-[2040px] mx-auto">
+        <SpeakersGrid speakerslist={SPEAKERSLIST} />
+      </div>
     </main>
   );
 }
