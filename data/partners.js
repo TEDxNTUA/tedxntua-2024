@@ -10,21 +10,21 @@ export const PARTNERSLIST = [
     id: "partners2",
     fullname: "Oliver Wyman",
     url: "https://www.oliverwyman.com/index.html",
-    photo: "./sponsors/OliverWyman.png",
+    photo: "./sponsors/oliverwyman.png",
     type: "Platinum Sponsors",
   },
   {
     id: "partners3",
     fullname: "Intrakat",
     url: "https://www.intrakat.gr/",
-    photo: "./sponsors/intrakat_logo.png",
+    photo: "./sponsors/Intrakat_logo.png",
     type: "Platinum Sponsors",
   },
   {
     id: "partners4",
     fullname: "ElvalHalcor",
     url: "https://www.elvalhalcor.com/",
-    photo: "./sponsors/halcor_logo.jpg",
+    photo: "./sponsors/Halcor_logo.jpg",
     type: "Grand Sponsors",
   },
   {
@@ -38,7 +38,7 @@ export const PARTNERSLIST = [
     id: "partners6",
     fullname: "PWC",
     url: "https://www.pwc.com/gr/en.html",
-    photo: "./sponsors/Pwc.png",
+    photo: "./sponsors/pwc.png",
     type: "Grand Sponsors",
   },
   {
@@ -52,7 +52,7 @@ export const PARTNERSLIST = [
     id: "partners8",
     fullname: "DeepSea Technologies",
     url: "https://deepsea.ai/",
-    photo: "./sponsors/DeepSea_technologies.jpeg",
+    photo: "./sponsors/deepsea_technologies.jpeg",
     type: "Partners",
   },
   {
@@ -80,7 +80,7 @@ export const PARTNERSLIST = [
     id: "partners12",
     fullname: "Nestle",
     url: "https://www.nestle.gr/",
-    photo: "./sponsors/nestle_logo.png",
+    photo: "./sponsors/Nestle_logo.png",
     type: "Partners",
   },
   {
@@ -102,7 +102,7 @@ export const PARTNERSLIST = [
     id: "partners17",
     fullname: "Leo's House of Bagels",
     url: "https://leoshouseofbagels.com/",
-    photo: "./sponsors/leo_bagel_logo.jpeg",
+    photo: "./sponsors/LEO_BAGEL_LOGO.jpeg",
     type: "Supporters",
   },
   {
@@ -116,7 +116,7 @@ export const PARTNERSLIST = [
     id: "partners19",
     fullname: "IKEA",
     url: "https://www.ikea.gr/",
-    photo: "./sponsors/IKEA_logo.jpg",
+    photo: "./sponsors/IKEA_LOGO.jpg",
     type: "Supporters",
   },
   {
@@ -263,7 +263,7 @@ export const PARTNERSLIST = [
     id: "partners16",
     fullname: "IKY",
     url: "https://www.iky.gr/el/",
-    photo: "./sponsors/logoIKY.png",
+    photo: "./sponsors/LogoIKY.png",
     type: "Supporters",
   },
 ];
