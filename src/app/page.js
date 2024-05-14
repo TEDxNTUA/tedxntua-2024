@@ -39,13 +39,6 @@ export default function Home() {
   const paragraph2 =
     "Η εφημερία αποτελεί την αιτία, λόγω της οποίας όλα εξυψώνονται σε ένα βάθρο. Δεν είναι λίγες οι φορές που εφήμερα γεγονοτα αποδεικνύονται καθοριστικά (life changing)… Είναι δύσκολο να αποδεχθούμε την εφήμερη φύση όσων διαδραματίζονται γύρω μας ή και μέσα μας. Ωστόσο, όλα αλλάζουν και είναι εξαιρετικά σημαντικό να συμφιλιωθεί κανείς με την παροδικότητα που τον περιβάλλει. «Some ephemeral moments must be given a memory. The temporality of an instant may radiate a twinkle of eternity»";
 
-  if (isLoading)
-    return (
-      <AnimatePresence mode="wait">
-        <Preloader />
-      </AnimatePresence>
-    );
-
   return (
     <main
       className="mx-auto relative z-0 overflow-x-hidden"
@@ -57,6 +50,11 @@ export default function Home() {
         backgroundSize: "cover",
       }}
     >
+      {isLoading && (
+        <AnimatePresence mode="wait">
+          <Preloader />
+        </AnimatePresence>
+      )}
       <div className="1st-scroll desktop z-20 relative max-w-[2040px] h-[calc(100vh-65px)] max-h-[900px] hidden lg:grid lg:grid-cols-2 mx-auto w-full ">
         <div
           style={{
@@ -78,7 +76,6 @@ export default function Home() {
         </div>
         <Scene />
       </div>
-
       <div className="1st-scroll mobile-tablet lg:hidden z-20 relative">
         <div className="h-[calc(100vh-65px)] flex flex-col justify-center py-20">
           <Scene />
@@ -123,7 +120,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="2nd-scroll desktop hidden lg:grid grid-cols-2 z-20 relative max-w-[2040px] max-h-[900px] mx-auto w-full mb-[100px]">
         <div
           style={{
@@ -158,7 +154,6 @@ export default function Home() {
           />
         </div>
       </div>
-
       <div className="2nd-scroll mobile-tablet lg:hidden z-20 relative grid grid-cols-1 mx-auto w-full gap-12 mb-10 mt-10">
         <img
           src="./design/embrace-fleeting-horizontal.png"
@@ -190,7 +185,6 @@ export default function Home() {
           <Paragraph paragraph={paragraph2} />
         </div>
       </div>
-
       {/* <div className="3xl:hidden">
         <ImageSlider />
       </div>
