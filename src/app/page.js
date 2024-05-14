@@ -86,6 +86,19 @@ export default function Home() {
           >
             <p>Get your Tickets</p>
           </a>
+
+          {/* <a
+            // className=""
+            href="https://2023tedxntua.us21.list-manage.com/subscribe?u=8fb93651f7aa4956e92c4f188&id=1473802836"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              className="ticket h-[100px] mx-auto"
+              src="./ticket.png"
+              alt="ticket"
+            ></img>
+          </a> */}
         </div>
         <div
           style={{

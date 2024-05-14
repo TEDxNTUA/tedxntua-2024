@@ -35,7 +35,7 @@ export default function KakogiannisSmall() {
           backgroundImage: `url('./design/puprle-rec-bold.png')`,
           backgroundSize: "cover", // Optional: adjust as needed
         }}
-        className="h-[500px] md:h-[800px] mx-auto flex flex-col gap-8 relative justify-start items-center px-10 py-8 md:py-10"
+        className="h-[500px] md:h-[800px] mx-auto flex flex-col gap-20 md:gap-8 relative justify-start items-center px-10 py-8 md:py-10"
       >
         <div className="kakogiannis relative w-[80%]">
           <img
@@ -58,7 +58,7 @@ export default function KakogiannisSmall() {
         </div>
 
         <div className="paragraph flex flex-row-reverse">
-          <div className="w-[500px] text-white leading-tight break-words text-md justify-center flex flex-col items-center md:gap-2 gap-8">
+          <div className="w-[500px] text-white leading-tight break-words text-md justify-center flex flex-col items-center">
             {/* <motion.div
               style={{ x: -x }}
               className=" mx-auto w-[150px] h-[150px] text-white rounded-[50%] bg-our-blue hover:bg-blue-500 text-center flex cursor-pointer"
