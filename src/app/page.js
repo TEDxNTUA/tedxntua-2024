@@ -138,7 +138,7 @@ export default function Home() {
 
       <div className="2nd-scroll mobile-tablet lg:hidden z-20 relative grid grid-cols-1 mx-auto w-full gap-12 mb-10 mt-10">
         <img
-          src="/design/embrace-fleeting-horizontal.png"
+          src="./design/embrace-fleeting-horizontal.png"
           alt="embrace-feeling-text"
           className="w-[80%] md:w-[50%] mx-auto"
         />
