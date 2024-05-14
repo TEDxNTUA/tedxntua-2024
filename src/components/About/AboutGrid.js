@@ -14,40 +14,39 @@ export default function AboutGrid({ aboutlist }) {
     "/meetTheTeam/EXP/EXPERIENCE & WoRKSHoPs TEAM.jpg",
     "/meetTheTeam/MEDIA/MEDIA & MARKETING TEAM.jpg",
     "/meetTheTeam/VENUE/VENUE ANd PRoDUCTIoN TEAM.jpg",
-    "/meetTheTeam/SPEAKERS/SPEAKERS TEAM.jpg"
+    "/meetTheTeam/SPEAKERS/SPEAKERS TEAM.jpg",
   ];
 
   return (
-    <>
-      <div className="relative">
-      {/* <span className="text-5xl text-our-pink font-extrabold flex justify-center my-10 tracking-widest">
-          Meet the team
-        </span> */}
-        {displayOrder.map((teamUrl) => (
-          <div key={teamUrl} className="top-0 z-10">
-            <img
-              className={'pb-10'}
-              src={teamUrl}
-            />
-            <ul
-              // className={`grid grid-cols-1 md:grid-cols-3 lg:grid-cols- py-4 lg:py-8`}
-              className={'flex flex-wrap gap-5 lg:gap-10 items-center justify-center lg:mb-24'}
-            >
-              {filterPartnersByType(teamUrl).map((about, index) => (
-                <li
-                  key={index}
-                >
-                  <About
-                    photo={about.photo}
-                    fun={about.funny}
-                    link={about.linkedin}
-                  />
-                </li>
-              ))}
+    <div className="max-w-[2080px] relative mx-auto flex flex-col gap-6 lg:gap-12 pb-12 ">
+      {displayOrder.map(
+        (
+          teamUrl //map se kathe omada
+        ) => (
+          <div key={teamUrl}>
+            <img className="pb-10" src={teamUrl} />
+            <ul className="flex flex-row items-center gap-4 lg:gap-12 justify-center mx-auto flex-wrap w-[100%] md:w-[80%]">
+              {filterPartnersByType(teamUrl).map(
+                (
+                  about,
+                  index //kathe melos
+                ) => (
+                  <li
+                    className="h-[150px] w-[150px] md:h-[200px] md:w-[200px] lg:h-[250px] lg:w-[250px] 2xl:h-[300px] 2xl:w-[300px]"
+                    key={index}
+                  >
+                    <About
+                      photo={about.photo}
+                      fun={about.funny}
+                      link={about.linkedin}
+                    />
+                  </li>
+                )
+              )}
             </ul>
           </div>
-        ))}
-      </div>
-    </>
+        )
+      )}
+    </div>
   );
 }

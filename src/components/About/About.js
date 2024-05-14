@@ -9,31 +9,32 @@ export default function About({ fullname, photo, fun, link }) {
 
   return (
     <div
-      className="flex flex-col w-[250px] h-[250px] md:w-[150px] md:h-[150px] lg:w-[250px] lg:h-[250px]   lg:w-[300px] lg:h-[300px]  lg:border-black mx-auto cursor-pointer"
+      className="flex flex-col lg:h-[100px] lg:border-black mx-auto cursor-pointer"
       onClick={redirectToLink} // Call redirectToLink function on click
     >
-      <div className="relative">
-        <div
-          className="flex flex-col rounded-sm justify-center items-center group"
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-        >
-          <div className="object-top object-cover w-[28vh] h-[28vh] md:w-[36vh] md:h-[36vh]">
-            <img
-              className={`${
-                isHovered ? "hidden" : "block"
-              } object-top object-cover w-[28vh] h-[28vh] md:w-[36vh] md:h-[36vh]`}
-              src={photo}
-              alt={fullname}
-            />
-            <img
-              className={`${isHovered ? "block" : "hidden"}`}
-              src={fun}
-              alt={fullname}
-            />
-          </div>
+      {/* <div className=""> */}
+      <div
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        {/* <div className="object-top object-cover w-[28vh] h-[28vh] md:w-[36vh] md:h-[36vh]"> */}
+        <div>
+          <img
+            className={`${
+              isHovered ? "hidden" : "block"
+              // } object-top object-cover w-[28vh] h-[28vh] md:w-[36vh] md:h-[36vh]`}
+            } object-top object-cover`}
+            src={photo}
+            alt={fullname}
+          />
+          <img
+            className={`${isHovered ? "block" : "hidden"}`}
+            src={fun}
+            alt={fullname}
+          />
         </div>
       </div>
+      {/* </div> */}
     </div>
   );
 }
