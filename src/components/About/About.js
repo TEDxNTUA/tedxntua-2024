@@ -28,7 +28,7 @@ export default function About({ fullname, photo, fun, link }) {
             alt={fullname}
           />
           <img
-            className={`${isHovered ? "block" : "hidden"}`}
+            className={`${isHovered ? "block" : "hidden"} border-4 border-our-yellow rounded-md`}
             src={fun}
             alt={fullname}
           />
