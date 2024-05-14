@@ -166,7 +166,7 @@ export const ABOUTLIST = [
         fullname: "Tolis",
         linkedin: "https://www.linkedin.com/in/apostolos-tolis", 
         photo: "./meetTheTeam/MEDIA/TOLIS1.jpg",
-        funny: "./meetTheTeam/Media/TOLIS2.jpg",
+        funny: "./meetTheTeam/MEDIA/TOLIS2.jpg",
         team: "Media & Marketing",
         teamUrl: "./meetTheTeam/MEDIA/MEDIA & MARKETING TEAM.jpg",
       },
