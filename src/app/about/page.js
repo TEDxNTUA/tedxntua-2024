@@ -12,7 +12,7 @@ function AboutPage() {
         <div
           className="1st-scroll bg-fixed w-[100%] h-[calc(100vh-65px)] max-h-[900px] table py-28"
           style={{
-            backgroundImage: `url('/background/background.jpg')`,
+            backgroundImage: `url('./background/background.jpg')`,
             backgroundSize: "cover", // Optional: adjust as needed
           }}
         >
@@ -21,7 +21,7 @@ function AboutPage() {
         <div
           className="1st-scroll bg-fixed w-[100%] h-[calc(100vh-65px)] max-h-[400px] table  mb-28"
           style={{
-            backgroundImage: `url('/background/background.jpg')`,
+            backgroundImage: `url('./background/background.jpg')`,
             backgroundSize: "cover", // Optional: adjust as needed
           }}
         >

@@ -30,20 +30,20 @@ export default function KakogiannisSmall() {
     >
       <div
         style={{
-          backgroundImage: `url('/design/puprle-rec-bold.png')`,
+          backgroundImage: `url('./design/puprle-rec-bold.png')`,
           backgroundSize: "cover", // Optional: adjust as needed
         }}
         className="h-[500px] md:h-[800px] mx-auto flex flex-col gap-8 relative justify-start items-center px-10 py-8 md:py-10"
       >
         <div className="kakogiannis relative w-[80%]">
           <img
-            src="/design/kakogiannis-small.png"
+            src="./design/kakogiannis-small.png"
             alt="kakogiannis-institute-with-grid"
             className="z-10"
           />
           <motion.img
             style={{ x }}
-            src="/design/mcf-logo.png"
+            src="./design/mcf-logo.png"
             alt="kakogiannis-logo"
             className="absolute w-[100px] md:w-[150px] bottom-0 top-[50px] left-[15px] md:top-[100px] md:left-[30px]"
           />

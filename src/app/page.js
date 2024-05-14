@@ -43,7 +43,7 @@ export default function Home() {
     <main
       className="mx-auto relative z-0 overflow-x-hidden"
       style={{
-        backgroundImage: `url('/background/background-laptop-new.jpg')`,
+        backgroundImage: `url('./background/background-laptop-new.jpg')`,
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -83,7 +83,7 @@ export default function Home() {
         </div>
         <div
           style={{
-            backgroundImage: `url('/design/grid.png')`,
+            backgroundImage: `url('./design/grid.png')`,
             backgroundSize: "", // Optional: adjust as needed
           }}
           className="flex justify-center items-center h-[50vh] md:w-[70%] mx-auto"
@@ -110,7 +110,7 @@ export default function Home() {
           className="hidden lg:flex justify-center items-center xl:w-[600px] mb-10 ml-4"
         >
           <img
-            src="/design/apple.png"
+            src="./design/apple.png"
             alt="bitten-apple"
             className="w-1/2 z-30"
           />
@@ -145,13 +145,13 @@ export default function Home() {
 
         <div
           style={{
-            backgroundImage: `url('/design/grid.png')`,
+            backgroundImage: `url('./design/grid.png')`,
             backgroundSize: "", // Optional: adjust as needed
           }}
           className="flex justify-center items-center h-[50vh] md:w-[70%] mx-auto"
         >
           <img
-            src="/design/apple.png"
+            src="./design/apple.png"
             alt="bitten-apple"
             className="w-1/2 z-30"
           />
@@ -160,7 +160,7 @@ export default function Home() {
         <div
           className="text-white leading-tight break-words text-sm md:text-md py-8 px-4 w-[80%] md:w-[70%] mx-auto rounded-md"
           style={{
-            backgroundImage: `url('/design/purple-rect-small.png')`,
+            backgroundImage: `url('./design/purple-rect-small.png')`,
             backgroundSize: "", // Optional: adjust as needed
           }}
         >
