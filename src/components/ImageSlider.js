@@ -54,19 +54,20 @@ export default function ImageSlider() {
     <div
       ref={container}
       // className={styles.slidingImages}
-      className="flex flex-col gap-[3vw] max-w-[2040px] relative pt-[100px] bg-white z-10"
+      className="flex flex-col gap-[3vw] relative pt-[100px] bg-purple-100 z-10 max-width-[100%] overflow-x-hidden"
     >
       <motion.div
         style={{ x: x1 }}
         // className={styles.slider}
-        className="flex relative gap-[3vw] w-[120vw] max-w-[2300px] left-[-10vw]"
+        // className="flex relative gap-[3vw] w-[120vw] max-w-[2300px] left-[-10vw]"
+        className="flex relative gap-[3vw] w-[120vw] max-w-[2300px] left-[-30vw] md:left-[-10vw]"
       >
         {slider1.map((project, index) => {
           return (
             <div
               key={index}
               // className={styles.project}
-              className="w-[25%] h-[20vw] flex items-center justify-center"
+              className="w-[25%] h-[150px] md:h-[20vw] flex items-center justify-center"
               style={{ backgroundColor: project.color }}
             >
               {/* <div className={styles.imageContainer} */}
@@ -85,13 +86,13 @@ export default function ImageSlider() {
       </motion.div>
       <motion.div
         style={{ x: x2 }}
-        className="flex relative gap-[3vw] w-[120vw] max-w-[2300px] left-[-10vw]"
+        className="flex relative gap-[3vw] w-[120vw] max-w-[2300px] left-[10vw] md:left-[-10vw]"
       >
         {slider2.map((project, index) => {
           return (
             <div
               key={index}
-              className="w-[25%] h-[20vw] flex items-center justify-center"
+              className="w-[25%] h-[150px] md:h-[20vw] flex items-center justify-center"
               style={{ backgroundColor: project.color }}
             >
               <div key={index} className="relative w-[80%] h-[80%]">
@@ -108,7 +109,7 @@ export default function ImageSlider() {
         })}
       </motion.div>
       <motion.div style={{ height }} className="relative mt-[100px]">
-        <div className="h-[1550%] w-[120%] left-[-10%] bg-white z-[1] absolute rounded-b-[50%] shadow-md"></div>
+        <div className="h-[1550%] w-[120%] left-[-10%] bg-purple-100 z-[1] absolute rounded-b-[50%] shadow-md"></div>
       </motion.div>
       {/* border-radius: 0 0 50% 50%   
       box-shadow: 0px 60px 50px rgba(0, 0, 0, 0.748); */}

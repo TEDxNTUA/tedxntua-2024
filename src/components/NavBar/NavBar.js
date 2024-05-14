@@ -46,7 +46,7 @@ function NewNavbar() {
 
   return (
     <nav className="sticky flex w-full top-0 left-0 right-0 z-50 bg-black">
-      <div className="flex w-[85%] lg:max-w-[100rem] h-[65px] px-6 items-center justify-between mx-auto">
+      <div className="flex w-[85%] lg:max-w-[2040px] h-[65px] px-6 items-center justify-between mx-auto">
         <Link onClick={closeDrawer} href="/">
           <img
             src="./tedxntua_logo.png"
