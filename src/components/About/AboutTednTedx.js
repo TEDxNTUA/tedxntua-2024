@@ -1,6 +1,6 @@
 function AboutTednTedx() {
   return (
-    <div class="about"
+    <div className="about"
     >
       <div className="text-white flex flex-col lg:flex-row lg:justify-between gap-[4rem] text-justify lg:text-left lg:w-[80%] mx-auto">
         <div className="left-col lg:width-[54%] w-[80%] lg:max-w-[50rem] mx-auto">

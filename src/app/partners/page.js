@@ -4,7 +4,12 @@ import { PARTNERSLIST } from "../../../data/partners";
 function PartnersPage() {
   return (
     <main>
-      <div className="bg-[url('/background/background-phone.jpg')]  bg-cover">
+      <div
+        style={{
+          backgroundImage: `url('./background/background-phone.jpg')`,
+          backgroundSize: "cover", // Optional: adjust as needed
+        }}
+      >
         <PartnersGrid partnerslist={PARTNERSLIST} />
       </div>
     </main>
