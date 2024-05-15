@@ -34,8 +34,7 @@ export default function Home() {
   }, []);
 
   const paragraph1 =
-    "Το θέμα που ετοιμάζει η φετινή ομάδα του TEDxNTUA είναι το EPHEMERAL. Το TEDxNTUA 2024, πραγματεύεται το αναπόφευκτο τέλος των πάντων και την κινητήρια δύναμη που πηγάζει από την σκιά αυτού του τέλους. Η παροδικότητα αποτελεί την αιτία, λόγω της οποίας όλα εξυψώνονται σε ένα βάθρο. Η παροδική φύση των πραγμάτων δίνει έναυσμα στην συνεχή διατήρηση και εξέλιξη. Ενώ ξέρουμε ότι όλα αλλάζουν και οτιδήποτε -γύρω μας ή και μέσα μας- είναι παροδικό, μπορεί να δυσκολευόμαστε επειδή δεν θέλουμε να αποδεχθούμε την εφήμερη φύση των πραγμάτων. Γι’ αυτό είναι πολύ σημαντικό να συμφιλιωθεί κανείς με την παροδικότητα. In brief, what is ephemeral may not be the object itself, but the attention we afford it and how much we are involved";
-
+    "Το θέμα που ετοιμάζει η φετινή ομάδα του TEDxNTUA είναι το EPHEMERAL. Το TEDxNTUA 2024 εξερευνά την πολυδιάστατη έννοια της παροδικότητας, δηλαδή την ιδέα του προσωρινού, αυτού που έχει μια αρχή και ένα τέλος, ωστόσο εξελίσσεται στη διάρκεια του χρόνου. Το εφήμερο είναι παρόν σε όλη την διάρκεια της ζωής μας και επισημαίνει τη μοναδικότητα και την αξία της κάθε στιγμής. Στην ημερίδα μας, θα αναδείξουμε το τρόπο με τον οποίο η συμφιλίωση με την εφήμερη φύση των πραγμάτων μετατρέπεται σε κινητηρια δύναμη και πηγή έμπνευσης.";
   const paragraph2 =
     "Η εφημερία αποτελεί την αιτία, λόγω της οποίας όλα εξυψώνονται σε ένα βάθρο. Δεν είναι λίγες οι φορές που εφήμερα γεγονοτα αποδεικνύονται καθοριστικά (life changing)… Είναι δύσκολο να αποδεχθούμε την εφήμερη φύση όσων διαδραματίζονται γύρω μας ή και μέσα μας. Ωστόσο, όλα αλλάζουν και είναι εξαιρετικά σημαντικό να συμφιλιωθεί κανείς με την παροδικότητα που τον περιβάλλει. «Some ephemeral moments must be given a memory. The temporality of an instant may radiate a twinkle of eternity»";
 
@@ -114,7 +113,7 @@ export default function Home() {
               data-scroll-speed={0.1}
               className="flex flex-col gap-2 text-lg m-auto text-white tracking-wider w-3/5"
             >
-              <p>What is ephemeral may not be the object itself,</p>
+              <p>In brief, what is ephemeral may not be the object itself,</p>
               <p>but the attention we afford it and how much we are involved</p>
             </div>
           </div>
@@ -182,7 +181,7 @@ export default function Home() {
             backgroundSize: "", // Optional: adjust as needed
           }}
         >
-          <Paragraph paragraph={paragraph2} />
+          <Paragraph paragraph={paragraph1} />
         </div>
       </div>
       {/* <div className="3xl:hidden">

@@ -17,7 +17,7 @@ export default function Kakogiannis() {
   // const rotate = useTransform(scrollYProgress, [0, 1], [120, 90]);
 
   const paragraph1 =
-    "Το θέμα που ετοιμάζει η φετινή ομάδα του TEDxNTUA είναι το EPHEMERAL. Το TEDxNTUA 2024, πραγματεύεται το αναπόφευκτο τέλος των πάντων και την κινητήρια δύναμη που πηγάζει από την σκιά αυτού του τέλους. Η παροδικότητα αποτελεί την αιτία, λόγω της οποίας όλα εξυψώνονται σε ένα βάθρο. Η παροδική φύση των πραγμάτων δίνει έναυσμα στην συνεχή διατήρηση και εξέλιξη. Ενώ ξέρουμε ότι όλα αλλάζουν και οτιδήποτε -γύρω μας ή και μέσα μας- είναι παροδικό.";
+    "Στις 25 Μαΐου 2024, η ομάδα του TEDxNTUA επιστρέφει στο Ίδρυμα Μιχάλης Κακογιάννης με σκοπό να εξερευνήσει τη σημασία του εφήμερου και του παροδικού. Αυτού που αρχίζει, τελειώνει κι εξελίσσεται. Εάν θέλεις να ζήσεις από κοντά αυτή την εμπειρία, μπορείς να εξασφαλίσεις το εισιτήριό σου εδώ: ";
 
   return (
     <div
@@ -69,7 +69,6 @@ export default function Kakogiannis() {
                 className="hover:cursor-pointer"
                 href="https://www.eventora.com/el/Events/ephemeral"
                 target="_blank"
-
                 rel="noopener noreferrer"
               >
                 {/* <Rounded className="w-[180px] h-[180px] text-white rounded-[50%] flex bg-our-blue items-center justify-center cursor-pointer"> */}
