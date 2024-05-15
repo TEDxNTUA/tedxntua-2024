@@ -66,7 +66,7 @@ export default function Kakogiannis() {
               className="left-[calc(100% - 500px)] mx-auto w-[180px] h-[180px] text-white rounded-[50%] flex bg-our-blue hover:bg-blue-500 items-center justify-center cursor-pointer"
             >
               <a
-                className="hover:cursor-pointer"
+                className="hover:cursor-pointer z-[50]"
                 href="https://www.eventora.com/el/Events/ephemeral"
                 target="_blank"
                 rel="noopener noreferrer"
