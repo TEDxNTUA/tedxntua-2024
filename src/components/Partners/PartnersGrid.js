@@ -11,18 +11,19 @@ export default function PartnersGrid({ partnerslist }) {
     "Grand Sponsors",
     "Partners",
     "Supporters",
+    "Αποκλειστικός Χορηγός Αερομεταφορών",
   ];
 
   return (
     <>
       <div className="relative">
         {displayOrder.map((type) => (
-          <div key={type} className="top-0 z-10">
+          <div key={type} className="top-0 z-10 w-10/12 mx-auto">
             <h2 className="text-5xl font-bold text-[#CFF301] text-center py-10">
               {type}
             </h2>
             <ul
-              className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-4 lg:py-8`}
+              className={`flex flex-row flex-wrap lg:gap-20 justify-center py-4 lg:py-8`}
             >
               {filterPartnersByType(type).map((partner, index) => (
                 <li

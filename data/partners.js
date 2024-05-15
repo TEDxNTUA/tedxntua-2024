@@ -13,13 +13,13 @@ export const PARTNERSLIST = [
     photo: "./sponsors/oliverwyman.png",
     type: "Platinum Sponsors",
   },
-  {
-    id: "partners3",
-    fullname: "Intrakat",
-    url: "https://www.intrakat.gr/",
-    photo: "./sponsors/Intrakat_logo.png",
-    type: "Platinum Sponsors",
-  },
+  // {
+  //   id: "partners3",
+  //   fullname: "Intrakat",
+  //   url: "https://www.intrakat.gr/",
+  //   photo: "./sponsors/Intrakat_logo.png",
+  //   type: "Platinum Sponsors",
+  // },
   {
     id: "partners4",
     fullname: "ElvalHalcor",
@@ -53,7 +53,7 @@ export const PARTNERSLIST = [
     fullname: "DeepSea Technologies",
     url: "https://deepsea.ai/",
     photo: "./sponsors/deepsea_technologies.jpeg",
-    type: "Partners",
+    type: "Supporters",
   },
   {
     id: "partners9",
@@ -265,5 +265,12 @@ export const PARTNERSLIST = [
     url: "https://www.iky.gr/el/",
     photo: "./sponsors/LogoIKY.png",
     type: "Supporters",
+  },
+  {
+    id: "partners39",
+    fullname: "Aegean Airlines",
+    url: "https://el.aegeanair.com/",
+    photo: "./sponsors/aegean_logo.png",
+    type: "Αποκλειστικός Χορηγός Αερομεταφορών",
   },
 ];
