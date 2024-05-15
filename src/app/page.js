@@ -68,7 +68,7 @@ export default function Home() {
               data-scroll-speed={0.5}
               className="flex flex-col gap-2 text-2xl m-auto text-white tracking-wider w-3/5"
             >
-              <p>What is ephemeral may not be the object itself,</p>
+              <p>In brief, what is ephemeral may not be the object itself,</p>
               <p>but the attention we afford it and how much we are involved</p>
             </div>
           </div>
