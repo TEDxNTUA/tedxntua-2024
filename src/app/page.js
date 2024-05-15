@@ -5,8 +5,8 @@ import dynamic from "next/dynamic";
 
 import Preloader from "@/components/Preloader/Preloader";
 import Paragraph from "@/components/Paragraph/Paragraph";
-import ImageSlider from "@/components/ImageSlider";
-import ImageGrid from "@/components/ImageGrid";
+// import ImageSlider from "@/components/ImageSlider";
+// import ImageGrid from "@/components/ImageGrid";
 import Kakogiannis from "@/components/Kakogiannis/Kakogiannis";
 import KakogiannisSmall from "@/components/Kakogiannis/KakogiannisSmall";
 
@@ -54,7 +54,8 @@ export default function Home() {
   }, []);
 
   const paragraph1 =
-    "Το θέμα που ετοιμάζει η φετινή ομάδα του TEDxNTUA είναι το EPHEMERAL. Το TEDxNTUA 2024 εξερευνά την πολυδιάστατη έννοια της παροδικότητας, δηλαδή την ιδέα του προσωρινού, αυτού που έχει μια αρχή και ένα τέλος, ωστόσο εξελίσσεται στη διάρκεια του χρόνου. Το εφήμερο είναι παρόν σε όλη την διάρκεια της ζωής μας και επισημαίνει τη μοναδικότητα και την αξία της κάθε στιγμής. Στην ημερίδα μας, θα αναδείξουμε το τρόπο με τον οποίο η συμφιλίωση με την εφήμερη φύση των πραγμάτων μετατρέπεται σε κινητηρια δύναμη και πηγή έμπνευσης.";
+    "Το θέμα που ετοιμάζει η φετινή ομάδα του TEDxNTUA είναι το EPHEMERAL. Το TEDxNTUA 2024, πραγματεύεται το αναπόφευκτο τέλος των πάντων και την κινητήρια δύναμη που πηγάζει από την σκιά αυτού του τέλους. Η παροδικότητα αποτελεί την αιτία, λόγω της οποίας όλα εξυψώνονται σε ένα βάθρο. Η παροδική φύση των πραγμάτων δίνει έναυσμα στην συνεχή διατήρηση και εξέλιξη. Ενώ ξέρουμε ότι όλα αλλάζουν και οτιδήποτε -γύρω μας ή και μέσα μας- είναι παροδικό, μπορεί να δυσκολευόμαστε επειδή δεν θέλουμε να αποδεχθούμε την εφήμερη φύση των πραγμάτων. Γι’ αυτό είναι πολύ σημαντικό να συμφιλιωθεί κανείς με την παροδικότητα. In brief, what is ephemeral may not be the object itself, but the attention we afford it and how much we are involved";
+
   const paragraph2 =
     "Η εφημερία αποτελεί την αιτία, λόγω της οποίας όλα εξυψώνονται σε ένα βάθρο. Δεν είναι λίγες οι φορές που εφήμερα γεγονοτα αποδεικνύονται καθοριστικά (life changing)… Είναι δύσκολο να αποδεχθούμε την εφήμερη φύση όσων διαδραματίζονται γύρω μας ή και μέσα μας. Ωστόσο, όλα αλλάζουν και είναι εξαιρετικά σημαντικό να συμφιλιωθεί κανείς με την παροδικότητα που τον περιβάλλει. «Some ephemeral moments must be given a memory. The temporality of an instant may radiate a twinkle of eternity»";
 
@@ -70,11 +71,9 @@ export default function Home() {
         backgroundSize: "cover",
       }}
     >
-      {isLoading && (
-        <AnimatePresence mode="wait">
-          <Preloader />
-        </AnimatePresence>
-      )}
+      <AnimatePresence mode="wait">
+        {isLoading && <Preloader />}
+      </AnimatePresence>
       <div className="1st-scroll desktop z-20 relative max-w-[2040px] h-[calc(100vh-65px)] max-h-[900px] hidden lg:grid lg:grid-cols-2 mx-auto w-full ">
         <div
           style={{
@@ -89,19 +88,20 @@ export default function Home() {
               data-scroll-speed={0.5}
               className="flex flex-col gap-2 text-2xl m-auto text-white tracking-wider w-3/5"
             >
-              <p>In brief, what is ephemeral may not be the object itself,</p>
+              <p>What is ephemeral may not be the object itself,</p>
               <p>but the attention we afford it and how much we are involved</p>
             </div>
           </div>
         </div>
         <Scene />
       </div>
+
       <div className="1st-scroll mobile-tablet lg:hidden z-20 relative">
         <div className="h-[calc(100vh-65px)] flex flex-col justify-center py-20">
           <Scene />
           <a
             className="hover:cursor-pointer p-8 py-4 bg-our-blue hover:bg-blue-500 rounded-lg w-[50%] text-[16px] text-white font-light text-center mx-auto"
-            href="https://www.eventora.com/el/Events/ephemeral"
+            href="https://2023tedxntua.us21.list-manage.com/subscribe?u=8fb93651f7aa4956e92c4f188&id=1473802836"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -110,7 +110,7 @@ export default function Home() {
 
           {/* <a
             // className=""
-            href="https://www.eventora.com/el/Events/ephemeral"
+            href="https://2023tedxntua.us21.list-manage.com/subscribe?u=8fb93651f7aa4956e92c4f188&id=1473802836"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -134,12 +134,13 @@ export default function Home() {
               data-scroll-speed={0.1}
               className="flex flex-col gap-2 text-lg m-auto text-white tracking-wider w-3/5"
             >
-              <p>In brief, what is ephemeral may not be the object itself,</p>
+              <p>What is ephemeral may not be the object itself,</p>
               <p>but the attention we afford it and how much we are involved</p>
             </div>
           </div>
         </div>
       </div>
+
       <div className="2nd-scroll desktop hidden lg:grid grid-cols-2 z-20 relative max-w-[2040px] max-h-[900px] mx-auto w-full mb-[100px]">
         <div
           style={{
@@ -174,6 +175,7 @@ export default function Home() {
           />
         </div>
       </div>
+
       <div className="2nd-scroll mobile-tablet lg:hidden z-20 relative grid grid-cols-1 mx-auto w-full gap-12 mb-10 mt-10">
         <img
           src="./design/embrace-fleeting-horizontal.png"
@@ -202,9 +204,10 @@ export default function Home() {
             backgroundSize: "", // Optional: adjust as needed
           }}
         >
-          <Paragraph paragraph={paragraph1} />
+          <Paragraph paragraph={paragraph2} />
         </div>
       </div>
+
       {/* <div className="3xl:hidden">
         <ImageSlider />
       </div>

@@ -28,14 +28,14 @@ export default function KakogiannisSmall() {
     //   ref={container}
     //   className="h-[500px] md:h-[800px] 3xl:h-[900px] max-w-[2040px] mx-auto"
     // >
-    <div className="max-w-[2040px] mx-auto ">
+    <div className="max-w-[2040px] mx-auto">
       <div
         ref={container}
         style={{
           backgroundImage: `url('./design/puprle-rec-bold.png')`,
           backgroundSize: "cover", // Optional: adjust as needed
         }}
-        className="h-[500px] md:h-[800px] mx-auto flex flex-col gap-20 md:gap-8 relative justify-start items-center px-10 py-8 md:py-10"
+        className="h-[550px] md:h-[800px] mx-auto flex flex-col gap-20 md:gap-8 relative justify-start items-center px-10 py-8 md:py-10"
       >
         <div className="kakogiannis relative w-[80%]">
           <img
@@ -66,7 +66,7 @@ export default function KakogiannisSmall() {
             {/* <Rounded className="w-[180px] h-[180px] text-white rounded-[50%] flex bg-our-blue items-center justify-center cursor-pointer"> */}
             <motion.p
               style={{ x }}
-              className="m-0 text-[16px] font-light z-[2] text-center p-8 py-4 bg-our-blue hover:bg-blue-500 rounded-lg"
+              className="text-[16px] font-light z-[2] text-center p-8 py-4 bg-our-blue hover:bg-blue-500 rounded-lg"
             >
               <a
                 className="hover:cursor-pointer"

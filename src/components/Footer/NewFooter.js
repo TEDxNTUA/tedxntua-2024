@@ -13,7 +13,7 @@ function NewFooter() {
       if (window.innerWidth >= 768) {
         setBackgroundImage(`url('./background/background-laptop-new.jpg')`);
       } else {
-        setBackgroundImage(`url('./background/background-mobile.png')`);
+        setBackgroundImage(`url('./background/background-phone.jpg')`);
       }
     };
 
