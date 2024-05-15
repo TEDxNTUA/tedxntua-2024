@@ -26,7 +26,7 @@ function PartnersPage() {
   }, []);
 
   return (
-    <main className="max-w-[2040px] mx-auto">
+    <main className="max-w-[2040px] mx-auto mt-[65px]">
       <div
         style={{
           // backgroundImage: `url('./background/background-laptop-new.jpg')`,

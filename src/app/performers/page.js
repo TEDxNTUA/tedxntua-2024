@@ -34,7 +34,7 @@ function Performes() {
         backgroundSize: "cover",
       }}
     >
-      <div className="pb-10 max-w-[2040px] mx-auto">
+      <div className="pb-10 max-w-[2040px] mx-auto mt-[65px]">
         <PerformersGrid performworkslist={PERFORMWORKSLIST} />
       </div>
     </main>
