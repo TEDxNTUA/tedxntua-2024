@@ -35,7 +35,7 @@ export default function KakogiannisSmall() {
           backgroundImage: `url('./design/puprle-rec-bold.png')`,
           backgroundSize: "cover", // Optional: adjust as needed
         }}
-        className="h-[500px] md:h-[800px] mx-auto flex flex-col gap-20 md:gap-8 relative justify-start items-center px-10 py-8 md:py-10"
+        className="h-[550px] md:h-[800px] mx-auto flex flex-col gap-20 md:gap-8 relative justify-start items-center px-10 py-8 md:py-10"
       >
         <div className="kakogiannis relative w-[80%]">
           <img
