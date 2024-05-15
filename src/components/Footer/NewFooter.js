@@ -1,15 +1,36 @@
 "use client";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import styles from "./magnetic.module.css";
 import SocialMediaFooter from "./SocialMediaFooter";
 import Magnetic from "../../common/Magnetic";
 
 function NewFooter() {
+  const [backgroundImage, setBackgroundImage] = useState("");
+
+  useEffect(() => {
+    const setBgImage = () => {
+      if (window.innerWidth >= 768) {
+        setBackgroundImage(`url('./background/background-laptop-new.jpg')`);
+      } else {
+        setBackgroundImage(`url('./background/background-mobile.png')`);
+      }
+    };
+
+    setBgImage();
+
+    window.addEventListener("resize", setBgImage);
+
+    return () => {
+      window.removeEventListener("resize", setBgImage);
+    };
+  }, []);
+
   return (
     <footer
       style={{
         // backgroundImage: `url('./background/background-laptop-new.jpg')`,
-        backgroundImage: `url('./background/background-phone.jpg')`,
+        backgroundImage: backgroundImage,
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
