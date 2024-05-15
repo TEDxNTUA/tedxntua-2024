@@ -55,13 +55,13 @@ export const PARTNERSLIST = [
     photo: "./sponsors/deepsea_technologies.jpeg",
     type: "Supporters",
   },
-  {
-    id: "partners9",
-    fullname: "Perfetti Van Melle",
-    url: "https://www.perfettivanmelle.com/",
-    photo: "./sponsors/perfetti_logo.jpg",
-    type: "Partners",
-  },
+  // {
+  //   id: "partners9",
+  //   fullname: "Perfetti Van Melle",
+  //   url: "https://www.perfettivanmelle.com/",
+  //   photo: "./sponsors/perfetti_logo.jpg",
+  //   type: "Partners",
+  // },
   {
     id: "partners10",
     fullname: "Papoutsanis",
@@ -123,7 +123,7 @@ export const PARTNERSLIST = [
     id: "partners20",
     fullname: "ΝΑΝΟΥ",
     url: "https://www.nanoudonutshouse.com/",
-    photo: "./sponsors/nanou.jpeg",
+    photo: "./sponsors/nanou.png",
     type: "Supporters",
   },
   {
