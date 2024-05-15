@@ -26,13 +26,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        style={{
-          backgroundImage: `url('./background/background-laptop-new.jpg')`,
-          backgroundAttachment: "fixed",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
+        // style={{
+        //   // backgroundImage: `url('./background/background-laptop-new.jpg')`,
+        //   backgroundImage: backgroundImage,
+        //   backgroundAttachment: "fixed",
+        //   backgroundPosition: "center",
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundSize: "cover",
+        // }}
         className="font-[aestheticRegular]"
       >
         <NewNavbar />
