@@ -61,23 +61,23 @@ export default function Kakogiannis() {
             </div>
             <p className="hidden 3xl:block text-xl">{paragraph1}</p>
 
-            <motion.div
-              style={{ x }}
-              className="left-[calc(100% - 500px)] mx-auto w-[180px] h-[180px] text-white rounded-[50%] flex bg-our-blue hover:bg-blue-500 items-center justify-center cursor-pointer"
+            <a
+              className="hover:cursor-pointer z-[50]"
+              href="https://www.eventora.com/el/Events/ephemeral"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <a
-                className="hover:cursor-pointer z-[50]"
-                href="https://www.eventora.com/el/Events/ephemeral"
-                target="_blank"
-                rel="noopener noreferrer"
+              <motion.div
+                style={{ x }}
+                className="left-[calc(100% - 500px)] mx-auto w-[180px] h-[180px] text-white rounded-[50%] flex bg-our-blue hover:bg-blue-500 items-center justify-center cursor-pointer"
               >
                 {/* <Rounded className="w-[180px] h-[180px] text-white rounded-[50%] flex bg-our-blue items-center justify-center cursor-pointer"> */}
                 <p className="m-0 text-[16px] font-light z-[2] relative">
                   Get your Tickets
                 </p>
-              </a>
-              {/* </Rounded> */}
-            </motion.div>
+                {/* </Rounded> */}
+              </motion.div>
+            </a>
           </div>
         </div>
       </div>
