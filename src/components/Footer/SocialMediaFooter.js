@@ -18,37 +18,37 @@ function SocialMediaFooter() {
         link={socialMediaLinks.instagram}
         iconName={"instagram"}
         color={"white"}
-        hoverColor={"black"}
+        hoverColor={"yellow"}
       />
       <SocialMediaItem
         link={socialMediaLinks.facebook}
         iconName={"facebook-f"}
         color={"white"}
-        hoverColor={"black"}
+        hoverColor={"yellow"}
       />
       <SocialMediaItem
         link={socialMediaLinks.tiktok}
         iconName={"tiktok"}
         color={"white"}
-        hoverColor={"black"}
+        hoverColor={"yellow"}
       />
       <SocialMediaItem
         link={socialMediaLinks.linkedin}
         iconName={"linkedin"}
         color={"white"}
-        hoverColor={"black"}
+        hoverColor={"yellow"}
       />
       <SocialMediaItem
         link={socialMediaLinks.spotify}
         iconName={"spotify"}
         color={"white"}
-        hoverColor={"black"}
+        hoverColor={"yellow"}
       />
       <SocialMediaItem
         link={socialMediaLinks.youtube}
         iconName={"youtube"}
         color={"white"}
-        hoverColor={"black"}
+        hoverColor={"yellow"}
       />
     </div>
   );
