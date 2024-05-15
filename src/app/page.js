@@ -97,7 +97,7 @@ export default function Home() {
         <Scene />
       </div>
       <div className="1st-scroll mobile-tablet lg:hidden z-20 relative">
-        <div className="h-[calc(100vh-65px)] flex flex-col justify-center py-20">
+        <div className="h-[calc(100vh-65px)] mt-[65px] flex flex-col justify-center py-20">
           <Scene />
           <a
             className="hover:cursor-pointer p-8 py-4 bg-our-blue hover:bg-blue-500 rounded-lg w-[50%] text-[16px] text-white font-light text-center mx-auto"
@@ -212,10 +212,10 @@ export default function Home() {
         <ImageGrid />
       </div> */}
       {/* <Contact /> */}
-      <div className="hidden lg:block">
+      <div className="hidden lg:block mb-[100px]">
         <Kakogiannis />
       </div>
-      <div className="block lg:hidden">
+      <div className="block lg:hidden mb-[100px]">
         <KakogiannisSmall />
       </div>
       {/* <Kakogiannis /> */}
