@@ -6,7 +6,17 @@ import Magnetic from "../../common/Magnetic";
 
 function NewFooter() {
   return (
-    <footer className="c-footer relative overflow-hidden pt-[2rem] sm:pt-[1rem] md:pt-[10rem] z-[0] max-w-[2040px] mx-auto">
+    <footer
+      style={{
+        // backgroundImage: `url('./background/background-laptop-new.jpg')`,
+        backgroundImage: `url('./background/background-phone.jpg')`,
+        backgroundAttachment: "fixed",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+      className="c-footer relative overflow-hidden pt-[2rem] sm:pt-[1rem] md:pt-[10rem] z-[0] max-w-[2040px] mx-auto"
+    >
       <div className="c-footer-animation w-embed h-[100vh] object-cover md:object-none md:height-[50rem] absolute top-0 right-0 left-0 bottom-0">
         <svg
           className="overflow-hidden z-0"

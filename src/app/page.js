@@ -20,6 +20,26 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
   // UNCOMMENT FOR PRELOADRE
 
+  const [backgroundImage, setBackgroundImage] = useState("");
+
+  useEffect(() => {
+    const setBgImage = () => {
+      if (window.innerWidth >= 768) {
+        setBackgroundImage(`url('./background/background-laptop-new.jpg')`);
+      } else {
+        setBackgroundImage(`url('./background/background-phone.jpg')`);
+      }
+    };
+
+    setBgImage();
+
+    window.addEventListener("resize", setBgImage);
+
+    return () => {
+      window.removeEventListener("resize", setBgImage);
+    };
+  }, []);
+
   useEffect(() => {
     (async () => {
       const LocomotiveScroll = (await import("locomotive-scroll")).default;
@@ -42,7 +62,8 @@ export default function Home() {
     <main
       className="mx-auto relative z-0 overflow-x-hidden"
       style={{
-        backgroundImage: `url('./background/background-laptop-new.jpg')`,
+        // backgroundImage: `url('./background/background-laptop-new.jpg')`,
+        backgroundImage: backgroundImage,
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
