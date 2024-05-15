@@ -81,7 +81,7 @@ export default function Home() {
           <Scene />
           <a
             className="hover:cursor-pointer p-8 py-4 bg-our-blue hover:bg-blue-500 rounded-lg w-[50%] text-[16px] text-white font-light text-center mx-auto"
-            href="https://2023tedxntua.us21.list-manage.com/subscribe?u=8fb93651f7aa4956e92c4f188&id=1473802836"
+            href="https://www.eventora.com/el/Events/ephemeral"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -90,7 +90,7 @@ export default function Home() {
 
           {/* <a
             // className=""
-            href="https://2023tedxntua.us21.list-manage.com/subscribe?u=8fb93651f7aa4956e92c4f188&id=1473802836"
+            href="https://www.eventora.com/el/Events/ephemeral"
             target="_blank"
             rel="noopener noreferrer"
           >

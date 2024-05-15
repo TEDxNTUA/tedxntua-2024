@@ -75,7 +75,7 @@ function NewNavbar() {
 
           <a
             // className=""
-            href="https://2023tedxntua.us21.list-manage.com/subscribe?u=8fb93651f7aa4956e92c4f188&id=1473802836"
+            href="https://www.eventora.com/el/Events/ephemeral"
             target="_blank"
             rel="noopener noreferrer"
           >
