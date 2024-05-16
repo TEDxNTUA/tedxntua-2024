@@ -29,6 +29,13 @@ export const PARTNERSLIST = [
   },
   {
     id: "partners5",
+    fullname: "ΔΕΗ",
+    url: "https://www.dei.gr/",
+    photo: "./sponsors/dei_logo.jpg",
+    type: "Grand Sponsors",
+  },
+  {
+    id: "partners5",
     fullname: "Cenergy Holdings",
     url: "https://cenergyholdings.com/el/",
     photo: "./sponsors/cenergy.jpeg",
