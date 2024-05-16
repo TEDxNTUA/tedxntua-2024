@@ -1,8 +1,8 @@
 export const PARTNERSLIST = [
   {
     id: "partners1",
-    fullname: "Netcompany-Intrasoft",
-    url: "https://www.netcompany-intrasoft.com/",
+    fullname: "Netcompany",
+    url: "https://netcompany.com/",
     photo: "./sponsors/netcompany.png",
     type: "Platinum Sponsors",
   },
@@ -55,13 +55,7 @@ export const PARTNERSLIST = [
     photo: "./sponsors/scg_logo.jpg",
     type: "Partners",
   },
-  {
-    id: "partners8",
-    fullname: "DeepSea Technologies",
-    url: "https://deepsea.ai/",
-    photo: "./sponsors/deepsea_technologies.jpeg",
-    type: "Supporters",
-  },
+
   // {
   //   id: "partners9",
   //   fullname: "Perfetti Van Melle",
@@ -89,6 +83,41 @@ export const PARTNERSLIST = [
     url: "https://www.nestle.gr/",
     photo: "./sponsors/Nestle_logo.png",
     type: "Partners",
+  },
+  {
+    id: "partners13",
+    fullname: "Symetal",
+    url: "https://www.symetal.gr/en/home-page",
+    photo: "./sponsors/symetal_logo.jpeg",
+    type: "Supporters",
+  },
+  {
+    id: "partners14",
+    fullname: "Ελληνική Παραγωγή",
+    url: "https://hellenicproduction.org/",
+    photo: "./sponsors/greek_production_logo.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners15",
+    fullname: "Flexopack",
+    url: "https://www.flexopack.com/",
+    photo: "./sponsors/flexopack_logo.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners16",
+    fullname: "IKY",
+    url: "https://www.iky.gr/el/",
+    photo: "./sponsors/LogoIKY.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners8",
+    fullname: "DeepSea Technologies",
+    url: "https://deepsea.ai/",
+    photo: "./sponsors/deepsea_technologies.jpeg",
+    type: "Supporters",
   },
   {
     id: "partners25",
@@ -119,6 +148,7 @@ export const PARTNERSLIST = [
     photo: "./sponsors/kleidarithmos_logo.png",
     type: "Supporters",
   },
+
   {
     id: "partners19",
     fullname: "IKEA",
@@ -245,34 +275,7 @@ export const PARTNERSLIST = [
     photo: "./sponsors/perfetto.png",
     type: "Supporters",
   },
-  {
-    id: "partners13",
-    fullname: "Symetal",
-    url: "https://www.symetal.gr/en/home-page",
-    photo: "./sponsors/symetal_logo.jpeg",
-    type: "Supporters",
-  },
-  {
-    id: "partners14",
-    fullname: "Ελληνική Παραγωγή",
-    url: "https://hellenicproduction.org/",
-    photo: "./sponsors/greek_production_logo.png",
-    type: "Supporters",
-  },
-  {
-    id: "partners15",
-    fullname: "Flexopack",
-    url: "https://www.flexopack.com/",
-    photo: "./sponsors/flexopack_logo.png",
-    type: "Supporters",
-  },
-  {
-    id: "partners16",
-    fullname: "IKY",
-    url: "https://www.iky.gr/el/",
-    photo: "./sponsors/LogoIKY.png",
-    type: "Supporters",
-  },
+
   {
     id: "partners39",
     fullname: "Aegean Airlines",
