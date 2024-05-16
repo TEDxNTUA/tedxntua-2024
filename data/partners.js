@@ -24,7 +24,7 @@ export const PARTNERSLIST = [
     id: "partners4",
     fullname: "ElvalHalcor",
     url: "https://www.elvalhalcor.com/",
-    photo: "./sponsors/Halcor_logo.jpg",
+    photo: "./sponsors/elval-halcor.png",
     type: "Grand Sponsors",
   },
   {
