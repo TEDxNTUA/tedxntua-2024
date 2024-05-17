@@ -39,7 +39,7 @@ export const PARTNERSLIST = [
     id: "partners5",
     fullname: "Cenergy Holdings",
     url: "https://cenergyholdings.com/el/",
-    photo: "./sponsors/grand/cenergy-logo.jpeg",
+    photo: "./sponsors/grand/cenergy-logo.png",
     type: "Grand Sponsors",
   },
   {

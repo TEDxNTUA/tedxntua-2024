@@ -28,9 +28,7 @@ export default function PartnersGrid({ partnerslist }) {
               {filterPartnersByType(type).map((partner, index) => (
                 <li
                   key={index}
-                  className={`mb-24 lg:mb-24 ${
-                    type === "Supporters" ? "lg:col-span-1" : ""
-                  }`}
+                  className={` ${type === "Supporters" ? "lg:col-span-1" : ""}`}
                 >
                   <Partners
                     fullname={partner.fullname}

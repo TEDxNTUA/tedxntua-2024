@@ -26,19 +26,22 @@ function PartnersPage() {
   }, []);
 
   return (
-    <main className="max-w-[2040px] mx-auto mt-[65px]">
-      <div
-        style={{
-          // backgroundImage: `url('./background/background-laptop-new.jpg')`,
-          backgroundImage: backgroundImage,
-          backgroundAttachment: "fixed",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
-      >
+    <main
+      style={{
+        // backgroundImage: `url('./background/background-laptop-new.jpg')`,
+        backgroundImage: backgroundImage,
+        backgroundAttachment: "fixed",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+      className="mt-[65px]"
+    >
+      {/* <div       > */}
+      <div className="max-w-[2040px] mx-auto">
         <PartnersGrid partnerslist={PARTNERSLIST} />
       </div>
+      {/* </div> */}
     </main>
   );
 }
