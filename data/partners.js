@@ -88,7 +88,7 @@ export const PARTNERSLIST = [
     id: "partners13",
     fullname: "Symetal",
     url: "https://www.symetal.gr/en/home-page",
-    photo: "./sponsors/symetal_logo.jpeg",
+    photo: "./sponsors/symetal.png",
     type: "Supporters",
   },
   {
