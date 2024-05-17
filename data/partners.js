@@ -10,7 +10,8 @@ export const PARTNERSLIST = [
     id: "partners2",
     fullname: "Oliver Wyman",
     url: "https://www.oliverwyman.com/index.html",
-    photo: "./sponsors/oliverwyman.png",
+    // photo: "./sponsors/oliverwyman.png",
+    photo: "./sponsors/oliver-wyman.png",
     type: "Platinum Sponsors",
   },
   // {
