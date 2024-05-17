@@ -381,7 +381,7 @@ export const PARTNERSLIST = [
 
   {
     id: "partners50",
-    fullname: "Chupa",
+    fullname: "Chupa Chups",
     url: "https://www.instagram.com/chupachupsgr/", /////////
     photo: "./sponsors/partners/chupa-chups-logo.png",
     type: "Partners",
