@@ -8,6 +8,9 @@ export default function PerformersGrid({ performworkslist }) {
   const workshoplist = performworkslist.filter(
     (performer) => performer.category === "workshop"
   );
+  const workshoplist_company = performworkslist.filter(
+    (performer) => performer.category === "workshop_company"
+  );
 
   // Filter speakers based on session
   const filterPerformersBySession = (session) => {
@@ -82,7 +85,7 @@ export default function PerformersGrid({ performworkslist }) {
       )}
       <hr className="my-12 h-0.5 w-[50%] mx-auto border-t-0 bg-our-yellow" />
       {workshoplist.length > 0 && (
-        <div>
+        <div className="max-w-[2080px] relative mx-auto flex flex-col gap-6 lg:gap-12">
           {Array.from(
             { length: findNumberOfSessionsWork(workshoplist) },
             (_, sessionNum) => (
@@ -92,11 +95,46 @@ export default function PerformersGrid({ performworkslist }) {
                 </p>
                 <ul
                   // className={`grid list-none gap-[1vh] lg:gap-10 grid-cols-1 lg:grid-cols-3 w-10/12 mx-auto z-1 rounded-md lg:p-10 lg:bg-zinc-950 `}
-                  className={`flex flex-row flex-wrap gap-[5vh] lg:gap-10 w-11/12 mx-auto z-1 rounded-md lg:p-10 items-center justify-center `}
+                  className={`flex flex-row flex-wrap gap-2 lg:gap-10 w-11/12 mx-auto z-1 rounded-md lg:p-10 items-center justify-center `}
                 >
                   {filterWorkshopsBySession((sessionNum + 1).toString()).map(
                     (performer, index) => (
-                      <li key={index}>
+                      <li
+                        key={index}
+                       // className="w-[100px] md:w-[180px] lg:w-[230px] 2xl:w-[400px] 3xl:w-[450px]"
+                      >
+                        <PerformerCard
+                          fullname={performer.fullname}
+                          photo={performer.photo}
+                        />
+                      </li>
+                    )
+                  )}
+                </ul>
+              </div>
+            )
+          )}
+        </div>
+      )}
+
+      {workshoplist_company.length > 0 && (
+        <div className="max-w-[2080px] relative mx-auto flex flex-col gap-6 lg:gap-12 ">
+          {Array.from(
+            { length: findNumberOfSessionsWork(workshoplist_company) },
+            (_, sessionNum) => (
+              <div key={sessionNum}>
+                <hr className="my-12 h-0.5 w-[10%] mx-auto border-t-0 bg-our-yellow" />
+
+                <ul
+                  // className={`grid list-none gap-[1vh] lg:gap-10 grid-cols-1 lg:grid-cols-3 w-10/12 mx-auto z-1 rounded-md lg:p-10 lg:bg-zinc-950 `}
+                  className={`flex flex-row flex-wrap gap-2 lg:gap-10 w-11/12 mx-auto z-1 rounded-md lg:p-10 items-center justify-center `}
+                >
+                  {filterWorkshopsBySession((sessionNum + 1).toString()).map(
+                    (performer, index) => (
+                      <li
+                        key={index}
+                        // className="w-[100px] md:w-[180px] lg:w-[230px] 2xl:w-[400px] 3xl:w-[450px]"
+                      >
                         <PerformerCard
                           fullname={performer.fullname}
                           photo={performer.photo}

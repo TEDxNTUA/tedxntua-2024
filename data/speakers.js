@@ -69,7 +69,7 @@ export const SPEAKERSLIST = [
     fullname: "Φώτης Φλώρος",
     fullname_en: "Fotis Floros",
     type: "Content Creator - Ιστορικός Τέχνης",
-    bio:`Ο Φώτης Φλώρος είναι 22 ετών και σπουδάζει Θεωρία και Ιστορία της Τέχνης στην Ανωτάτη Σχολή Καλών Τεχνών. Παράλληλα, είναι ο δημιουργός του project επιστήμης κοινού "The Dandy", μίας σελίδας που σκοπό έχει να φέρει τον κόσμο πιο κοντά με την τέχνη μέσα από τα social media. Μέσα από ενδιαφέρουσες και περίεργες ιστορίες, προσπαθεί να κάνει την επιστήμη του πιο προσιτή στο κοινό και να αποδείξει ότι η τέχνη είναι κάτι που ανήκει σε όλους. Αναζητά τα πρόσωπα και τις ιστορίες πίσω από διάσημα έργα τέχνης και τα ξανασυστήνει στον κόσμο με μια νέα ματιά.`,
+    bio: `Ο Φώτης Φλώρος είναι 22 ετών και σπουδάζει Θεωρία και Ιστορία της Τέχνης στην Ανωτάτη Σχολή Καλών Τεχνών. Παράλληλα, είναι ο δημιουργός του project επιστήμης κοινού "The Dandy", μίας σελίδας που σκοπό έχει να φέρει τον κόσμο πιο κοντά με την τέχνη μέσα από τα social media. Μέσα από ενδιαφέρουσες και περίεργες ιστορίες, προσπαθεί να κάνει την επιστήμη του πιο προσιτή στο κοινό και να αποδείξει ότι η τέχνη είναι κάτι που ανήκει σε όλους. Αναζητά τα πρόσωπα και τις ιστορίες πίσω από διάσημα έργα τέχνης και τα ξανασυστήνει στον κόσμο με μια νέα ματιά.`,
     bio_en: `Fotis Floros is 22 years old and studies Theory and History of Art in the School of Fine Arts. At the same time, he is the creator of the community science project "The Dandy", a page that aims to bring the world closer to art through social media. Through interesting and strange stories, he tries to make his science more accessible to the public and prove that art is something that belongs to everyone. He searches for the faces and stories behind famous works of art and reintroduces them to the world through a new lens.`,
     photo: "./speakers/fotis-floros.jpg",
     url: "",
@@ -97,8 +97,7 @@ export const SPEAKERSLIST = [
     bio: "Ο Γιώργος Πλειός είναι καθηγητής του Τμήματος Επικοινωνίας και ΜΜΕ , της Σχολής Οικονομικών και Πολιτικών Σπουδών του Εθνικού και Καποδιστριακού Πανεπιστημίου Αθηνών. Ανήκει στην συντονιστική επιτροπή του Refugee and Migration Studies Hub, ενώ είναι συντονιστής και του προγράμματος 'Revive' Jean Monet Erasmus+: The Future of Displaced People under the EU auspices in the n the Post Pandemic Era - Lessons learned and new challenges.",
     bio_en:
       'George Pleios is a professor at the Department of Communication and Media Studies, School of Economics and Political Sciences of the National and Kapodistrian University of Athens. He belongs to the coordinating committee of the Refugee and Migration Studies Hub, while he is also the coordinator of the "Revive" program Jean Monet Erasmus+: The Future of Displaced People under the EU auspices in the n the Post Pandemic Era - Lessons learned and new challenges.',
-    // photo: "./speakers/george-pleios.jpg",
-    photo: "./speakers/empty_speaker.png",
+    photo: "./speakers/george-pleios.jpg",
     url: "https://www.linkedin.com/in/george-pleios-7b391a27?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BzMcF3gUhSAa4MjsA5mzw0A%3D%3D",
     session: "2",
   },

@@ -29,7 +29,7 @@ export const PERFORMWORKSLIST = [
     fullname: "Έλενα Λεώνη",
     title: "Performance - Μουσικός - Εικαστικός",
     url: "https://www.instagram.com/ellena_leoni/",
-    photo:"./performers/elenaleoni.jpg",
+    photo: "./performers/elenaleoni.jpg",
     bio: `Η Έλενα Λεώνη είναι μουσικός, τραγουδίστρια και εικαστικός. Πριν καν τελειώσει ακόμα το Λύκειο, εισήχθη στην Ανωτάτη Σχολή Καλών Τεχνών της Αθήνας από την οποία πήρε πτυχίο στον τομέα της Γλυπτικής. Ασχολείται επαγγελματικά με τη μουσική καθώς είναι τραγουδίστρια, τραγουδοποιός, παίζει άρπα και τσέλο. Έχει πτυχίο σύγχρονου τραγουδιού και δίπλωμα Βυζαντινής Μουσικής. Συνεργάζεται σταθερά με δύο σπουδαίες γυναίκες καλλιτέχνιδες, τη Μαρίνα Σάττι και τη Νατάσσα Μποφίλιου, με εμφανίσεις στην Ελλάδα και το εξωτερικό. Επίσης εργάζεται ως εικονογράφος παιδικών παραμυθιών σε συνεργασία με πολλούς εκδοτικούς οίκους. Τέλος, είναι συνιδιοκτήτρια και υπεύθυνη δημιουργικού των εκδόσεων Ηδύφωνο.`,
     session: "1",
     category: "performers",
@@ -39,11 +39,59 @@ export const PERFORMWORKSLIST = [
     fullname: "Καλλιόπη Μητροπούλου",
     title: "Performance - Μουσικός",
     url: "https://www.instagram.com/onerandomkalliopi/?hl=el",
-    photo: "./speakers/empty_speaker.png",
+    photo: "./performers/kalliopimitropoulou.jpg",
     bio: `Η Καλλιόπη Μητροπούλου συνθέτει μουσική, είναι singer songwriter, τραγουδίστρια και βιολονίστα. Ασχολείται με ένα ευρύ μουσικό φάσμα, έχοντας τελειώσει Μουσικών Σπουδών στο Καποδιστριακό Πανεπιστήμιο Αθηνών, και Masters Violin Performance με τον Helge Slaatto στη     Γερμανία. Έχει συνεργαστεί με ορχήστρες οπως Guerzenich Orchestra, Κρατική ορχήστρα Αθηνών, London Philharmonic orchestra, London Contemporary Orchestra, BBC Symphony Orchestra και την ορχήστρα της Εθνικής Λυρικής Σκηνής. Έχει εργαστεί ως σοπράνο σε ρόλους όπερας και είναι η τραγουδίστρια των Echo Tides, Erland Cooper και Oi Va Voi. To 2024 θα κυκλοφορήσει το ντεμπούτο της LP ‘BETWEEN’ και παράλληλα συνθέτει μουσική για εικόνα. Είναι ιδρυτικό μέλος του neoclassical experimental duo T U R Q U O I S E και του ensemble SIBiLIMA, ενώ συνεργάζεται με τους Pan Pan, Vassiłina, Logout, mmmd. Η Καλλιόπη Μητροπούλου επηρεάζεται από το θέμα EPHEMERAL και θα παρουσιάσει έναν ελεύθερο αυτοσχεδιασμό αντλώντας στοιχεία από τη μεσαιωνική μουσική έως το σήμερα, χρησιμοποιώντας το βιολί και τη φωνή της.`,
     session: "1",
     category: "performers",
   },
+
+  {
+    id: "workshop2",
+    fullname: "Olivier Wyman",
+    title:
+      "From Classroom to Strategy Consulting: An Engineer’s Path 𝗯𝘆 𝗢𝗹𝗶𝘃𝗲𝗿 𝗪𝘆𝗺𝗮𝗻",
+    url: "",
+    // photo: "./performers/shampoo.jpg",
+    photo: "./speakers/empty_speaker.png",
+    bio: `H Oliver Wyman μαζί με τους συμμετέχοντες θα εξερευνήσουν τις παροδικές αλλά σημαντικές στιγμές που διαμορφώνουν τις ζωές και τις κοινωνίες μας.
+          Ένα workshop ειδικά σχεδιασμένο για φοιτητές πολυτεχνείου που ενδιαφέρονται να εξερευνήσουν τον δυναμικό τομέα του consulting.
+          Τι να περιμένετε:
+          • Εισαγωγή στην Oliver Wyman:
+          Μάθετε για την Oliver Wyman, ποιοι είμαστε και τι κάνουμε
+          • Μεταφορά Δεξιοτήτων:
+          Μάθετε πώς το υπόβαθρό σας ως μηχανικοί μπορεί να αποτελέσει ένα ισχυρό πλεονέκτημα στο consulting industry
+          • Career Pathways:
+          Εξερευνήστε τις τρέχουσες ανοιχτές θέσεις που είναι κατάλληλες για μηχανικούς και ακούστε από τους πρώην μηχανικούς consultant μας που έχουν χτίσει επιτυχώς καριέρα στo strategy consulting
+          • Διαδραστική Συνεδρία:
+          Συμμετέχετε σε ένα case study σχετικά με τη βιωσιμότητα που προσομοιώνει ένα πραγματικό σενάριο στο consulting
+          • Ευκαιρίες Networking:
+          Συνδεθείτε με ειδικούς της βιομηχανίας για να ανακαλύψετε τα βασικά του strategy consulting και πώς αυτό διαφέρει από την τυπική καριέρα ενός μηχανικού`,
+    session: "1",
+    category: "workshop_company",
+  },
+
+  {
+    id: "workshop1",
+    fullname: "Intrakat",
+    title: "Workshop",
+    url: "https://www.instagram.com/schediart/",
+    // photo: "./performers/shedia_art.jpg",
+    photo: "./speakers/empty_speaker.png",
+    bio: "",
+    session: "1",
+    category: "workshop_company",
+  },
+  {
+    id: "workshop3",
+    fullname: "NetCompany",
+    title: "Workshop",
+    url: "https://www.instagram.com/athens.bubble.society/",
+    photo: "./speakers/empty_speaker.png",
+    bio: "",
+    session: "1",
+    category: "workshop_company",
+  },
+
   {
     id: "workshop2",
     fullname: "Soap Up Project",
