@@ -15,32 +15,31 @@ export default function PartnersGrid({ partnerslist }) {
   ];
 
   return (
-    <>
-      <div className="relative">
-        {displayOrder.map((type) => (
-          <div key={type} className="top-0 z-10 w-10/12 mx-auto">
-            <h2 className="text-5xl font-bold text-[#CFF301] text-center py-10">
-              {type}
-            </h2>
-            <ul
-              className={`flex flex-row flex-wrap lg:gap-20 justify-center py-4 lg:py-8`}
-            >
-              {filterPartnersByType(type).map((partner, index) => (
-                <li
-                  key={index}
-                  className={` ${type === "Supporters" ? "lg:col-span-1" : ""}`}
-                >
-                  <Partners
-                    fullname={partner.fullname}
-                    photo={partner.photo}
-                    link={partner.url}
-                  />
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    </>
+    <div className="max-w-[2080px] relative mx-auto flex flex-col gap-6 lg:gap-12 pb-12 ">
+      {displayOrder.map((type) => (
+        <div key={type}>
+          <h2 className="text-2xl md:text-5xl font-bold text-[#CFF301] text-center py-12 2xl:py-20">
+            {type}
+          </h2>
+
+          {/* <ul className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5 justify-center items-center gap-8 lg:gap-16 mx-auto w-[90%] md:w-[80%]"> */}
+          <ul className="flex flex-row flex-wrap justify-center items-center gap-8 lg:gap-16 mx-auto w-[90%] md:w-[80%]">
+            {/* className={`flex flex-row flex-wrap lg:gap-20 justify-center py-4 lg:py-8`} */}
+            {filterPartnersByType(type).map((partner, index) => (
+              <li
+                key={index}
+                className="w-[128px] md:w-[180px] lg:w-[230px] 2xl:w-[240px] 3xl:w-[270px]"
+              >
+                <Partners
+                  fullname={partner.fullname}
+                  photo={partner.photo}
+                  link={partner.url}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
   );
 }
