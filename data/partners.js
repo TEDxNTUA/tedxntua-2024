@@ -32,7 +32,7 @@ export const PARTNERSLIST = [
     id: "partners5",
     fullname: "ΔΕΗ",
     url: "https://www.dei.gr/",
-    photo: "./sponsors/grand/dei-logo.jpg",
+    photo: "./sponsors/grand/dei-logo.png",
     type: "Grand Sponsors",
   },
   {
