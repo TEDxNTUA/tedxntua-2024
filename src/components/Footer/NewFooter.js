@@ -114,14 +114,14 @@ M0 356.759V2126H1577V218.07C1514.33 161.85 1445.22 112.053 1369.5 72.4841C993.38
                 </Link>
               </li>
               <li>
-                <Link href="/talks" className="text-white text-md font-bold">
+                <Link href="/speakers" className="text-white text-md font-bold">
                   <Magnetic>
-                    <p className={styles.magnetic}>Talks</p>
+                    <p className={styles.magnetic}>Speakers</p>
                   </Magnetic>
                 </Link>
               </li>
               <li>
-                <Link href="/sponsors" className="text-white text-md font-bold">
+                <Link href="/partners" className="text-white text-md font-bold">
                   <Magnetic>
                     <p className={styles.magnetic}>Sponsors</p>
                   </Magnetic>
@@ -160,10 +160,10 @@ M0 356.759V2126H1577V218.07C1514.33 161.85 1445.22 112.053 1369.5 72.4841C993.38
               </li>
               <li>
                 <Link
-                  href="/talks"
+                  href="/speakers"
                   className="text-white text-md font-bold hover:underline"
                 >
-                  Talks
+                  Speakers
                 </Link>
               </li>
               <li>

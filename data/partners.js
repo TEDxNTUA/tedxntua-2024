@@ -14,13 +14,13 @@ export const PARTNERSLIST = [
     photo: "./sponsors/platinum/oliver-wyman-logo.png",
     type: "Platinum Sponsors",
   },
-  // {
-  //   id: "partners3",
-  //   fullname: "Intrakat",
-  //   url: "https://www.intrakat.gr/",
-  //   photo: "./sponsors/platinum/Intrakat_logo-logo.png",
-  //   type: "Platinum Sponsors",
-  // },
+  {
+    id: "partners3",
+    fullname: "Intrakat",
+    url: "https://www.intrakat.gr/",
+    photo: "./sponsors/platinum/intrakat-logo.png",
+    type: "Platinum Sponsors",
+  },
   {
     id: "partners4",
     fullname: "ElvalHalcor",
@@ -282,6 +282,20 @@ export const PARTNERSLIST = [
     url: "https://secretburger.gr/",
     photo: "./sponsors/supporters/secret-burger-logo.png",
     type: "Supporters",
+  },
+  {
+    id: "partners37",
+    fullname: "Molto",
+    url: "https://www.moltopromo.gr/",
+    photo: "./sponsors/partners/molto-logo.jpeg",
+    type: "Partners",
+  },
+  {
+    id: "partners37",
+    fullname: "7 Days",
+    url: "https://snack7days.com/",
+    photo: "./sponsors/partners/7days-logo.png",
+    type: "Partners",
   },
   {
     id: "partners38",
