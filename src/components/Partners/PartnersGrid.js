@@ -33,7 +33,7 @@ export default function PartnersGrid({ partnerslist }) {
                 <Partners
                   fullname={partner.fullname}
                   photo={partner.photo}
-                  link={partner.url}
+                  link={partner.website}
                 />
               </li>
             ))}
