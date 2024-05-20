@@ -28,17 +28,37 @@ const ModalContent = ({ name, datalist }) => {
         <p className="text-justify my-5 w-[95%] 4xl:w-[70%] mx-auto lg:text-lg text-sm max-h-[35vh] h-auto overflow-y-auto border border-our-yellow rounded p-2 flex justify-center">
           {entity.bio}
         </p>
-        {entity.url.includes("linkedin") && (
+        {entity.url && entity.url.includes("linkedin") && (
           <a href={entity.url} target="_blank" rel="noopener noreferrer">
             <button className="text-[#0072b1] text-lg font-bold lg:mt-5 cursor-pointer border-black border rounded-md px-2 py-1 hover:bg-[#0072b1] hover:text-white">
               LinkedIn
             </button>
           </a>
         )}
-        {entity.url.includes("instagram") && (
+        {entity.url && entity.url.includes("instagram") && (
           <a href={entity.url} target="_blank" rel="noopener noreferrer">
             <button className="text-[#E1306C] text-lg font-bold lg:mt-5 cursor-pointer border-black border rounded-md px-2 py-1 hover:bg-[#E1306C] hover:text-white">
               Instagram
+            </button>
+          </a>
+        )}
+
+        {entity.website && (
+          <a
+            href={entity.website}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pb-5"
+          >
+            <button className="text-our-purple-200 text-lg font-bold lg:mt-5 cursor-pointer border-black border rounded-md px-2 py-1 hover:bg-our-purple-200 hover:text-white">
+              Website
+            </button>
+          </a>
+        )}
+        {entity.cv_url && (
+          <a href={entity.cv_url} target="_blank" rel="noopener noreferrer">
+            <button className="text-black text-lg font-bold lg:mt-5 cursor-pointer border-black border rounded-md px-2 py-1 hover:bg-our-yellow hover:text-black">
+              Upload your CV
             </button>
           </a>
         )}
@@ -67,17 +87,31 @@ const ModalContent = ({ name, datalist }) => {
           <p className="text-justify my-5 w-[80%] 4xl:w-[70%] mx-auto max-h-[65vh] overflow-y-auto lg:text-base text-sm p-2">
             {entity.bio}
           </p>
-          {entity.url.includes("linkedin") && (
+          {entity.url &&  entity.url.includes("linkedin") && (
             <a href={entity.url} target="_blank" rel="noopener noreferrer">
               <button className="text-[#0072b1] text-lg font-bold lg:mt-5 cursor-pointer border-black border rounded-md px-2 py-1 hover:bg-[#0072b1] hover:text-white">
                 LinkedIn
               </button>
             </a>
           )}
-          {entity.url.includes("instagram") && (
+          {entity.url && entity.url.includes("instagram") && (
             <a href={entity.url} target="_blank" rel="noopener noreferrer">
               <button className="text-[#E1306C] text-lg font-bold lg:mt-5 cursor-pointer border-black border rounded-md px-2 py-1 hover:bg-[#E1306C] hover:text-white">
                 Instagram
+              </button>
+            </a>
+          )}
+          {entity.website && (
+            <a href={entity.website} target="_blank" rel="noopener noreferrer">
+              <button className="text-our-purple-200 text-lg font-bold lg:mt-5 cursor-pointer border-black border rounded-md px-2 py-1 hover:bg-our-purple-200 hover:text-white">
+                Website
+              </button>
+            </a>
+          )}
+          {entity.cv_url && (
+            <a href={entity.cv_url} target="_blank" rel="noopener noreferrer">
+              <button className="text-black text-lg font-bold lg:mt-5 cursor-pointer border-black border rounded-md px-2 py-1 hover:bg-our-yellow hover:text-black">
+                Upload your CV
               </button>
             </a>
           )}

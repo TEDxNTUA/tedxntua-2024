@@ -1,9 +1,20 @@
 "use client";
 
+import { PARTNERSLIST } from "../../../data/partners";
+import React, { useState } from "react";
+import ModalWrapper from "../Modal/ModalWrapper";
 export default function Partners({ fullname, photo, link }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
   const redirectToLink = () => {
     // Redirect to the specified link when clicked
-    window.open(link, "_blank");
+    const entity = PARTNERSLIST.find((entity) => entity.fullname === fullname);
+
+    if (entity.cv_url) {
+      setIsExpanded(!isExpanded);
+    } else {
+      window.open(link, "_blank");
+    }
   };
 
   return (
@@ -29,6 +40,13 @@ export default function Partners({ fullname, photo, link }) {
           {fullname}
         </h2>
       </div>
+      {isExpanded && (
+        <ModalWrapper
+          setIsModalOpenFlag={setIsExpanded}
+          name={fullname}
+          datalist={PARTNERSLIST}
+        />
+      )}
     </div>
   );
 }
