@@ -242,13 +242,13 @@ export const PARTNERSLIST = [
     photo: "./sponsors/supporters/colgate-logo.png",
     type: "Supporters",
   },
-  {
-    id: "partners29",
-    fullname: "Ροδοπάκι",
-    website: "https://www.galaktokomio-rodopi.gr/product/rodopaki/",
-    photo: "./sponsors/supporters/rodopaki-logo.png",
-    type: "Supporters",
-  },
+  // {
+  //   id: "partners29",
+  //   fullname: "Ροδοπάκι",
+  //   website: "https://www.galaktokomio-rodopi.gr/product/rodopaki/",
+  //   photo: "./sponsors/supporters/rodopaki-logo.png",
+  //   type: "Supporters",
+  // },
   {
     id: "partners30",
     fullname: "Feeju",
@@ -434,11 +434,81 @@ export const PARTNERSLIST = [
   },
 
   {
-    id: "partners50",
+    id: "partners51",
     fullname: "Dentyne",
     website: "https://www.dentyne.gr", /////////
     photo: "./sponsors/partners/dentyne-logo.png",
     type: "Partners",
+  },
+  // {
+  //   id: "partners52",
+  //   fullname: "Dentyne",
+  //   website: "https://www.dentyne.gr", /////////
+  //   photo: "./sponsors/partners/dentyne-logo.png",
+  //   type: "Partners",
+  // },
+  {
+    id: "partners53",
+    fullname: "Fanourgiakis",
+    website: "https://www.facebook.com/fanourgiakisbakery/?locale=el_GR",
+    photo: "./sponsors/supporters/fanourgiakis-logo.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners54",
+    fullname: "Hard Rock Athens",
+    website: "https://cafe.hardrock.com/athens/el/",
+    photo: "./sponsors/supporters/hard-rock-logo.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners55",
+    fullname: "Haribo",
+    website: "https://www.haribo.com/el-gr",
+    photo: "./sponsors/supporters/haribo-logo.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners56",
+    fullname: "ΚΟΜΠΡΑΙ",
+    website: "https://kombraibookstore.gr",
+    photo: "./sponsors/supporters/komprai-logo.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners57",
+    fullname: "The Locals",
+    website: "https://www.thelocalscocktails.com",
+    photo: "./sponsors/supporters/locals-logo.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners58",
+    fullname: "ΟΛΥΜΠΟΣ",
+    website: "https://www.olympos.gr",
+    photo: "./sponsors/supporters/olympos-logo.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners59",
+    fullname: "Ροδοπάκι",
+    website: "https://www.rodopaki.gr",
+    photo: "./sponsors/supporters/rodopaki-logo.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners60",
+    fullname: "TALKING BREADS",
+    website: "https://talkingbreads.gr",
+    photo: "./sponsors/supporters/talking-breads-logo.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners61",
+    fullname: "Vegan beat",
+    website: "https://www.instagram.com/veganbeatathens/",
+    photo: "./sponsors/supporters/vegan-beat-logo.png",
+    type: "Supporters",
   },
   {
     id: "partners39",
