@@ -10,7 +10,7 @@ export default function Partners({ fullname, photo, link }) {
     // Redirect to the specified link when clicked
     const entity = PARTNERSLIST.find((entity) => entity.fullname === fullname);
 
-    if (entity.cv_url) {
+    if (entity.bio) {
       setIsExpanded(!isExpanded);
     } else {
       window.open(link, "_blank");
