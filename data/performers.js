@@ -47,7 +47,7 @@ export const PERFORMWORKSLIST = [
 
   {
     id: "workshop2",
-    fullname: "Olivier Wyman",
+    fullname: "Oliver Wyman",
     title:
       "From Classroom to Strategy Consulting: An Engineer’s Path 𝗯𝘆 𝗢𝗹𝗶𝘃𝗲𝗿 𝗪𝘆𝗺𝗮𝗻",
     website: "https://www.oliverwyman.com/",
