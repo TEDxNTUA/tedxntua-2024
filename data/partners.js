@@ -4,13 +4,16 @@ export const PARTNERSLIST = [
     fullname: "Netcompany",
     website: "https://netcompany.com/",
     photo: "./sponsors/platinum/net-company-logo.png",
+    bio: "Η Netcompany-Intrasoft, μέλος του δανέζικου ομίλου Netcompany A/S, είναι η μεγαλύτερη εταιρεία Πληροφορικής στην Ελλάδα και μία από τις πιο σημαντικές στην Ευρώπη. Απασχολεί περισσότερους από 3.500 επαγγελματίες, συνθέτοντας μια πολυπολιτισμική ομάδα από 50 διαφορετικές εθνικότητες. Με έδρα το Λουξεμβούργο, έχει φυσική παρουσία σε 10 χώρες, ενώ  οι διεθνείς της δραστηριότητες εκτείνονται σε περισσότερες από 70 χώρες παγκοσμίως. Η Netcompany-Intrasoft αξιοποιεί την Πληροφορική και την Tεχνολογία για να αναπτύξει καινοτόμες ψηφιακές λύσεις που βελτιώνουν την καθημερινότητα των πολιτών. Η πολυετής διεθνής της εμπειρία και τεχνογνωσία σε μεγάλα έργα ψηφιακού μετασχηματισμού του δημόσιου και ιδιωτικού τομέα, καθώς και στα θεσμικά όργανα της ΕΕ, αποτελούν παρακαταθήκη προς ένα βιώσιμο, κοινωνικά υπεύθυνο και ψηφιακά ασφαλές μέλλον.	Η Netcompany-Intrasoft, μέλος του δανέζικου ομίλου Netcompany A/S, είναι η μεγαλύτερη εταιρεία Πληροφορικής στην Ελλάδα και μία από τις πιο σημαντικές στην Ευρώπη. Απασχολεί περισσότερους από 3.500 επαγγελματίες, συνθέτοντας μια πολυπολιτισμική ομάδα από 50 διαφορετικές εθνικότητες. Με έδρα το Λουξεμβούργο, έχει φυσική παρουσία σε 10 χώρες, ενώ  οι διεθνείς της δραστηριότητες εκτείνονται σε περισσότερες από 70 χώρες παγκοσμίως. Η Netcompany-Intrasoft αξιοποιεί την Πληροφορική και την Tεχνολογία για να αναπτύξει καινοτόμες ψηφιακές λύσεις που βελτιώνουν την καθημερινότητα των πολιτών. Η πολυετής διεθνής της εμπειρία και τεχνογνωσία σε μεγάλα έργα ψηφιακού μετασχηματισμού του δημόσιου και ιδιωτικού τομέα, καθώς και στα θεσμικά όργανα της ΕΕ, αποτελούν παρακαταθήκη προς ένα βιώσιμο, κοινωνικά υπεύθυνο και ψηφιακά ασφαλές μέλλον.",
     type: "Platinum Sponsors",
   },
   {
     id: "partners2",
     fullname: "Oliver Wyman",
     website: "https://www.oliverwyman.com/index.html",
-    // photo: "./sponsors/oliverwyman-logo.png",
+    cv_url: "https://oliverwyman.co1.qualtrics.com/jfe/form/SV_3IxQtsbyLY5n1Y2",
+    bio: `Oliver Wyman is a global leader in management consulting. With offices in more than 70 cities across 30 countries, Oliver Wyman combines deep industry knowledge with specialized expertise in strategy, operations, risk management, and organization transformation. The firm has 7,000 professionals around the world who work with clients to optimize their business, improve their operations and risk profile, and accelerate their organizational performance to seize the most attractive opportunities. Oliver Wyman is a business of Marsh McLennan [NYSE: MMC].
+    For more information, visit www.oliverwyman.com. Follow Oliver Wyman on X @OliverWyman.`,
     photo: "./sponsors/platinum/oliver-wyman-logo.png",
     type: "Platinum Sponsors",
   },
@@ -18,6 +21,9 @@ export const PARTNERSLIST = [
     id: "partners3",
     fullname: "Intrakat",
     website: "https://www.intrakat.gr/",
+    bio: `Ο Όμιλος Intrakat είναι μία από τις κορυφαίες δυνάμεις του κατασκευαστικού κλάδου στην Ελλάδα, με σημαντική διεθνή παρουσία. Δραστηριοποιείται στους τομείς των δημοσίων έργων υποδομών, των ΣΔΙΤ, των παραχωρήσεων, των ανανεώσιμων πηγών ενέργειας καθώς και της ανάπτυξης ακινήτων στον κλάδο του τουρισμού.
+    H Intrakat αναλαμβάνει σύνθετα κατασκευαστικά έργα μεγάλης κλίμακας στον ελληνικό και το διεθνή χώρο, αξιοποιώντας ένα δίκτυο εξειδικευμένων θυγατρικών εταιρειών και υποκαταστημάτων στην Ελλάδα, τη Ρουμανία, την Κύπρο, την Αλβανία και τη Βόρεια Μακεδονία. 
+    Η Intrakat έχει υιοθετήσει μια δυναμική αναπτυξιακή στρατηγική με άξονα το σύγχρονο «επιχειρείν», εστιάζοντας σε κατασκευαστικά έργα που χρηματοδοτούνται από την ΕΕ καθώς και από συμπράξεις του δημοσίου και του ιδιωτικού τομέα. Στόχος μας είναι η συνέχιση της επιτυχημένης πορείας του Ομίλου, η περαιτέρω επέκταση σε νέους εξειδικευμένους τομείς, η διείσδυση σε αγορές με μεγάλο επιχειρηματικό ενδιαφέρον και η αξιοποίηση ευκαιριών σ’ ένα ιδιαίτερα απαιτητικό και συνεχώς εξελισσόμενο διεθνές περιβάλλον.`,
     photo: "./sponsors/platinum/intrakat-logo.png",
     type: "Platinum Sponsors",
   },
@@ -42,8 +48,8 @@ export const PARTNERSLIST = [
     id: "partners5",
     fullname: "Cenergy Holdings",
     website: "https://cenergyholdings.com/el/",
-    cv_url:"https://cenergyholdings.com/el/eykairies-karieras/",
-    bio:`Η Cenergy Holdings είναι μια εταιρεία χαρτοφυλακίου, με έδρα το Βέλγιο, εισηγμένη τόσο στο Euronext Βρυξελλών όσο και στο Χρηματιστήριο Αθηνών (ΑΤΗΕΧ). Η εταιρεία επενδύει σε κορυφαίες βιομηχανικές εταιρείες και εστιάζει στην αυξανόμενη παγκόσμια ζήτηση για μεταφοράς ενέργειας, ανανεώσιμων πηγών ενέργειας και μετάδοσης δεδομένων. Το χαρτοφυλάκιο της Cenergy Holdings αποτελείται από τη Σωληνουργεία Κορίνθου και την Ελληνικά Καλώδια, δυο πρωτοπόρες εταιρίες σε δυναμικά αναπτυσσόμενους κλάδους όπως αυτοί της ενέργειας, των κατασκευών και των τηλεπικοινωνιών. Με σημαντική εμπειρία στην υλοποίηση έργων μεγάλης κλίμακας παγκοσμίως και έντονη εστίαση στην ικανοποίηση των πελατών, οι εταιρείες θεωρείται ότι έχουν ηγετικό ρόλο στους αντίστοιχους τομείς τους.`,
+    cv_url: "https://cenergyholdings.com/el/eykairies-karieras/",
+    bio: `Η Cenergy Holdings είναι μια εταιρεία χαρτοφυλακίου, με έδρα το Βέλγιο, εισηγμένη τόσο στο Euronext Βρυξελλών όσο και στο Χρηματιστήριο Αθηνών (ΑΤΗΕΧ). Η εταιρεία επενδύει σε κορυφαίες βιομηχανικές εταιρείες και εστιάζει στην αυξανόμενη παγκόσμια ζήτηση για μεταφοράς ενέργειας, ανανεώσιμων πηγών ενέργειας και μετάδοσης δεδομένων. Το χαρτοφυλάκιο της Cenergy Holdings αποτελείται από τη Σωληνουργεία Κορίνθου και την Ελληνικά Καλώδια, δυο πρωτοπόρες εταιρίες σε δυναμικά αναπτυσσόμενους κλάδους όπως αυτοί της ενέργειας, των κατασκευών και των τηλεπικοινωνιών. Με σημαντική εμπειρία στην υλοποίηση έργων μεγάλης κλίμακας παγκοσμίως και έντονη εστίαση στην ικανοποίηση των πελατών, οι εταιρείες θεωρείται ότι έχουν ηγετικό ρόλο στους αντίστοιχους τομείς τους.`,
     photo: "./sponsors/grand/cenergy-logo.png",
     type: "Grand Sponsors",
   },
@@ -61,6 +67,9 @@ export const PARTNERSLIST = [
     id: "partners7",
     fullname: "Scientific College of Greece",
     website: "https://scg.edu.gr/",
+    bio: `SCG – ΕΠΙΣΤΗΜΟΝΙΚΟ ΚΟΛΛΕΓΙΟ ΕΛΛΑΔΟΣ 
+    Το SCG–Επιστημονικό Κολλέγιο Ελλάδος ( www.scg.edu.gr ) είναι αναγνωρισμένο Κολλέγιο από το Ελληνικό Υπουργείο Παιδείας και προσφέρει προπτυχιακά και μεταπτυχιακά προγράμματα του κρατικού Πανεπιστημίου του Στρασβούργου, από όπου λαμβάνουν οι φοιτητές το πτυχίο ή το Μεταπτυχιακό τους τίτλο, τις βαθμολογίες και τις πιστωτικές μονάδες.
+    Στόχος του Κολλεγίου είναι να εξασφαλίζει στους φοιτητές του τις κατάλληλες συνθήκες για να αποκτήσουν τις απαραίτητες θεωρητικές γνώσεις και πρακτικές δεξιότητες προκειμένου να υλοποιήσουν τους ακαδημαϊκούς, ερευνητικούς και επαγγελματικούς τους στόχους, σε ένα ασφαλές και υποστηρικτικό ακαδημαϊκό περιβάλλον, μέσω της έρευνας και της διοργάνωσης  επιστημονικών συνεδρίων και ημερίδων σε συνεργασία με Πανεπιστήμια, κρατικούς και ιδιωτικούς φορείς και διεθνείς οργανισμούς.`,
     photo: "./sponsors/partners/scg-logo.jpg",
     type: "Partners",
   },
@@ -111,6 +120,8 @@ export const PARTNERSLIST = [
     id: "partners13",
     fullname: "Symetal",
     website: "https://www.symetal.gr/en/home-page",
+    bio: `Η Symetal δραστηριοποιείται στην παραγωγή μίας ευρείας γκάμας προϊόντων foil αλουμινίου, αποτελώντας στρατηγικό συνεργάτη των μεγαλύτερων εταιριών συσκευασίας καταναλωτικών ειδών, τροφίμων και φαρμακευτικών προϊόντων. Με εμπειρία και τεχνογνωσία 40 και πλέον ετών στην έλαση και μεταποίηση foil αλουμινίου, σύγχρονες παραγωγικές μονάδες που ενσωματώνουν τεχνολογία αιχμής και εξαγωγική δραστηριότητα σε περισσότερες από 70 χώρες, η Symetal προσφέρει καινοτόμες και ανταγωνιστικές λύσεις υψηλής προστιθέμενης αξίας για ένα πιο βιώσιμο αύριο. Η Symetal αξιοποιεί τη μακροχρόνια και υψηλού επιπέδου τεχνική εξειδίκευσή της και εφαρμόζει μία στρατηγική ανάπτυξης που βασίζεται στις αρχές της βιωσιμότητας και της κυκλικής οικονομίας, δημιουργώντας προστιθέμενη αξία για όλα τα ενδιαφερόμενα μέρη της.`,
+    bio_eng: `Symetal is involved in the production of a wide variety of aluminium foil products, being a strategic partner of major consumer, food and pharmaceutical packaging manufacturers. With more than 40 years’ experience and expertise in aluminium foil rolling and converting processing, state-of-the-art production facilities and export activity in over 70 countries, Symetal offers innovative and competitive high value-added solutions for a more sustainable tomorrow. Symetal leverages its long-term experience and extensive technical expertise, and implements a growth strategy guided by the principles of sustainability and circular economy, thus creating value for all stakeholders.`,
     photo: "./sponsors/supporters/symetal-logo.png",
     type: "Supporters",
   },
@@ -119,6 +130,8 @@ export const PARTNERSLIST = [
     fullname: "Ελληνική Παραγωγή",
     website: "https://hellenicproduction.org/",
     photo: "./sponsors/supporters/elliniki-paragogi-logo.png",
+    bio: `Η “Ελληνική Παραγωγή – Συμβούλιο Βιομηχανιών για την Ανάπτυξη” ιδρύθηκε το 2017 με στόχο την ανάδειξη και ενίσχυση του ρόλου της Βιομηχανίας, για την ανάπτυξη, την ανταγωνιστικότητα και εξωστρέφεια της Ελληνικής Οικονομίας καθώς και για την δημιουργία ποιοτικών θέσεων εργασίας που διασφαλίζουν προοπτικές καριέρας στους νέους επιστήμονες της χώρας. Πιστεύουμε στην Ελλάδα που δημιουργεί, καινοτομεί και εξάγει. Η “Ελληνική Παραγωγή” μεγάλωσε γρήγορα και αριθμεί πλέον πάνω από 65 μέλη.`,
+    bio_eng: `Hellenic Production - Industry Roundtable for Growth” was established in 2017 in order to highlight and strengthen the role of the Manufacturing Industry for the development and competitiveness of the Greek Economy as well as to create high quality jobs and ensure career opportunities for young graduates in the country. We believe in Greek creativity, in the Greek innovation and export potential. “Hellenic Production” has grown fast and now has more than 65 members.`,
     type: "Supporters",
   },
   {
@@ -126,6 +139,10 @@ export const PARTNERSLIST = [
     fullname: "Flexopack",
     website: "https://www.flexopack.com/",
     photo: "./sponsors/supporters/flexopack-logo.png",
+    bio: `Η FLEXOPACK SA ιδρύθηκε το 1979 στο Κορωπί Αττικής. Αρχικά μια εταιρεία οικογενειακού ενδιαφέροντος, έγινε δημόσια στο Χρηματιστήριο Αθηνών το 1996.
+    Το Flexopack Group είναι κορυφαίος παραγωγός εύκαμπτης συσκευασίας που χρησιμοποιείται από μεγάλες βιομηχανίες κρέατος και τυριών παγκοσμίως.
+    Διαθέτουμε πάνω από 40 χρόνια επιχειρησιακής αριστείας, με εγκαταστάσεις παραγωγής και θυγατρικές σε όλο τον κόσμο.
+    Με σημαντική παρουσία σε όλη την Αμερική, την Ευρώπη, την Ωκεανία και την Ασία, η Flexopack προσφέρει εξειδικευμένες συμβουλές για την παροχή των καλύτερων λύσεων σε κάθε συνεργάτη.`,
     type: "Supporters",
   },
   {
@@ -133,6 +150,9 @@ export const PARTNERSLIST = [
     fullname: "IKY",
     website: "https://www.iky.gr/el/",
     photo: "./sponsors/supporters/iky-logo.png",
+    bio: `Από το 1951 το Ίδρυμα Κρατικών Υποτροφιών ως Εθνικός Φορέας Υποτροφιών, χορηγεί υποτροφίες, συμβάλλοντας στην ενδυνάμωση της ελληνικής επιστημονικής κοινότητας και ενισχύει τους δεσμούς της Ελλάδας με το εξωτερικό, προσφέροντας υποτροφίες και σε ξένους υπηκόους. 
+    Το ΙΚΥ από το 1987 έως και σήμερα συντονίζει και υλοποιεί με επιτυχία Ευρωπαϊκά Εκπαιδευτικά Προγράμματα και έχει οριστεί ως Εθνική Μονάδα Συντονισμού για το νέο Πρόγραμμα Erasmus+ (2021- 2027), για τους τομείς της Εκπαίδευσης και της Κατάρτισης.
+    Το Πρόγραμμα Erasmus+, το πιο επιτυχημένο κατά γενική ομολογία εκπαιδευτικό πρόγραμμα της Ε.Ε, απευθυνόμενο σε ανθρώπους όλων των ηλικιών και κοινωνικών τάξεων ανεξαρτήτως καταγωγής, με την προσήλωσή του στην ανταλλαγή γνώσης και τεχνογνωσίας και τη δέσμευσή του για παραγωγή και αξιοποίηση καινοτόμων πρακτικών, συνεχίζει έως και σήμερα να παράγει έναν πολιτισμό ειρηνικής συνύπαρξης και διαλόγου, δημιουργώντας τη σύγχρονη Ευρωπαϊκή κοινωνία που χρειαζόμαστε.`,
     type: "Supporters",
   },
   {
@@ -175,7 +195,7 @@ export const PARTNERSLIST = [
     id: "partners18",
     fullname: "Εκδόσεις Κλειδάριθμος ",
     website: "https://www.klidarithmos.gr/",
-    photo: "./sponsors/supporters/kleidarithmos-logo.png",
+    photo: "./sponsors/supporters/kleidarithmos-logo.jpg",
     type: "Supporters",
   },
 
