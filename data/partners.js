@@ -158,13 +158,6 @@ export const PARTNERSLIST = [
   },
   {
     id: "partners26",
-    fullname: "Vegan beat Athens",
-    website: "https://www.instagram.com/veganbeatathens/",
-    photo: "./sponsors/supporters/vegan-beat-logo.png",
-    type: "Supporters",
-  },
-  {
-    id: "partners26",
     fullname: "Κομπραί",
     website: "https://kombraibookstore.gr/",
     photo: "./sponsors/supporters/komprai-logo.png",

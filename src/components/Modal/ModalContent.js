@@ -4,12 +4,13 @@ const ModalContent = ({ name, datalist }) => {
   if (!entity) {
     return <div>Not found</div>;
   }
+  const formattedBio = entity.bio.replace(/\n/g, "<br/>");
 
   return (
     <>
       {/* Mobile version */}
       <div className="h-auto lg:hidden flex flex-col items-center justify-center my-7 w-[90%] mx-auto">
-        <p className="text-2xl text-our-purple-100-200 font-bold italic underline underline-offset-8 pb-1 text-center">
+        <p className="text-2xl text-our-purple-200 font-bold italic underline underline-offset-8 pb-1 text-center">
           {entity.fullname}
         </p>
         {entity.type && (
@@ -25,9 +26,12 @@ const ModalContent = ({ name, datalist }) => {
         {entity.title && (
           <p className="pt-3 font-bold text-base text-center">{entity.title}</p>
         )}
-        <p className="text-justify my-5 w-[95%] 4xl:w-[70%] mx-auto lg:text-lg text-sm max-h-[35vh] h-auto overflow-y-auto border border-our-yellow rounded p-2 flex justify-center">
-          {entity.bio}
-        </p>
+        <div
+          className="text-justify my-5 w-[95%] 4xl:w-[70%] mx-auto lg:text-lg text-sm max-h-[35vh] h-auto overflow-y-auto border border-our-yellow rounded p-2 flex justify-center"
+          dangerouslySetInnerHTML={{ __html: formattedBio }}
+        >
+          {/* {entity.bio} */}
+        </div>
         {entity.url && entity.url.includes("linkedin") && (
           <a href={entity.url} target="_blank" rel="noopener noreferrer">
             <button className="text-[#0072b1] text-lg font-bold lg:mt-5 cursor-pointer border-black border rounded-md px-2 py-1 hover:bg-[#0072b1] hover:text-white">
@@ -72,7 +76,7 @@ const ModalContent = ({ name, datalist }) => {
           alt={entity.fullname}
         />
         <div className="flex flex-col items-center justify-center">
-          <p className="text-2xl text-our-purple-100-200 font-bold italic underline underline-offset-8 text-center">
+          <p className="text-2xl text-our-purple-200 font-bold italic underline underline-offset-8 text-center">
             {entity.fullname}
           </p>
           {entity.type && (
@@ -84,10 +88,11 @@ const ModalContent = ({ name, datalist }) => {
             <p className="pt-3 font-bold text-xl text-center">{entity.title}</p>
           )}
 
-          <p className="text-justify my-5 w-[80%] 4xl:w-[70%] mx-auto max-h-[65vh] overflow-y-auto lg:text-base text-sm p-2">
-            {entity.bio}
-          </p>
-          {entity.url &&  entity.url.includes("linkedin") && (
+          <div
+            className="text-justify my-5 w-[80%] 4xl:w-[70%] mx-auto max-h-[65vh] overflow-y-auto lg:text-base text-sm p-2"
+            dangerouslySetInnerHTML={{ __html: formattedBio }}
+          ></div>
+          {entity.url && entity.url.includes("linkedin") && (
             <a href={entity.url} target="_blank" rel="noopener noreferrer">
               <button className="text-[#0072b1] text-lg font-bold lg:mt-5 cursor-pointer border-black border rounded-md px-2 py-1 hover:bg-[#0072b1] hover:text-white">
                 LinkedIn
