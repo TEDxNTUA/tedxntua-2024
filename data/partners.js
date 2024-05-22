@@ -24,6 +24,8 @@ export const PARTNERSLIST = [
     bio: `Ο Όμιλος Intrakat είναι μία από τις κορυφαίες δυνάμεις του κατασκευαστικού κλάδου στην Ελλάδα, με σημαντική διεθνή παρουσία. Δραστηριοποιείται στους τομείς των δημοσίων έργων υποδομών, των ΣΔΙΤ, των παραχωρήσεων, των ανανεώσιμων πηγών ενέργειας καθώς και της ανάπτυξης ακινήτων στον κλάδο του τουρισμού.
     H Intrakat αναλαμβάνει σύνθετα κατασκευαστικά έργα μεγάλης κλίμακας στον ελληνικό και το διεθνή χώρο, αξιοποιώντας ένα δίκτυο εξειδικευμένων θυγατρικών εταιρειών και υποκαταστημάτων στην Ελλάδα, τη Ρουμανία, την Κύπρο, την Αλβανία και τη Βόρεια Μακεδονία. 
     Η Intrakat έχει υιοθετήσει μια δυναμική αναπτυξιακή στρατηγική με άξονα το σύγχρονο «επιχειρείν», εστιάζοντας σε κατασκευαστικά έργα που χρηματοδοτούνται από την ΕΕ καθώς και από συμπράξεις του δημοσίου και του ιδιωτικού τομέα. Στόχος μας είναι η συνέχιση της επιτυχημένης πορείας του Ομίλου, η περαιτέρω επέκταση σε νέους εξειδικευμένους τομείς, η διείσδυση σε αγορές με μεγάλο επιχειρηματικό ενδιαφέρον και η αξιοποίηση ευκαιριών σ’ ένα ιδιαίτερα απαιτητικό και συνεχώς εξελισσόμενο διεθνές περιβάλλον.`,
+    cv_url:
+      "https://www.intrakat.gr/career/career-opportunities/available-positions/",
     photo: "./sponsors/platinum/intrakat-logo.png",
     type: "Platinum Sponsors",
   },
@@ -35,13 +37,6 @@ export const PARTNERSLIST = [
     bio: `Η ElvalHalcor είναι μία από τις κορυφαίες παγκοσμίως εταιρίες παραγωγής προϊόντων και λύσεων αλουμινίου και χαλκού. Η Εταιρία διαθέτει πάνω από 85 χρόνια εμπειρίας και τεχνογνωσίας, ισχυρή παραγωγική βάση με 15 εργοστασιακές μονάδες και εμπορική παρουσία σε πάνω από 90 χώρες. Προσφέρει βιώσιμες λύσεις και προϊόντα σε δυναμικά αναπτυσσόμενες αγορές όπως οι συσκευασίες, οι μεταφορές, η δόμηση και κατασκευές, η θέρμανση, η ψύξη και ο κλιματισμός και οι ΑΠΕ. Η ElvalHalcor ακολουθεί αναπτυξιακή πορεία  επενδύοντας στην τεχνολογία και τη βιώσιμη ανάπτυξη, δημιουργώντας αξία στους συμμετόχους της.`,
     bio_eng: `ElvalHalcor is a leading global industrial producer of aluminium and copper products. The Company has over 85 years of experience and know-how, a strong production base across 15 state-of-the-art production plants and a market presence in over 90 countries. ElvalHalcor offers sustainable solutions and products in dynamically developing markets such as packaging, transportation, building and construction, heating, cooling and air conditioning and RES. ElvalHalcor's growth focuses on investing in technology and sustainable development, thereby creating shared value for its stakeholders.`,
     photo: "./sponsors/grand/elval-halcor-logo.png",
-    type: "Grand Sponsors",
-  },
-  {
-    id: "partners5",
-    fullname: "ΔΕΗ",
-    website: "https://www.dei.gr/",
-    photo: "./sponsors/grand/dei-logo.png",
     type: "Grand Sponsors",
   },
   {
@@ -61,6 +56,13 @@ export const PARTNERSLIST = [
       "https://www.pwc.com/gr/en/careers/campus-job-search/results.html?wdcountry=GRC&wdjobsite=Global_Campus_Careershttps://www.pwc.com/gr/en/careers/campus-job-search/results.html?wdcountry=GRC&wdjobsite=Global_Campus_Careers",
     photo: "./sponsors/grand/pwc-logo.png",
     bio: "Η PwC στην Ελλάδα είναι η μεγαλύτερη εταιρεία παροχής επαγγελματικών υπηρεσιών στη χώρα, με εγκαταστάσεις στην Αθήνα, τη Θεσσαλονίκη, την Πάτρα, τα Ιωάννινα και τη Ρόδο, με περισσότερους από 2.000 υπαλλήλους. Περισσότεροι από 328.000 άνθρωποι σε 152 χώρες σε όλο το δίκτυό μας μοιράζονται τη σκέψη, την εμπειρία και τις λύσεις τους για να αναπτύξουν νέες προοπτικές και πρακτικές συμβουλές. Η PwC Ελλάδος έχει σαν στόχο να παρέχει υψηλής ποιότητας ελεγκτικές, φορολογικές και συμβουλευτικές υπηρεσίες.",
+    type: "Grand Sponsors",
+  },
+  {
+    id: "partners5",
+    fullname: "ΔΕΗ",
+    website: "https://www.dei.gr/",
+    photo: "./sponsors/grand/dei-logo.png",
     type: "Grand Sponsors",
   },
   {
@@ -520,6 +522,13 @@ export const PARTNERSLIST = [
     fullname: "Vegan beat",
     website: "https://www.instagram.com/veganbeatathens/",
     photo: "./sponsors/supporters/vegan-beat-logo.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners61",
+    fullname: "The healthy plan",
+    website: "https://thehealthyplan.gr/",
+    photo: "./sponsors/supporters/the-healthy-plan-logo.png",
     type: "Supporters",
   },
   {
