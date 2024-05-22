@@ -532,6 +532,20 @@ export const PARTNERSLIST = [
     type: "Supporters",
   },
   {
+    id: "partners61",
+    fullname: "El Sabor",
+    website: "https://www.elsabor.gr/?lang=el",
+    photo: "./sponsors/supporters/el-sabor-logo.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners61",
+    fullname: "Erasmus+",
+    website: "https://erasmus-plus.ec.europa.eu",
+    photo: "./sponsors/supporters/erasmus-plus-logo.png",
+    type: "Supporters",
+  },
+  {
     id: "partners39",
     fullname: "Aegean Airlines",
     website: "https://el.aegeanair.com/",
