@@ -567,6 +567,13 @@ export const PARTNERSLIST = [
     type: "Venue Sponsors",
   },
   {
+    id: "partners65",
+    fullname: "Alma Craft Jewelry",
+    website: "https://www.instagram.com/alma_craft_/",
+    photo: "./sponsors/supporters/alma-craft-jewelry-logo.png",
+    type: "Supporters",
+  },
+  {
     id: "partners39",
     fullname: "Aegean Airlines",
     website: "https://el.aegeanair.com/",
