@@ -11,6 +11,7 @@ export default function PartnersGrid({ partnerslist }) {
     "Grand Sponsors",
     "Partners",
     "Supporters",
+    "Venue Sponsors",
     "Αποκλειστικός Χορηγός Αερομεταφορών",
   ];
 

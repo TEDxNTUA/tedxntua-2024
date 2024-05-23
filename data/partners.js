@@ -546,6 +546,27 @@ export const PARTNERSLIST = [
     type: "Supporters",
   },
   {
+    id: "partners62",
+    fullname: "Lab Music Education",
+    website: "https://labmusiceducation.gr/zografou",
+    photo: "./sponsors/supporters/lab-music-education.png",
+    type: "Supporters",
+  },
+  {
+    id: "partners63",
+    fullname: "Athenaeum Intercontinental",
+    website: "https://athenaeum.intercontinental.com/",
+    photo: "./sponsors/venuesponsors/intercontinental.png",
+    type: "Venue Sponsors",
+  },
+  {
+    id: "partners64",
+    fullname: "Greek Film Archive",
+    website: "https://www.tainiothiki.gr/el/",
+    photo: "./sponsors/venuesponsors/tainiothiki.png",
+    type: "Venue Sponsors",
+  },
+  {
     id: "partners39",
     fullname: "Aegean Airlines",
     website: "https://el.aegeanair.com/",
