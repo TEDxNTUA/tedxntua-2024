@@ -180,6 +180,10 @@ const navLinks = [
     title: "About",
     path: "/about",
   },
+  // {
+  //   title: "Booklet",
+  //   path: "/booklet"
+  // }
 ];
 
 function NewNavbar() {
@@ -230,18 +234,27 @@ function NewNavbar() {
             ))}
           </ul>
 
-          <a
+          {/* <a
             // className=""
             href="https://www.eventora.com/el/Events/ephemeral?fbclid=IwAR1dVD5B4W-_9M2s2yfTFu_RAV9GWMdssRmyVqbNu6UWHNIve4H9IHFCCVQ"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            <img
+          > */}
+   
+            {/* <img
               className="ticket h-[60px]"
               src="./ticket.png"
               alt="ticket"
-            ></img>
-          </a>
+            ></img> */}
+          {/* </a> */}
+          <a
+            className="hover:cursor-pointer"
+            href="./booklet.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <p className="text-2xl lg:text-base font-semibold hover:text-our-blue text-white">Booklet</p>
+        </a>
         </div>
         {/* Burger for Mobile Nav */}
         <div id="burger" className="block lg:hidden">
@@ -277,6 +290,7 @@ function NewNavbar() {
             : "fixed right-[-120%] h-[calc(100vh-65px)] mt-[65px] z-50"
         }
       >
+        {/* <div className="flex flex-col items-center justify-between h-full pt-16 pb-32 w-[90%] mx-auto"> */}
         <div className="flex flex-col items-center justify-between h-full pt-16 pb-32 w-[90%] mx-auto">
           <ul className="flex flex-col place-items-center text-center">
             {navLinks.map((link, index) => (
@@ -285,7 +299,7 @@ function NewNavbar() {
               </li>
             ))}
           </ul>
-          <a
+          {/* <a
             // className=""
             href="https://www.eventora.com/el/Events/ephemeral?fbclid=IwAR1dVD5B4W-_9M2s2yfTFu_RAV9GWMdssRmyVqbNu6UWHNIve4H9IHFCCVQ"
             target="_blank"
@@ -296,7 +310,15 @@ function NewNavbar() {
               src="./ticket.png"
               alt="ticket"
             ></img>
-          </a>
+          </a> */}
+              <a
+            className="hover:cursor-pointer"
+            href="./booklet.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+          <p className="text-2xl lg:text-base font-semibold hover:text-our-blue text-white">Booklet</p>
+        </a>
           {/* UNCOMMENT WHEN EVENT STARTS AND TICKETS ARE AVAILABLE */}
           {/* <button
             className="bg-our-red bg-opacity-100 hover:bg-our-red hover:bg-opacity-80 text-white font-semibold py-4 px-6 rounded-md focus:outline-none focus:shadow-outline-red"

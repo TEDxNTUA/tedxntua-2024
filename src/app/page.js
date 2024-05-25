@@ -101,12 +101,14 @@ export default function Home() {
           <Scene />
           <a
             className="hover:cursor-pointer p-8 py-4 bg-our-blue hover:bg-blue-500 rounded-lg w-[50%] text-[16px] text-white font-light text-center mx-auto"
-            href="https://www.eventora.com/el/Events/ephemeral"
+            // href="https://www.eventora.com/el/Events/ephemeral"
+            href="./booklet.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p>Get your Tickets</p>
-          </a>
+          <p>View our booklet</p>
+          {/* <a href="./booklet.pdf">View our booklet</a> */}
+        </a>
 
           {/* <a
             // className=""
