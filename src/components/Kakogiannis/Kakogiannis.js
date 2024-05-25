@@ -63,7 +63,8 @@ export default function Kakogiannis() {
 
             <a
               className="hover:cursor-pointer z-[50]"
-              href="https://www.eventora.com/el/Events/ephemeral"
+              // href="https://www.eventora.com/el/Events/ephemeral"
+              href="https://www.google.com/maps/dir//michalis+kakogiannis+maps/@37.9675465,23.6553871,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14a1bcf3c94720a9:0x93c0a3f603fbb34e!2m2!1d23.6965868!2d37.9675537?entry=ttu" //maps 
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -72,8 +73,12 @@ export default function Kakogiannis() {
                 className="left-[calc(100% - 500px)] mx-auto w-[180px] h-[180px] text-white rounded-[50%] flex bg-our-blue hover:bg-blue-500 items-center justify-center cursor-pointer"
               >
                 {/* <Rounded className="w-[180px] h-[180px] text-white rounded-[50%] flex bg-our-blue items-center justify-center cursor-pointer"> */}
-                <p className="m-0 text-[16px] font-light z-[2] relative">
+                {/* <p className="m-0 text-[16px] font-light z-[2] relative">
                   Get your Tickets
+                </p> */}
+
+                  <p className="m-0 text-[16px] font-light z-[2] relative">
+                  Open maps
                 </p>
                 {/* </Rounded> */}
               </motion.div>

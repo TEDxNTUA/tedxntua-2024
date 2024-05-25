@@ -70,11 +70,13 @@ export default function KakogiannisSmall() {
             >
               <a
                 className="hover:cursor-pointer"
-                href="https://www.eventora.com/el/Events/ephemeral"
+                // href="https://www.eventora.com/el/Events/ephemeral"
+                href="https://www.google.com/maps/dir//michalis+kakogiannis+maps/@37.9675465,23.6553871,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x14a1bcf3c94720a9:0x93c0a3f603fbb34e!2m2!1d23.6965868!2d37.9675537?entry=ttu"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Get your Tickets
+                {/* Get your Tickets */}
+                Open maps
               </a>
             </motion.p>
             {/* </Rounded> */}
