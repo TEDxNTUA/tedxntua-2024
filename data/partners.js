@@ -286,13 +286,6 @@ export const PARTNERSLIST = [
     type: "Supporters",
   },
   {
-    id: "partners33",
-    fullname: "Junky The Foodtruck",
-    website: "https://www.instagram.com/junkythefoodtruck/",
-    photo: "./sponsors/supporters/junky-logo.png",
-    type: "Supporters",
-  },
-  {
     id: "partners34",
     fullname: "Motiv",
     website: "https://www.motiv.gr/",
@@ -481,13 +474,6 @@ export const PARTNERSLIST = [
     fullname: "Haribo",
     website: "https://www.haribo.com/el-gr",
     photo: "./sponsors/supporters/haribo-logo.png",
-    type: "Supporters",
-  },
-  {
-    id: "partners56",
-    fullname: "ΚΟΜΠΡΑΙ",
-    website: "https://kombraibookstore.gr",
-    photo: "./sponsors/supporters/komprai-logo.png",
     type: "Supporters",
   },
   {
